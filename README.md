@@ -15,3 +15,7 @@ Did you know that in #Dart, every #class implicitly exports an #interface that c
 # Did you know that in #Dart, it is actually preferred to use #async and #await over using raw #Futures?
 
 ![](images/downloading-and-parsing-json.jpeg)
+
+# In #Dart, you can use a combination of #Initializer #List plus default values for your class #member #fields to create elegant and handy convenience initializers
+
+![](images/initializer-list-combined-with-default-values-for-member-fields.jpeg)
