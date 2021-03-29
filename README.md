@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Callable Classes in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#callable-classes-in-dart)
 * [Synchronous Generators in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#synchronous-generators-in-dart)
 * [Implicit Interfaces in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implicit-interfaces-in-dart)
 * [`const` Constructors in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-how-const-constructors-work-in-dart)
@@ -9,7 +10,11 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 
-# Synchronous Generators in #Dart
+# Callable Classes in Dart
+
+![](images/callable-classes.jpeg)
+
+# Synchronous Generators in Dart
 
 ![](images/synchronous-generators.jpeg)
 
