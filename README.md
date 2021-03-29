@@ -10,4 +10,4 @@ Did you know that in #Dart, every #class implicitly exports an #interface that c
 
 # Do you know how "const" constructors work in #Dart?
 
-![](const-initializers.jpeg)
+![](images/const-initializers.jpeg)
