@@ -19,3 +19,7 @@ Did you know that in #Dart, every #class implicitly exports an #interface that c
 # In #Dart, you can use a combination of #Initializer #List plus default values for your class #member #fields to create elegant and handy convenience initializers
 
 ![](images/initializer-list-combined-with-default-values-for-member-fields.jpeg)
+
+# Did you know that in #Dart, you can extract elements of a certain type from your Lists using the #whereType<T> #generic #function instead of calculating the #equality yourselves?
+  
+![](images/checking-for-type-equality-in-dart-lists.jpeg)
