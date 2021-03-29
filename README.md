@@ -1,3 +1,14 @@
+# Table of Contents
+
+* Synchronous Generators in Dart
+* Implicit Interfaces in Dart
+* const Constructors in Dart
+* async-await Over Raw Futures in Dart
+* Initializer List and Default Values as Convenience Intializers in Dart
+* Extract Elements of Certain Type from Lists in Dart
+* Type Promotion in Dart
+* Extract Minimum and Maximum Values in List<num> in Dart
+
 # Synchronous Generators in #Dart
 
 ![](images/synchronous-generators.jpeg)
