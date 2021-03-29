@@ -2,12 +2,12 @@
 
 * [Synchronous Generators in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#synchronous-generators-in-dart)
 * [Implicit Interfaces in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implicit-interfaces-in-dart)
-* [const Constructors in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-how-const-constructors-work-in-dart)
-* [async-await Over Raw Futures in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#did-you-know-that-in-dart-it-is-actually-preferred-to-use-async-and-await-over-using-raw-futures)
+* [`const` Constructors in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-how-const-constructors-work-in-dart)
+* [`async`-`await` Over Raw `Future`s in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#did-you-know-that-in-dart-it-is-actually-preferred-to-use-async-and-await-over-using-raw-futures)
 * [Initializer List and Default Values as Convenience Intializers in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#in-dart-you-can-use-a-combination-of-initializer-list-plus-default-values-for-your-class-member-fields-to-create-elegant-and-handy-convenience-initializers)
 * [Extract Elements of Certain Type from Lists in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#did-you-know-that-in-dart-you-can-extract-elements-of-a-certain-type-from-your-lists-using-the-wheretype-generic-function-instead-of-calculating-the-equality-yourselves)
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
-* [Extract Minimum and Maximum Values in List<num> in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
+* [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 
 # Synchronous Generators in #Dart
 
