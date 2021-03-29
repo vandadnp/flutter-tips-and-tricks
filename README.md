@@ -33,3 +33,7 @@ If you look at the "insteadOfThis" function, the first one, the Dart compiler ca
 The mechanism the Dart compiler uses in the "doThis()" function is called Type Promotion.
 
 ![](images/type-promotion-with-sound-null-safety.jpeg)
+
+# 4 lines of #Dart code that include the #spread operator, #cascade #operator, #generics, #extensions, #private prefix and #getters
+
+![](images/min-max-extension-on-list.jpeg)
