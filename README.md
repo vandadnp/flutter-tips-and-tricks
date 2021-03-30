@@ -8,7 +8,7 @@
 * [Initializer List and Default Values as Convenience Intializers in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#in-dart-you-can-use-a-combination-of-initializer-list-plus-default-values-for-your-class-member-fields-to-create-elegant-and-handy-convenience-initializers)
 * [Extract Elements of Certain Type from Lists in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#did-you-know-that-in-dart-you-can-extract-elements-of-a-certain-type-from-your-lists-using-the-wheretype-generic-function-instead-of-calculating-the-equality-yourselves)
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
-* [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
+* [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 
 # Callable Classes in Dart
 
