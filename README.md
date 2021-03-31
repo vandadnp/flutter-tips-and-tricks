@@ -13,6 +13,8 @@
 
 # Generic Type Aliases in Dart
 
+![](images/generic-typealiases.jpeg)
+
 # Callable Classes in Dart
 
 ![](images/callable-classes.jpeg)
