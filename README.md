@@ -11,6 +11,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 
+# Drawing Shapes in Flutter with `LayoutBuilder`, `CustomPaint` and `CustomPainter`
+
+![](images/drawing-shapes-with-layoutbuilder.jpeg)
+
 # Generic Type Aliases in Dart
 
 ![](images/generic-typealiases.jpeg)
