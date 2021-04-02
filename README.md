@@ -68,3 +68,7 @@ The mechanism the Dart compiler uses in the "doThis()" function is called Type P
 # 4 lines of #Dart code that include the #spread operator, #cascade #operator, #generics, #extensions, #private prefix and #getters
 
 ![](images/min-max-extension-on-list.jpeg)
+
+# Functions as First Class Citizens in Dart
+
+![](images/functions-as-first-class-citizens.jpeg)
