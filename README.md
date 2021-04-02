@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`mixin`s and JSON Parsing in Dart]()
 * [`mixin`s vs `abstract class`es in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#mixins-vs-abstract-classes-in-dart)
 * [Drawing Shapes in Flutter with `LayoutBuilder`, `CustomPaint` and `CustomPainter`](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#drawing-shapes-in-flutter-with-layoutbuilder-custompaint-and-custompainter)
 * [Generic Type Aliases in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#generic-type-aliases-in-dart)
@@ -13,6 +14,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# `mixin`s and JSON Parsing in Dart
+
+![](images/mixins-to-download-json.jpg)
 
 # `mixin`s vs `abstract class`es in Dart
 
