@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`mixin`s vs `abstract class`es in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#mixins-vs-abstract-classes-in-dart)
 * [Drawing Shapes in Flutter with `LayoutBuilder`, `CustomPaint` and `CustomPainter`](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#drawing-shapes-in-flutter-with-layoutbuilder-custompaint-and-custompainter)
 * [Generic Type Aliases in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#generic-type-aliases-in-dart)
 * [Callable Classes in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#callable-classes-in-dart)
