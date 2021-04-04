@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Custom Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#rethrowing-exceptions-in-dart)
+* [Custom Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#custom-exceptions-in-dart)
 * [`rethrow`ing Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#rethrowing-exceptions-in-dart)
 * [`mixin`s and JSON Parsing in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#mixins-and-json-parsing-in-dart)
 * [`mixin`s vs `abstract class`es in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#mixins-vs-abstract-classes-in-dart)
