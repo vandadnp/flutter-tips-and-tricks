@@ -19,7 +19,7 @@
 
 # Custom Exceptions in Dart
 
-![](images/custom-exceptions-in-dart.jpeg)
+![](images/custom-exceptions-in-dart.jpg)
 
 # `rethrow`ing Exceptions in Dart
 
