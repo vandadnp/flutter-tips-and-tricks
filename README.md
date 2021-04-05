@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Parameter Types in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#parameter-types-in-dart)
 * [Custom Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#custom-exceptions-in-dart)
 * [`rethrow`ing Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#rethrowing-exceptions-in-dart)
 * [`mixin`s and JSON Parsing in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#mixins-and-json-parsing-in-dart)
