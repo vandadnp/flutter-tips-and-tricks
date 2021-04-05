@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Dart List Enumeration with Index](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#dart-list-enumeration-with-index)
 * [Applying Mixins to Other Mixins in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#applying-mixins-to-other-mixins-in-dart)
 * [Parameter Types in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#parameter-types-in-dart)
 * [Custom Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#custom-exceptions-in-dart)
@@ -18,6 +19,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Dart List Enumeration with Index
+
+![](images/dart-list-enumeration-with-index.jpg)
 
 # Applying Mixins to Other Mixins in Dart
 
