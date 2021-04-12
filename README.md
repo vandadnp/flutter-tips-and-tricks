@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Spread Operator in Collection Literals in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#spread-operator-in-collection-literals-in-dart
+* [Spread Operator in Collection Literals in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#spread-operator-in-collection-literals-in-dart)
 * [`StreamBuilder` and `StreamController` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#streambuilder-and-streamcontroller-in-dart)
 * [Almost Equal in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#almost-equal-in-dart)
 * [Enum Associated Values in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#enum-associated-values-in-dart)
