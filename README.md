@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Iterables as Ranges + Transform in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#iterables-as-ranges-and-transform-in-dart)
 * [Errors vs Exceptions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#errors-vs-exceptions-in-dart)
 * [Custom Annotations in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#custom-annotations-in-dart)
 * [Classes as Enums in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#classes-as-enums-in-dart)
@@ -29,6 +30,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Iterables as Ranges + Transform in Dart
+
+![](images/iterables-as-ranges-and-transform-in-dart.jpg)
 
 # Errors vs Exceptions in Dart
 
