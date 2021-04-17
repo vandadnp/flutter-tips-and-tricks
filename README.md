@@ -34,7 +34,7 @@
 
 # Custom Iterators in Dart
 
-![](images/custom-iterators-in-dart)
+![](images/custom-iterators-in-dart.jpg)
 
 # Iterables as Ranges and Transform in Dart
 
