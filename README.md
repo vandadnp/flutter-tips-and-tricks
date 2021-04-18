@@ -36,7 +36,7 @@
 
 # Waiting for Multiple Futures in Dart
 
-![](images/waiting-for-multiple-futures-in-dart)
+![](images/waiting-for-multiple-futures-in-dart.jpg)
 
 # Using Queues as Stacks in Dart
 
