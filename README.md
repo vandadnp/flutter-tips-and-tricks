@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Waiting for Multiple Futures in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#waiting-for-multiple-futures-in-dart)
 * [Using Queues as Stacks in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#using-queues-as-stacks-in-dart)
 * [Custom Iterators in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#custom-iterators-in-dart)
 * [Iterables as Ranges + Transform in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#iterables-as-ranges-and-transform-in-dart)
@@ -32,6 +33,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Waiting for Multiple Futures in Dart
+
+![](images/waiting-for-multiple-futures-in-dart)
 
 # Using Queues as Stacks in Dart
 
