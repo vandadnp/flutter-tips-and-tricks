@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Implementing Zip and Tuples in Dart]((https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-zip-and-tuples-in-dart)
+* [Implementing Zip and Tuples in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-zip-and-tuples-in-dart)
 * [Swapping Values in Lists with XOR in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#swapping-values-in-lists-with-xor-in-dart)
 * [Waiting for Multiple Futures in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#waiting-for-multiple-futures-in-dart)
 * [Using Queues as Stacks in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#using-queues-as-stacks-in-dart)
