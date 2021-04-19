@@ -38,7 +38,7 @@
 
 # Implementing Zip and Tuples in Dart
 
-![](images/implementing-zip-and-tuples-in-dart)
+![](images/implementing-zip-and-tuples-in-dart.jpg)
 
 # Swapping Values in Lists with XOR in Dart
 
