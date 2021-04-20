@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Odd-Even Sort in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#odd-even-sort-in-dart)
 * [Implementing Zip and Tuples in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-zip-and-tuples-in-dart)
 * [Swapping Values in Lists with XOR in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#swapping-values-in-lists-with-xor-in-dart)
 * [Waiting for Multiple Futures in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#waiting-for-multiple-futures-in-dart)
@@ -35,6 +36,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Odd-Even Sort in Dart
+
+![](images/odd-even-sort-in-dart.jpg)
 
 # Implementing Zip and Tuples in Dart
 
