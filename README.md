@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Optional Spread Operator in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#optional-spread-operator-in-dart)
 * [Calling Optional Functions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#calling-optional-functions-in-dart)
 * [Odd-Even Sort in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#odd-even-sort-in-dart)
 * [Implementing Zip and Tuples in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-zip-and-tuples-in-dart)
@@ -37,6 +38,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Optional Spread Operator in Dart
+
+![](images/optional-spread-operator-in-dart.jpg)
 
 # Calling Optional Functions in Dart
 
