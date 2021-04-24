@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Capturing Stack Traces in Dart Exceptions](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#capturing-stack-traces-in-dart-exceptions)
 * [Removing Duplicates from Lists in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#removing-duplicates-from-lists-in-dart)
 * [Optional Spread Operator in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#optional-spread-operator-in-dart)
 * [Calling Optional Functions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#calling-optional-functions-in-dart)
@@ -39,6 +40,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Capturing Stack Traces in Dart Exceptions
+
+![](images/capturing-stack-traces-in-dart-exceptions.jpg)
 
 # Removing Duplicates from Lists in Dart
 
