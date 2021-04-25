@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Implementing Range in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-range-in-dart)
 * [Converting Lists to Maps in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#converting-lists-to-maps-in-dart)
 * [Implementing Hashable in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-hashable-in-dart)
 * [Random Name Generator in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#random-name-generator-in-dart)
@@ -43,6 +44,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Implementing Range in Dart
+
+![](images/implementing-range-in-dart.jpg)
 
 # Converting Lists to Maps in Dart
 
