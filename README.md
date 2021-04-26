@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#removing-duplicate-strings-in-lists-in-dart)
+* [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](https://github.com/vandadnp/flutter-tips-and-tricks#removing-duplicate-strings-in-lists-in-dart-case-insensitive)
 * [Implementing Range in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-range-in-dart)
 * [Converting Lists to Maps in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#converting-lists-to-maps-in-dart)
 * [Implementing Hashable in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-hashable-in-dart)
