@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Calculating the Sum of List Items in Dart](https://github.com/vandadnp/flutter-tips-and-tricks#calculating-the-sum-of-list-items-in-dart)
 * [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](https://github.com/vandadnp/flutter-tips-and-tricks#removing-duplicate-strings-in-lists-in-dart-case-insensitive)
 * [Implementing Range in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#implementing-range-in-dart)
 * [Converting Lists to Maps in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#converting-lists-to-maps-in-dart)
@@ -45,6 +46,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Calculating the Sum of List Items in Dart
+
+![](images/calculating-the-sum-of-list-items-in-dart.jpg)
 
 # Removing Duplicate Strings in Lists in Dart (Case-Insensitive)
 
