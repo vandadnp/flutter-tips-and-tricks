@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Dynamically Calling Functions in Dart](https://github.com/vandadnp/flutter-tips-and-tricks#dynamically-calling-functions-in-dart)
 * [Factory Constructors in Dart](https://github.com/vandadnp/flutter-tips-and-tricks#factory-constructors-in-dart)
 * [Calculating the Sum of List Items in Dart](https://github.com/vandadnp/flutter-tips-and-tricks#calculating-the-sum-of-list-items-in-dart)
 * [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](https://github.com/vandadnp/flutter-tips-and-tricks#removing-duplicate-strings-in-lists-in-dart-case-insensitive)
@@ -47,6 +48,10 @@
 * [Type Promotion in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](https://github.com/vandadnp/flutter-tips-and-tricks/blob/main/README.md#functions-as-first-class-citizens-in-dart)
+
+# Dynamically Calling Functions in Dart
+
+![](images/dynamically-calling-functions-in-dart.jpg)
 
 # Factory Constructors in Dart
 
