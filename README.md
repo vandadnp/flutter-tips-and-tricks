@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Data Streams Over HTTP/HTTPs in Dart]
+* [Data Streams Over HTTP/HTTPs in Dart](#data-streams-over-httphttps-in-dart)
 * [Catching Nonexistent Accessors or Methods in Dart](#catching-nonexistent-accessors-or-methods-in-dart)
 * [Using Expando in Dart](#using-expando-in-dart)
 * [Implementing Custom Maps in Dart](#implementing-custom-maps-in-dart)
