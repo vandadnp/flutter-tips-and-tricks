@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Filtering TextField Input in Flutter](#filtering-textfield-input-in-flutter)
 * [Focusing Manually on TextFields in Flutter](#focusing-manually-on-textfields-in-flutter)
 * [Data Streams Over HTTP/HTTPs in Dart](#data-streams-over-httphttps-in-dart)
 * [Catching Nonexistent Accessors or Methods in Dart](#catching-nonexistent-accessors-or-methods-in-dart)
@@ -53,6 +54,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Filtering TextField Input in Flutter
+
+![](images/filtering-textfield-input-in-flutter.jpg)
 
 # Focusing Manually on TextFields in Flutter
 
