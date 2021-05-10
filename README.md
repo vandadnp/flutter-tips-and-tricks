@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Throttling User Input in Flutter](#throttling-user-input-in-flutter)
 * [Censoring TextFields in Flutter](#censoring-textfields-in-flutter)
 * [Customizing TextButton in Flutter](#customizing-textbutton-in-flutter)
 * [Multiline TextFields in Flutter](#multiline-textfields-in-flutter)
@@ -57,6 +58,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Throttling User Input in Flutter
+
+![](images/throttling-user-input-in-flutter.jpg)
 
 # Censoring TextFields in Flutter
 
