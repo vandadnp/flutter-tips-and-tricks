@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Adding Shadow to Icons in Flutter](#adding-shadow-to-icons-in-flutter)
 * [Calculating Median of Lists in Dart](#calculating-median-of-lists-in-dart)
 * [Generic Functions with Reduce in Dart](#generic-functions-with-reduce-in-dart)
 * [Passing Back Data From a Screen to the Previous One in Flutter](#passing-back-data-from-a-screen-to-the-previous-one-in-flutter)
@@ -63,6 +64,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Adding Shadow to Icons in Flutter
+
+![](adding-shadow-to-icons-in-flutter.jpg)
 
 # Calculating Median of Lists in Dart
 
