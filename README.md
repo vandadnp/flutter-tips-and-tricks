@@ -67,7 +67,7 @@
 
 # Adding Shadow to Icons in Flutter
 
-![](adding-shadow-to-icons-in-flutter.jpg)
+![](images/adding-shadow-to-icons-in-flutter.jpg)
 
 # Calculating Median of Lists in Dart
 
