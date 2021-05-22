@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Resizing Images in Flutter to Fit Screen Height](#resizing-images-in-flutter-to-fit-screen-height)
 * [Validating URLs in Flutter](#validating-urls-in-flutter)
 * [FrameBuilder for Network Images in Flutter](#framebuilder-for-network-images-in-flutter)
 * [Adding Shadow to Icons in Flutter](#adding-shadow-to-icons-in-flutter)
@@ -66,6 +67,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Resizing Images in Flutter to Fit Screen Height
+
+![](images/resizing-images-in-flutter-to-fit-screen-height.jpg)
 
 # Validating URLs in Flutter
 
