@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Convert Enums to Strings in Dart](#convert-enums-to-strings-in-dart)
 * [Replacing Text in TextField in Flutter](#replacing-text-in-textfield-in-flutter)
 * [Aspect Ratio in Flutter](#aspect-ratio-in-flutter)
 * [Zoom and Pan in Flutter](#zoom-and-pan-in-flutter)
@@ -70,6 +71,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Convert Enums to Strings in Dart
+
+![](images/convert-enums-to-strings-in-dart.jpg)
 
 # Replacing Text in TextField in Flutter
 
