@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Stream` and `StreamBuilder` in Flutter](#stream-and-stream-builder-in-flutter)
+* [`Stream` and `StreamBuilder` in Flutter](#stream-and-streambuilder-in-flutter)
 * [Blur Effect in Flutter](#blur-effect-in-flutter)
 * [Convert Enums to Strings in Dart](#convert-enums-to-strings-in-dart)
 * [Replacing Text in TextField in Flutter](#replacing-text-in-textfield-in-flutter)
