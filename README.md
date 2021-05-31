@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Wrapping Widgets in Flutter](#wrapping-widgets-in-flutter)
 * [Sweep Gradients in Flutter](#sweep-gradients-in-flutter)
 * [`Stream` and `StreamBuilder` in Flutter](#stream-and-streambuilder-in-flutter)
 * [Blur Effect in Flutter](#blur-effect-in-flutter)
@@ -74,6 +75,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Wrapping Widgets in Flutter
+
+![](images/wrapping-widgets-in-flutter.jpg)
 
 # Sweep Gradients in Flutter
 
