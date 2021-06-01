@@ -79,7 +79,7 @@
 
 # Rich Texts in Flutter
 
-![](images/rich-texts-in-flutter)
+![](images/rich-texts-in-flutter.jpg)
 
 # Wrapping Widgets in Flutter
 
