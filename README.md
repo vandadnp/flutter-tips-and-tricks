@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Rendering Bullet Points in Flutter](#rendering-bullet-points-in-flutter)
 * [Retrying Futures in Flutter](#retrying-futures-in-flutter)
 * [Containers as ClipOvals in Flutter](#containers-as-clipovals-in-flutter)
 * [Rich Texts in Flutter](#rich-texts-in-flutter)
@@ -78,6 +79,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Rendering Bullet Points in Flutter
+
+![](images/rendering-bullet-points-in-flutter.jpg)
 
 # Retrying Futures in Flutter
 
