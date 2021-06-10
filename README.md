@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Images in AlertDialog in Flutter](#images-inside-alertdialog-in-flutter)
+* [Images inside AlertDialog in Flutter](#images-inside-alertdialog-in-flutter)
 * [Returning Values from AlertDialog in Flutter](#returning-values-from-alertdialog-in-flutter)
 * [Simple Grid View in Flutter](#simple-grid-view-in-flutter)
 * [Rendering Bullet Points in Flutter](#rendering-bullet-points-in-flutter)
