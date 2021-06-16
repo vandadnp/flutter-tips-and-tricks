@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Displaying Bottom Bars in Flutter](#displaying-bottom-bars-in-flutter)
 * [Displaying Buttons on AppBar in Flutter](#displaying-buttons-on-appbar-in-flutter)
 * [Displaying Bottom Sheets in Flutter](#displaying-bottom-sheets-in-flutter)
 * [Converting Enums to Radio Buttons in Flutter](#converting-enums-to-radio-buttons-in-flutter)
@@ -86,6 +87,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Displaying Bottom Bars in Flutter
+
+![](images/displaying-bottom-bars-in-flutter.jpg)
 
 # Displaying Buttons on AppBar in Flutter
 
