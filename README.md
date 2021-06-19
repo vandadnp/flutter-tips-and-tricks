@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Custom Color Picker Component in Flutter](#custom-color-picker-component-in-flutter)
 * [Displaying and Reacting to Switches in Flutter](#displaying-and-reacting-to-switches-in-flutter)
 * [Displaying Bottom Bars in Flutter](#displaying-bottom-bars-in-flutter)
 * [Displaying Buttons on AppBar in Flutter](#displaying-buttons-on-appbar-in-flutter)
@@ -88,6 +89,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Custom Color Picker Component in Flutter
+
+![](images/custom-color-picker-component-in-flutter.jpg)
 
 # Displaying and Reacting to Switches in Flutter
 
