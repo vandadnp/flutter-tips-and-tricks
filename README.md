@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Expandable List Items in Flutter](#expandable-list-items-in-flutter)
 * [Infinite Scrolling in Flutter](#infinite-scrolling-in-flutter)
 * [Infinite Arrays in Dart](#infinite-arrays-in-dart)
 * [Custom Color Picker Component in Flutter](#custom-color-picker-component-in-flutter)
@@ -91,6 +92,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Expandable List Items in Flutter
+
+![](images/expandable-list-items-in-flutter.jpg)
 
 # Infinite Scrolling in Flutter
 
