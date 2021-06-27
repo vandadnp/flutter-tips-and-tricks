@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Vignette Widget in Flutter](#vignette-widget-in-flutter)
 * [Drop Down Button Configuration and Usage in Flutter](#drop-down-button-configuration-and-usage-in-flutter)
 * [Expandable List Items in Flutter](#expandable-list-items-in-flutter)
 * [Infinite Scrolling in Flutter](#infinite-scrolling-in-flutter)
@@ -93,6 +94,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Vignette Widget in Flutter
+
+![](images/vignette-widget-in-flutter.jpg)
 
 # Drop Down Button Configuration and Usage in Flutter
 
