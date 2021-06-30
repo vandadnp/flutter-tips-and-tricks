@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Animated Containers in Flutter](#animated-containers-in-flutter)
 * [Hiding Widgets in Flutter](#hiding-widgets-in-flutter)
 * [Simple Opacity Animation in Flutter](#simple-opacity-animation-in-flutter)
 * [Vignette Widget in Flutter](#vignette-widget-in-flutter)
@@ -96,6 +97,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Animated Containers in Flutter
+
+![](images/animated-containers-in-flutter.jpg)
 
 # Hiding Widgets in Flutter
 
