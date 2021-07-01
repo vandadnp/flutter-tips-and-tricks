@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Requesting DELETE on APIs in Dart](#requesting-delete-on-apis-in-dart)
 * [Animated Containers in Flutter](#animated-containers-in-flutter)
 * [Hiding Widgets in Flutter](#hiding-widgets-in-flutter)
 * [Simple Opacity Animation in Flutter](#simple-opacity-animation-in-flutter)
@@ -97,6 +98,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Requesting DELETE on APIs in Dart
+
+![](images/requesting-delete-on-apis-in-dart.jpg)
 
 # Animated Containers in Flutter
 
