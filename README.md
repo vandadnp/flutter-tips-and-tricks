@@ -108,7 +108,7 @@
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
 # Network Image Size in Dart
-[Source Code](sources/network-image-size-in-dart.dart)
+[Source Code](source/network-image-size-in-dart.dart)
 
 ![](images/network-image-size-in-dart.jpg)
 
