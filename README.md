@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Network Image Size in Dart](#network-image-size-in-dart)
 * [Animated Icons in Flutter](#animated-icons-in-flutter)
 * [Custom Scroll Views in Flutter](#custom-scroll-views-in-flutter)
 * [Parallax App Bar in Flutter](#parallax-app-bar-in-flutter)
@@ -105,6 +106,11 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Network Image Size in Dart
+[Source Code](sources/network-image-size-in-dart.dart)
+
+![](images/network-image-size-in-dart.jpg)
 
 # Animated Icons in Flutter
 [Source Code](source/animated-icons-in-flutter.dart)
