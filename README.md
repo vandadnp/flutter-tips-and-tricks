@@ -110,6 +110,7 @@
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
 # Fading Network Image Widget in Flutter
+[Source Code](source/fading-network-image-widget-in-flutter.dart)
 
 ![](images/fading-network-image-widget-in-flutter.jpg)
 
