@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Fading Network Image Widget in Flutter](#fading-network-image-widget-in-flutter)
 * [Transparent Alert Dialogs in Flutter](#transparent-alert-dialogs-in-flutter)
 * [Network Image Size in Dart](#network-image-size-in-dart)
 * [Animated Icons in Flutter](#animated-icons-in-flutter)
@@ -107,6 +108,10 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Fading Network Image Widget in Flutter
+
+![](images/fading-network-image-widget-in-flutter.jpg)
 
 # Transparent Alert Dialogs in Flutter
 [Source Code](source/transparent-alert-dialogs-in-flutter.dart)
