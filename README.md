@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Animating and Moving a Floating Action Button in Flutter](#animating-and-moving-a-floating-action-button-in-flutter)
 * [Fading Network Image Widget in Flutter](#fading-network-image-widget-in-flutter)
 * [Transparent Alert Dialogs in Flutter](#transparent-alert-dialogs-in-flutter)
 * [Network Image Size in Dart](#network-image-size-in-dart)
@@ -108,6 +109,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Animating and Moving a Floating Action Button in Flutter
+
+![Source Code](source/animating-and-moving-a-floating-action-button-in-flutter.dart)
+
+![](images/animating-and-moving-a-floating-action-button-in-flutter.jpg)
 
 # Fading Network Image Widget in Flutter
 [Source Code](source/fading-network-image-widget-in-flutter.dart)
