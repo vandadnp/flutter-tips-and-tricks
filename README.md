@@ -111,8 +111,7 @@
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
 # Animating and Moving a Floating Action Button in Flutter
-
-![Source Code](source/animating-and-moving-a-floating-action-button-in-flutter.dart)
+[Source Code](source/animating-and-moving-a-floating-action-button-in-flutter.dart)
 
 ![](images/animating-and-moving-a-floating-action-button-in-flutter.jpg)
 
