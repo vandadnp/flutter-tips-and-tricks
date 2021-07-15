@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Displaying Assorted Widgets Inside Table in Flutter](displaying-assorted-widgets-inside-tableview-in-flutter)
 * [Page Indicator with Page View in Flutter](#page-indicator-with-page-view-in-flutter)
 * [Animating and Moving a Floating Action Button in Flutter](#animating-and-moving-a-floating-action-button-in-flutter)
 * [Fading Network Image Widget in Flutter](#fading-network-image-widget-in-flutter)
@@ -110,6 +111,11 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Displaying Assorted Widgets Inside Table in Flutter
+[Source Code](source/displaying-assorted-widgets-inside-tableview-in-flutter.dart)
+
+![](images/displaying-assorted-widgets-inside-tableview-in-flutter.jpg)
 
 # Page Indicator with Page View in Flutter
 [Source Code](source/page-indicator-with-page-view-in-flutter.dart)
