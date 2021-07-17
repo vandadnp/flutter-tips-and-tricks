@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Animating Widgets with Ease in Flutter](#animating-widgets-with-ease-in-flutter)
 * [Displaying Tool Tips in Flutter](#displaying-tool-tips-in-flutter)
 * [Displaying Assorted Widgets Inside TableView in Flutter](#displaying-assorted-widgets-inside-tableview-in-flutter)
 * [Page Indicator with Page View in Flutter](#page-indicator-with-page-view-in-flutter)
@@ -112,6 +113,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Animating Widgets with Ease in Flutter
+
+[Source Code](source/animating-widgets-with-ease-in-flutter.dart)
+
+![](images/animating-widgets-with-ease-in-flutter.jpg)
 
 # Displaying Tool Tips in Flutter
 [Source Code](source/displaying-tool-tips-in-flutter.dart)
