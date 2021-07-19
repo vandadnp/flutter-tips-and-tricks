@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Implementing Drag and Drop in Flutter](#implementing-drag-and-drop-in-flutter)
 * [Dismissing List Items in Flutter](#dismissing-list-items-in-flutter)
 * [Animating Widgets with Ease in Flutter](#animating-widgets-with-ease-in-flutter)
 * [Displaying Tool Tips in Flutter](#displaying-tool-tips-in-flutter)
@@ -114,6 +115,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Implementing Drag and Drop in Flutter
+
+[Source Code](source/implementing-drag-and-drop-in-flutter.dart)
+
+![](images/implementing-drag-and-drop-in-flutter.jpg)
 
 # Dismissing List Items in Flutter
 
