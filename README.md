@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Generically Convert Anything to Int in Dart](#generically-convert-anything-to-int-in-dart)
 * [Validating URL Certificates in Dart](#validating-url-certificates-in-dart)
 * [Displaying Popup Menus in Flutter](#displaying-popup-menus-in-flutter)
 * [Implementing Drag and Drop in Flutter](#implementing-drag-and-drop-in-flutter)
@@ -117,6 +118,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Generically Convert Anything to Int in Dart
+
+[Source Code](source/generically-convert-anything-to-int-in-dart.dart)
+
+![](images/generically-convert-anything-to-int-in-dart.jpg)
 
 # Validating URL Certificates in Dart
 
