@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Shortening URLs in Dart](#shortening-urls-in-dart)
 * [LimitedBox Widget as ListView Items in Flutter](#limitedbox-widget-as-listview-items-in-flutter)
 * [Generically Convert Anything to Int in Dart](#generically-convert-anything-to-int-in-dart)
 * [Validating URL Certificates in Dart](#validating-url-certificates-in-dart)
@@ -119,6 +120,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Shortening URLs in Dart
+
+[Source Code](source/shortening-urls-in-dart.dart)
+
+![](images/shortening-urls-in-dart.jpg)
 
 # LimitedBox Widget as ListView Items in Flutter
 
