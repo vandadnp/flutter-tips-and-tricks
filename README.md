@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Consume Streams for a Duration in Dart](#consume-streams-for-a-duration-in-dart)
 * [Shortening URLs in Dart](#shortening-urls-in-dart)
 * [LimitedBox Widget as ListView Items in Flutter](#limitedbox-widget-as-listview-items-in-flutter)
 * [Generically Convert Anything to Int in Dart](#generically-convert-anything-to-int-in-dart)
@@ -120,6 +121,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Consume Streams for a Duration in Dart
+
+[Source Code](source/consume-streams-for-a-duration-in-dart.dart)
+
+![](images/consume-streams-for-a-duration-in-dart.jpg)
 
 # Shortening URLs in Dart
 
