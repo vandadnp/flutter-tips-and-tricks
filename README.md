@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Expanding Stream Elements in Dart](#expanding-stream-elements-in-dart)
 * [Consume Streams for a Duration in Dart](#consume-streams-for-a-duration-in-dart)
 * [Shortening URLs in Dart](#shortening-urls-in-dart)
 * [LimitedBox Widget as ListView Items in Flutter](#limitedbox-widget-as-listview-items-in-flutter)
@@ -121,6 +122,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Expanding Stream Elements in Dart
+
+[Source Code](source/expanding-stream-elements-in-dart.dart)
+
+![](images/expanding-stream-elements-in-dart.jpg)
 
 # Consume Streams for a Duration in Dart
 
