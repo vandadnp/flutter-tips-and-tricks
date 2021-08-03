@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Animating Position Changes in Flutter](#animating-position-changes-in-flutter)
 * [Transitioning Between Widgets in Flutter](#transitioning-between-widgets-in-flutter)
 * [Doubly Linked Lists in Dart](#doubly-linked-lists-in-dart)
 * [Reordering Items Inside List Views in Flutter](#reordering-items-inside-list-views-in-flutter)
@@ -126,6 +127,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Animating Position Changes in Flutter
+
+[Source Code](source/animating-position-changes-in-flutter.dart)
+
+![](images/animating-position-changes-in-flutter.jpg)
 
 # Transitioning Between Widgets in Flutter
 
