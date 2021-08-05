@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Placing Constraints on Widgets in Flutter](#placing-constraints-on-widgets-in-flutter)
 * [Animating Position Changes in Flutter](#animating-position-changes-in-flutter)
 * [Transitioning Between Widgets in Flutter](#transitioning-between-widgets-in-flutter)
 * [Doubly Linked Lists in Dart](#doubly-linked-lists-in-dart)
@@ -127,6 +128,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Placing Constraints on Widgets in Flutter
+
+[Source Code](source/placing-constraints-on-widgets-in-flutter.dart)
+
+![](images/placing-constraints-on-widgets-in-flutter.jpg)
 
 # Animating Position Changes in Flutter
 
