@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Allow User Selection of Text in Flutter](#allow-user-selection-of-text-in-flutter)
 * [Placing Constraints on Widgets in Flutter](#placing-constraints-on-widgets-in-flutter)
 * [Animating Position Changes in Flutter](#animating-position-changes-in-flutter)
 * [Transitioning Between Widgets in Flutter](#transitioning-between-widgets-in-flutter)
@@ -128,6 +129,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Allow User Selection of Text in Flutter
+
+[Source Code](source/allow-user-selection-of-text-in-flutter.dart)
+
+![](images/allow-user-selection-of-text-in-flutter.jpg)
 
 # Placing Constraints on Widgets in Flutter
 
