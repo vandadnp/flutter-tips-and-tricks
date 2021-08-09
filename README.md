@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Content-Length of `List<Uri>` in Dart]
+* [Content-Length of `List<Uri>` in Dart](#content-length-of-listuri-in-dart)
 * [Recursive Dot Notation on Maps in Dart](#recursive-dot-notation-on-maps-in-dart)
 * [Allow User Selection of Text in Flutter](#allow-user-selection-of-text-in-flutter)
 * [Placing Constraints on Widgets in Flutter](#placing-constraints-on-widgets-in-flutter)
