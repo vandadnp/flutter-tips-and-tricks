@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Fade Between Widgets in Flutter](#fade-between-widgets-in-flutter)
 * [Sort Descriptors in Dart](#sort-descriptors-in-dart)
 * [User Sortable Columns and Tables in Flutter](#user-sortable-columns-and-tables-in-flutter)
 * [Content-Length of `List<Uri>` in Dart](#content-length-of-listuri-in-dart)
@@ -133,6 +134,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Fade Between Widgets in Flutter
+
+[Source Code](source/fade-between-widgets-in-flutter.dart)
+
+![](images/fade-between-widgets-in-flutter.jpg)
 
 # Sort Descriptors in Dart
 
