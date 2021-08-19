@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Displaying Scrollable Bottom Sheets in Flutter](#draggable-scrollable-sheet-in-flutter)
+* [Displaying Scrollable Bottom Sheets in Flutter](#displaying-scrollable-bottom-sheets-in-flutter)
 * [YouTube Ad Remover in Dart](#youtube-ad-remover-in-dart)
 * [Fade Between Widgets in Flutter](#fade-between-widgets-in-flutter)
 * [Sort Descriptors in Dart](#sort-descriptors-in-dart)
