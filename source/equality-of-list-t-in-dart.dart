@@ -1,6 +1,6 @@
 // Want to support my work 🤝? https://buymeacoffee.com/vandad
 
-extension Equality<T> on List<T> {
+extension Equality<T extends Comparable> on List<T> {
   bool isEqualTo(List<T> other) {
     if (other.length != length) {
       return false;
