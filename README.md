@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Equality of `List<T>` in Dart](#equality-of-list-t-in-dart)
+* [Equality of `List<T>` in Dart](#equality-of-listt-in-dart)
 * [Constants in Dart](#constants-in-dart)
 * [Displaying Scrollable Bottom Sheets in Flutter](#displaying-scrollable-bottom-sheets-in-flutter)
 * [YouTube Ad Remover in Dart](#youtube-ad-remover-in-dart)
