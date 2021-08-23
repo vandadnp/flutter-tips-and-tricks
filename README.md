@@ -143,7 +143,7 @@
 
 # Managing Duplicates in `List<T>` in Dart
 
-[Source Code](managing-duplicates-in-list-t-in-dart.dart)
+[Source Code](source/managing-duplicates-in-list-t-in-dart.dart)
 
 ![](images/managing-duplicates-in-list-t-in-dart.jpg)
 
