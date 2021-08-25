@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Flattening Lists in Dart](#flattening-lists-in-dart)
 * [Managing Duplicates in `List<T>` in Dart](#managing-duplicates-in-listt-in-dart)
 * [FlatMap and CompactMap in Dart](#flatmap-and-compactmap-in-dart)
 * [Equality of `List<T>` in Dart](#equality-of-listt-in-dart)
@@ -140,6 +141,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Flattening Lists in Dart
+
+[Source Code](source/flattening-lists-in-dart.dart)
+
+![](images/flattening-lists-in-dart.jpg)
 
 # Managing Duplicates in `List<T>` in Dart
 
