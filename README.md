@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Cloning Objects in Dart](#cloning-objects-in-dart)
 * [Color Filters in Flutter](#color-filters-in-flutter)
 * [Flattening Lists in Dart](#flattening-lists-in-dart)
 * [Managing Duplicates in `List<T>` in Dart](#managing-duplicates-in-listt-in-dart)
@@ -142,6 +143,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Cloning Objects in Dart
+
+[Source Code[(source/cloning-objects-in-dart.dart)
+
+![](images/cloning-objects-in-dart.jpg)
 
 # Color Filters in Flutter
 
