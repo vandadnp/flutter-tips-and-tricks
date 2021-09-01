@@ -22,8 +22,6 @@ class Cat with Pet {
   @override
   final PetType type;
   const Cat({required this.name, required this.age}) : type = PetType.cat;
-  @override
-  int get hashCode => hashValues(name, age, type);
 }
 
 void testIt() {
