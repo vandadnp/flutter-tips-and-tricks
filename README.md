@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Hashable Mixins in Dart](#hashable-mixins-in-dart)
 * [Flutter Tips and Tricks in Terminal](#flutter-tips-and-tricks-in-terminal)
 * [Searching `List<List<T>>` in Dart](#searching-listlistt-in-dart)
 * [Cloning Objects in Dart](#cloning-objects-in-dart)
@@ -145,6 +146,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Hashable Mixins in Dart
+
+[Source Code](source/hashable-mixins-in-dart.dart)
+
+![](images/hashable-mixins-in-dart.jpg)
 
 # Flutter Tips and Tricks in Terminal
 
