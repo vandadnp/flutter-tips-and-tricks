@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Rotating `List<T>` in Dart](#rotating-list-t-in-dart)
+* [Rotating `List<T>` in Dart](#rotating-listt-in-dart)
 * [Displaying SnackBars in Flutter](#displaying-snackbars-in-flutter)
 * [Custom Tab Bar Using ToggleButtons in Flutter](#custom-tab-bar-using-togglebuttons-in-flutter)
 * [Hashable Mixins in Dart](#hashable-mixins-in-dart)
