@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Rotating `List<T>` in Dart](#rotating-list-t-in-dart)
 * [Displaying SnackBars in Flutter](#displaying-snackbars-in-flutter)
 * [Custom Tab Bar Using ToggleButtons in Flutter](#custom-tab-bar-using-togglebuttons-in-flutter)
 * [Hashable Mixins in Dart](#hashable-mixins-in-dart)
@@ -148,6 +149,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Rotating `List<T>` in Dart
+
+[Source Code](source/rotating-list-t-in-dart.dart)
+
+![](images/rotating-list-t-in-dart.jpg)
 
 # Displaying SnackBars in Flutter
 
