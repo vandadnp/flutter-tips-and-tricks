@@ -1,6 +1,5 @@
 # Table of Contents
 
-* [Detecting Flutter Installation](#detecting-flutter-installation)
 * [Detect Redirects in Dart](#detect-redirects-in-dart)
 * [Proportional Constraints in Flutter](#proportional-constraints-in-flutter)
 * [Displaying Cupertino Action Sheets in Flutter](#displaying-cupertino-action-sheets-in-flutter)
@@ -153,10 +152,6 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
-
-# Detecting Flutter Installation
-
-[Source Code](source/detecting-flutter-installation.dart)
 
 ![](images/detecting-flutter-installation.jpg)
 
