@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Avoiding UI Jitters When Switching Widgets in Flutter](#avoiding-ui-jitters-when-switching-widgets-in-flutter)
 * [Detect Redirects in Dart](#detect-redirects-in-dart)
 * [Proportional Constraints in Flutter](#proportional-constraints-in-flutter)
 * [Displaying Cupertino Action Sheets in Flutter](#displaying-cupertino-action-sheets-in-flutter)
@@ -153,7 +154,11 @@
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
-![](images/detecting-flutter-installation.jpg)
+# Avoiding UI Jitters When Switching Widgets in Flutter
+
+[Source Code](source/avoiding-ui-jitters-when-switching-widgets-in-flutter.dart)
+
+![](images/avoiding-ui-jitters-when-switching-widgets-in-flutter.jpg)
 
 # Detect Redirects in Dart
 
