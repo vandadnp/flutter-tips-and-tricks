@@ -1,6 +1,6 @@
 # Table of Contents
 
-# [Unwrap `List<T?>?` in Dart](#)
+* [Unwrap `List<T?>?` in Dart](#)
 * [Avoiding UI Jitters When Switching Widgets in Flutter](#avoiding-ui-jitters-when-switching-widgets-in-flutter)
 * [Detect Redirects in Dart](#detect-redirects-in-dart)
 * [Proportional Constraints in Flutter](#proportional-constraints-in-flutter)
