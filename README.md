@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Unwrap `List<T?>?` in Dart](#)
+* [Unwrap `List<T?>?` in Dart](#unwrap-listt-in-dart)
 * [Avoiding UI Jitters When Switching Widgets in Flutter](#avoiding-ui-jitters-when-switching-widgets-in-flutter)
 * [Detect Redirects in Dart](#detect-redirects-in-dart)
 * [Proportional Constraints in Flutter](#proportional-constraints-in-flutter)
@@ -156,7 +156,10 @@
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
 # Unwrap `List<T?>?` in Dart
-text
+
+[Source Code](source/unwrap-list-t%3F-%3F-in-dart.dart
+
+![](images/unwrap-list-t%3F-%3F-in-dart.jpg)
 
 # Avoiding UI Jitters When Switching Widgets in Flutter
 
