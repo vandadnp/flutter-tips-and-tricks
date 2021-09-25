@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Circular Progress in Flutter](#circular-progress-in-flutter)
 * [Displaying Scroll Wheels in Flutter](#displaying-scroll-wheels-in-flutter)
 * [Post Messages to Slack with Dart](#post-messages-to-slack-with-dart)
 * [Unwrap `List<T?>?` in Dart](#unwrap-listt-in-dart)
@@ -156,6 +157,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Circular Progress in Flutter
+
+[Source Code](source/circular-progress-in-flutter.dart)
+
+![](images/circular-progress-in-flutter.jpg)
 
 # Displaying Scroll Wheels in Flutter
 
