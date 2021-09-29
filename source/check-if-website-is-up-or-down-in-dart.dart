@@ -1,7 +1,5 @@
 // Want to support my work 🤝? https://buymeacoffee.com/vandad
 
-import 'package:flutter/material.dart';
-
 class UpStatus {
   final bool isUp;
   final DateTime timestamp;
