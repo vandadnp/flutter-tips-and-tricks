@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Check if Website is Up or Down in Dart](#check-if-website-is-up-or-down-in-dart)
 * [Section Titles on ListView in Flutter](#section-titles-on-listview-in-flutter)
 * [Circular Progress in Flutter](#circular-progress-in-flutter)
 * [Displaying Scroll Wheels in Flutter](#displaying-scroll-wheels-in-flutter)
@@ -158,6 +159,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Check if Website is Up or Down in Dart
+
+[Source Code](source/check-if-website-is-up-or-down-in-dart.dart)
+
+![](images/check-if-website-is-up-or-down-in-dart.jpg)
 
 # Section Titles on ListView in Flutter
 
