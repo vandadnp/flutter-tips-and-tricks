@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Custom Clippers in Flutter](#custom-clippers-in-flutter)
 * [Check if Website is Up or Down in Dart](#check-if-website-is-up-or-down-in-dart)
 * [Section Titles on ListView in Flutter](#section-titles-on-listview-in-flutter)
 * [Circular Progress in Flutter](#circular-progress-in-flutter)
@@ -159,6 +160,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Custom Clippers in Flutter
+
+[Source Code](source/custom-clippers-in-flutter.dart)
+
+![](images/custom-clippers-in-flutter.jpg)
 
 # Check if Website is Up or Down in Dart
 
