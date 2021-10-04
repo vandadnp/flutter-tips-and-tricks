@@ -137,6 +137,29 @@ class _GlossyNetworkImageWithProgressState
       },
     );
 
+    return BottomGloss(
+      networkImage: networkImage,
+      title: widget.title,
+      description: widget.description,
+    );
+  }
+}
+
+class BottomGloss extends StatelessWidget {
+  final String title;
+  final String description;
+
+  const BottomGloss(
+      {Key? key,
+      required this.networkImage,
+      required this.title,
+      required this.description})
+      : super(key: key);
+
+  final Image networkImage;
+
+  @override
+  Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.all(Radius.circular(8.0)),
       child: Stack(
@@ -149,15 +172,14 @@ class _GlossyNetworkImageWithProgressState
             child: ClipRect(
               child: FractionallySizedBox(
                 heightFactor: 0.5,
-                widthFactor: 1.0,
                 child: BackdropFilter(
                   filter: ImageFilter.blur(
                     sigmaX: 10.0,
                     sigmaY: 10.0,
                   ),
-                  child: BottomGloss(
-                    title: widget.title,
-                    description: widget.description,
+                  child: BottomContents(
+                    title: title,
+                    description: description,
                   ),
                 ),
               ),
@@ -169,11 +191,11 @@ class _GlossyNetworkImageWithProgressState
   }
 }
 
-class BottomGloss extends StatelessWidget {
+class BottomContents extends StatelessWidget {
   final String title;
   final String description;
 
-  const BottomGloss({
+  const BottomContents({
     Key? key,
     required this.title,
     required this.description,
