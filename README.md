@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`-` Operator on `String` in Dart](#minus-operator-on-string-in-dart)
+* [`-` Operator on `String` in Dart](#--operator-on-string-in-dart)
 * [Dart Progress for `Future<T>`](#dart-progress-for-futuret)
 * [Move Widget Shadows with Animation](#move-widget-shadows-with-animation)
 * [Gallery with Blurred Backgrounds in Flutter](#gallery-with-blurred-backgrounds-in-flutter)
