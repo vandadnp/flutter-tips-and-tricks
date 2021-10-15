@@ -170,9 +170,9 @@
 
 # `CheckboxListTile` in Flutter
 
-[Source Code](source/checkboxlisttile-in-fltuter.dart)
+[Source Code](source/checkboxlisttile-in-flutter.dart)
 
-![](images/checkboxlisttile-in-fltuter.jpg)
+![](images/checkboxlisttile-in-flutter.jpg)
 
 # `-` Operator on `String` in Dart
 
