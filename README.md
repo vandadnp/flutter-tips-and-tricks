@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Opening URLs in Flutter](#opening-urls-in-flutter)
 * [Commodore 64 Screen in Flutter](#commodore-64-screen-in-flutter)
 * [Animated Lists in Flutter](#animated-lists-in-flutter)
 * [`CheckboxListTile` in Flutter](#checkboxlisttile-in-flutter)
@@ -169,6 +170,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Opening URLs in Flutter
+
+[Source Code](source/opening-urls-in-flutter.dart)
+
+![](images/opening-urls-in-flutter.jpg)
 
 # Commodore 64 Screen in Flutter
 
