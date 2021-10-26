@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Circular Progress with Percentage in Flutter](#circular-progress-with-percentage-in-flutter)
 * [Opening URLs in Flutter](#opening-urls-in-flutter)
 * [Commodore 64 Screen in Flutter](#commodore-64-screen-in-flutter)
 * [Animated Lists in Flutter](#animated-lists-in-flutter)
