@@ -172,6 +172,14 @@
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
+# Circular Progress with Percentage in Flutter
+
+[Video Demo](https://youtu.be/a84otkvIr1Y)
+
+[Source Code](../source/circular-progress-indicator-with-percentage-in-flutter.dart)
+
+![](../images/circular-progress-with-percentage-in-flutter.jpg)
+
 # Opening URLs in Flutter
 
 [Source Code](source/opening-urls-in-flutter.dart)
