@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Complete CRUD App in Flutter](#complete-crud-app-in-flutter)
 * [SQLite Storage in Flutter](#sqlite-storage-in-flutter)
 * [Circular Progress with Percentage in Flutter](#circular-progress-with-percentage-in-flutter)
 * [Opening URLs in Flutter](#opening-urls-in-flutter)
@@ -172,6 +173,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Complete CRUD App in Flutter
+
+[Video Demo](https://youtu.be/Svu1FmjYn88)
+
+[Source Code](source/complete-crud-app-in-flutter.dart)
+
+![](images/complete-crud-app-in-flutter.jpg)
 
 # SQLite Storage in Flutter
 
