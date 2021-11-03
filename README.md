@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Expansion Panels and Lists in Flutter](#expansion-panels-and-lists-in-flutter)
 * [Complete CRUD App in Flutter](#complete-crud-app-in-flutter)
 * [SQLite Storage in Flutter](#sqlite-storage-in-flutter)
 * [Circular Progress with Percentage in Flutter](#circular-progress-with-percentage-in-flutter)
@@ -173,6 +174,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Expansion Panels and Lists in Flutter
+
+[Video Demo](https://youtu.be/7yJm1tqCQRg)
+
+[Source Code](../source/expansion-panels-and-lists-in-flutter.dart)
+
+![](../images/expansion-panels-and-lists-in-flutter.jpg)
 
 # Complete CRUD App in Flutter
 
