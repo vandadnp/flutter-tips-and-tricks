@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Image Tint in Flutter](#image-tint-in-flutter)
 * [SlideTransition in Flutter](#slidetransition-in-flutter)
 * [Expansion Panels and Lists in Flutter](#expansion-panels-and-lists-in-flutter)
 * [Complete CRUD App in Flutter](#complete-crud-app-in-flutter)
@@ -175,6 +176,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Image Tint in Flutter
+
+[Video Demo](https://youtu.be/kkHU3TBAjjY)
+
+[Source Code](source/image-tint-in-flutter.dart)
+
+![](images/image-tint-in-flutter.jpg)
 
 # SlideTransition in Flutter
 
