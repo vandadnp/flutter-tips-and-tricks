@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Play YouTube in Flutter](#play-youtube-in-flutter)
 * [ListView Background in Flutter](#listview-background-in-flutter)
 * [Integer to Binary in Dart](#integer-to-binary-in-dart)
 * [Split String by Length in Dart](#split-string-by-length-in-dart)
@@ -179,6 +180,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Play YouTube in Flutter
+
+[Video Demo](https://youtu.be/4QWA65ysTw4)
+
+[Source Code](source/play-youtube-in-flutter.dart)
+
+![](images/play-youtube-in-flutter.jpg)
 
 # ListView Background in Flutter
 
