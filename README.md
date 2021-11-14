@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Linear Gradient in Flutter](#linear-gradient-in-flutter)
 * [Bloc Text Editing Controller in Flutter](#bloc-text-editing-controller-in-flutter)
 * [Blurred TabBar in Flutter](#blurred-tabbar-in-flutter)
 * [Play YouTube in Flutter](#play-youtube-in-flutter)
@@ -182,6 +183,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Linear Gradient in Flutter
+
+[Source Code](source/linear-gradient-in-flutter.dart)
+
+![](images/linear-gradient-in-flutter.jpg)
 
 # Bloc Text Editing Controller in Flutter
 
