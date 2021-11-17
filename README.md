@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [FlatMap in Dart](#flatmap-in-dart)
 * [`OrientationBuilder` in Flutter](#orientationbuilder-in-flutter)
 * [Linear Gradient in Flutter](#linear-gradient-in-flutter)
 * [Bloc Text Editing Controller in Flutter](#bloc-text-editing-controller-in-flutter)
@@ -184,6 +185,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# FlatMap in Dart
+
+[Source Code](source/flatmap-in-dart.dart)
+
+![](images/flatmap-in-dart.jpg)
 
 # `OrientationBuilder` in Flutter
 
