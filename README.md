@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Refresh Indicator in Flutter](#refresh-indicator-in-flutter)
 * [FlatMap in Dart](#flatmap-in-dart)
 * [`OrientationBuilder` in Flutter](#orientationbuilder-in-flutter)
 * [Linear Gradient in Flutter](#linear-gradient-in-flutter)
@@ -185,6 +186,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Refresh Indicator in Flutter
+
+[Video Demo](https://youtu.be/w5vpDQKrOlo)
+
+[Source Code](source/refresh-indicator-in-flutter.dart)
+
+![](images/refresh-indicator-in-flutter.jpg)
 
 # FlatMap in Dart
 
