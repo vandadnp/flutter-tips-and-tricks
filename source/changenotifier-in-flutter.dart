@@ -144,11 +144,6 @@ class RoundedImageWithShadow extends StatelessWidget {
 void main() {
   runApp(
     MaterialApp(
-      // theme: ThemeData(scaffoldBackgroundColor: Colors.black),
-      // home: BlocProvider(
-      //   create: (context) => SearchBloc(),
-      //   child: HomePage(),
-      // ),
       home: ChangeNotifierProvider(
         create: (_) => Images(),
         child: const HomePage(),
