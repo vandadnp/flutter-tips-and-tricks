@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`ChangeNotifier` in Flutter](#changenotifier-in-flutter)
 * [Refresh Indicator in Flutter](#refresh-indicator-in-flutter)
 * [FlatMap in Dart](#flatmap-in-dart)
 * [`OrientationBuilder` in Flutter](#orientationbuilder-in-flutter)
@@ -186,6 +187,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `ChangeNotifier` in Flutter
+
+[Video Demo](https://youtu.be/gjxFHKXSo-8)
+
+[Source Code](source/changenotifier-in-flutter.dart)
+
+![](images/changenotifier-in-flutter.jpg)
 
 # Refresh Indicator in Flutter
 
