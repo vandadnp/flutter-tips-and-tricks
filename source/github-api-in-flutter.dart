@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Stream Throttling in Flutter'),
+        title: const Text('GitHub API in Flutter'),
       ),
       body: FutureBuilder(
         future: getGithubFollowers(token),
