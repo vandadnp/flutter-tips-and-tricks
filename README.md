@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Generic Dialog in Flutter](#generic-dialog-in-flutter)
 * [GitHub API in Flutter](#github-api-in-flutter)
 * [`ChangeNotifier` in Flutter](#changenotifier-in-flutter)
 * [Refresh Indicator in Flutter](#refresh-indicator-in-flutter)
@@ -188,6 +189,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Generic Dialog in Flutter
+
+[Source Code](source/generic-dialog-in-flutter.dart)
+
+![](images/generic-dialog-in-flutter.jpg)
 
 # GitHub API in Flutter
 
