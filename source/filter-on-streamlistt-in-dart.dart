@@ -13,7 +13,7 @@ final Stream<List<int>> allNumbers = Stream.periodic(
 );
 
 bool isEven(num value) => value % 2 == 0;
-bool isOdd(num value) => value % 2 == 0;
+bool isOdd(num value) => value % 2 != 0;
 
 extension EvenOdd<E extends num> on Stream<List<E>> {
   Stream<List<E>> get evenNumbers => filter(isEven);
