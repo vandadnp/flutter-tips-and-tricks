@@ -28,6 +28,6 @@ void readEvenNumbers() async {
 
 void readOddNumbers() async {
   await for (final oddNumber in allNumbers.oddNumbers) {
-    devtools.log('All odd number: $oddNumber');
+    devtools.log('All odd numbers: $oddNumber');
   }
 }
