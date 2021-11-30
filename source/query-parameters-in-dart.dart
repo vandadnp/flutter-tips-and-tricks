@@ -1,5 +1,7 @@
 // Want to support my work 🤝? https://buymeacoffee.com/vandad
 
+import 'dart:developer' as devtools show log;
+
 const host = 'freecurrencyapi.net';
 const path = '/api/v2/latest';
 const apiKey = 'YOUR_API_KEY';
