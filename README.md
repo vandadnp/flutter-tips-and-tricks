@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Compact Map on `Map<K,V>` in Dart](#compact-map-on-mapkv-in-dart)
 * [Query Parameters in Dart](#query-parameters-in-dart)
 * [Multiple Gradients in Container in Flutter](#multiple-gradients-in-container-in-flutter)
 * [Filter on `Stream<List<T>>` in Dart](#filter-on-streamlistt-in-dart)
@@ -193,6 +194,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Compact Map on `Map<K,V>` in Dart
+
+[Source Code](source/compact-map-on-mapkv-in-dart.dart)
+
+![](images/compact-map-on-mapkv-in-dart.jpg)
 
 # Query Parameters in Dart
 
