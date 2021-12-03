@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Waiting in Dart](#waiting-in-dart)
 * [Loading Dialog in Flutter](#loading-dialog-in-flutter)
 * [Compact Map on `Map<K,V>` in Dart](#compact-map-on-mapkv-in-dart)
 * [Query Parameters in Dart](#query-parameters-in-dart)
@@ -195,6 +196,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Waiting in Dart
+
+[Source Code](source/waiting-in-dart.dart)
+
+![](images/waiting-in-dart.jpg)
 
 # Loading Dialog in Flutter
 
