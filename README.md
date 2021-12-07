@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Future` Error Handling in Dart](#future-error-handling-in-dart)
 * [String to Toast in Flutter](#string-to-toast-in-flutter)
 * [Waiting in Dart](#waiting-in-dart)
 * [Loading Dialog in Flutter](#loading-dialog-in-flutter)
@@ -197,6 +198,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Future` Error Handling in Dart
+
+[Source Code](source/future-error-handling-in-dart.dart)
+
+![](images/future-error-handling-in-dart.jpg)
 
 # String to Toast in Flutter
 
