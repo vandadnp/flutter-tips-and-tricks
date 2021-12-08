@@ -1,4 +1,4 @@
-# Handle Multiple Future Errors in Dart
+# Handle Multiple `Future` Errors in Dart
 
 [Source Code](../source/handle-multiple-future-errors-in-dart.dart)
 
