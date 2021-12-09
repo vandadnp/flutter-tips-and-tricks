@@ -1,5 +1,8 @@
 # Table of Contents
 
+* [Handle Multiple `Future` Errors in Dart](#handle-multiple-future-errors-in-dart)
+* [`Future` Error Handling in Dart](#future-error-handling-in-dart)
+* [String to Toast in Flutter](#string-to-toast-in-flutter)
 * [Waiting in Dart](#waiting-in-dart)
 * [Loading Dialog in Flutter](#loading-dialog-in-flutter)
 * [Compact Map on `Map<K,V>` in Dart](#compact-map-on-mapkv-in-dart)
@@ -196,6 +199,26 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Handle Multiple `Future` Errors in Dart
+
+[Source Code](source/handle-multiple-future-errors-in-dart.dart)
+
+![](images/handle-multiple-future-errors-in-dart.jpg)
+
+# `Future` Error Handling in Dart
+
+[Source Code](source/future-error-handling-in-dart.dart)
+
+![](images/future-error-handling-in-dart.jpg)
+
+# String to Toast in Flutter
+
+[Video Demo](https://youtu.be/G4ta9YtIdks)
+
+[Source Code](source/string-to-toast-in-flutter.dart)
+
+![](images/string-to-toast-in-flutter.jpg)
 
 # Waiting in Dart
 
