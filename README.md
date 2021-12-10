@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Custom Error Widget in Flutter](#custom-error-widget-in-flutter)
 * [Handle Multiple `Future` Errors in Dart](#handle-multiple-future-errors-in-dart)
 * [`Future` Error Handling in Dart](#future-error-handling-in-dart)
 * [String to Toast in Flutter](#string-to-toast-in-flutter)
@@ -199,6 +200,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Custom Error Widget in Flutter
+
+[Source Code](source/custom-error-widget-in-flutter.dart)
+
+![](images/custom-error-widget-in-flutter.jpg)
 
 # Handle Multiple `Future` Errors in Dart
 
