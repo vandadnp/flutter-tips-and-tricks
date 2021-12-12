@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Future` Error Test in Flutter] (future-error-test-in-flutter)
+* [`Future` Error Test in Flutter](#future-error-test-in-flutter)
 * [Generic URL Retrieval in Dart](#generic-url-retrieval-in-dart)
 * [Custom Error Widget in Flutter](#custom-error-widget-in-flutter)
 * [Handle Multiple `Future` Errors in Dart](#handle-multiple-future-errors-in-dart)
