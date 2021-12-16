@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Shake Animation in Flutter](#shake-animation-in-flutter)
 * [Throw Enums in Dart](#throw-enums-in-dart)
 * [`Future` Error Test in Flutter](#future-error-test-in-flutter)
 * [Generic URL Retrieval in Dart](#generic-url-retrieval-in-dart)
@@ -203,6 +204,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Shake Animation in Flutter
+
+[Video Demo](https://youtu.be/saENmhvugSo)
+
+[Source Code](source/shake-animation-in-flutter.dart)
+
+![](images/shake-animation-in-flutter.jpg)
 
 # Throw Enums in Dart
 
