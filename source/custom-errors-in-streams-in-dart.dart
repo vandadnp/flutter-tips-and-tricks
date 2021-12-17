@@ -1,3 +1,5 @@
+// Want to support my work 🤝? https://buymeacoffee.com/vandad
+
 class Either<V, E extends Exception> {
   final V? value;
   final E? error;
