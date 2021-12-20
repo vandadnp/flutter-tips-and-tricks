@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Image Opacity in Flutter](#image-opacity-in-flutter)
 * [Covariant in Dart](#covariant-in-dart)
 * [Custom Errors in Streams in Dart](#custom-errors-in-streams-in-dart)
 * [Shake Animation in Flutter](#shake-animation-in-flutter)
@@ -206,6 +207,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Image Opacity in Flutter
+
+[Video Demo](https://youtu.be/94-cWk_bQbw)
+
+[Source Code](source/image-opacity-in-flutter.dart)
+
+![](images/image-opacity-in-flutter.jpg)
 
 # Covariant in Dart
 
