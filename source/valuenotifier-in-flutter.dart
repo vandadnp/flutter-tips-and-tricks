@@ -74,28 +74,29 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('ValueNotifier in Flutter'),
-        ),
-        body: Column(
-          children: [
-            DynamicToolTipTextField(
-              hint: _hint,
-              controller: _controller,
-              keyboardType: TextInputType.emailAddress,
-            ),
-            TextButton(
-              onPressed: () async {
-                final email = _controller.text;
-                if (email.trim().isEmpty) {
-                  _hint.value = Hint.youForgotToEnterYourEmail.text;
-                  await Future.delayed(const Duration(seconds: 2));
-                  _hint.value = Hint.pleaseEnterYourEmail.text;
-                }
-              },
-              child: const Text('Log in'),
-            )
-          ],
-        ));
+      appBar: AppBar(
+        title: const Text('ValueNotifier in Flutter'),
+      ),
+      body: Column(
+        children: [
+          DynamicToolTipTextField(
+            hint: _hint,
+            controller: _controller,
+            keyboardType: TextInputType.emailAddress,
+          ),
+          TextButton(
+            onPressed: () async {
+              final email = _controller.text;
+              if (email.trim().isEmpty) {
+                _hint.value = Hint.youForgotToEnterYourEmail.text;
+                await Future.delayed(const Duration(seconds: 2));
+                _hint.value = Hint.pleaseEnterYourEmail.text;
+              }
+            },
+            child: const Text('Log in'),
+          )
+        ],
+      ),
+    );
   }
 }
