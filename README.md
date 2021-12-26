@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Filter on `Map` in Dart](#filter-on-map-in-dart)
 * [Type Alias in Dart](#type-alias-in-dart)
 * [`ValueNotifier` in Flutter](#valuenotifier-in-flutter)
 * [Object to Integer in Dart](#object-to-integer-in-dart)
@@ -210,6 +211,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Filter on `Map` in Dart
+
+[Source Code](source/filter-on-map-in-dart.dart)
+
+![](images/filter-on-map-in-dart.jpg)
 
 # Type Alias in Dart
 
