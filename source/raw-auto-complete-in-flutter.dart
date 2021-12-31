@@ -6,6 +6,12 @@ const emailProviders = [
   'yahoo.com',
 ];
 
+const icons = [
+  'https://bit.ly/3HsvvvB',
+  'https://bit.ly/3n6GW4L',
+  'https://bit.ly/3zf2RLy',
+];
+
 class EmailTextField extends StatefulWidget {
   const EmailTextField({Key? key}) : super(key: key);
 
@@ -90,6 +96,12 @@ class OptionsList extends StatelessWidget {
               return GestureDetector(
                 onTap: () => onSelected(controller.text + option),
                 child: ListTile(
+                  horizontalTitleGap: 2.0,
+                  leading: Image.network(
+                    icons[index],
+                    width: 24,
+                    height: 24,
+                  ),
                   title: Text(option),
                 ),
               );
@@ -115,7 +127,10 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Raw Auto Complete in Flutter'),
       ),
-      body: const EmailTextField(),
+      body: const Padding(
+        padding: EdgeInsets.all(16.0),
+        child: EmailTextField(),
+      ),
     );
   }
 }
