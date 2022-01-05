@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
           body: Center(
             child: TextButton(
               onPressed: () async {
-                await showTimePicker(
+                timeOfDay.value = await showTimePicker(
                   context: context,
                   initialTime: TimeOfDay.now(),
                   initialEntryMode: TimePickerEntryMode.input,
