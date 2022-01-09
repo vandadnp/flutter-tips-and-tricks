@@ -221,7 +221,7 @@
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
-# List Equality Ingoring Ordering in Dart
+# List Equality Ignoring Ordering in Dart
 
 [Source Code](source/list-equality-ignoring-ordering-in-dart.dart)
 
