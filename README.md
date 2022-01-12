@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Immutable Classes in Dart](#immutable-classes-in-dart.dart)
+* [Immutable Classes in Dart](#immutable-classes-in-dart)
 * [Card Widget in Flutter](#card-widget-in-flutter)
 * [List Equality Ignoring Ordering in Dart](#list-equality-ignoring-ordering-in-dart)
 * [Shorten GitHub URLs in Dart](#shorten-github-urls-in-dart)
