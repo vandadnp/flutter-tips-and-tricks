@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Paginated `ListView` in Flutter](#paginated-listview-in-dart)
+* [Paginated `ListView` in Flutter](#paginated-listview-in-flutter)
 * [Immutable Classes in Dart](#immutable-classes-in-dart)
 * [Card Widget in Flutter](#card-widget-in-flutter)
 * [List Equality Ignoring Ordering in Dart](#list-equality-ignoring-ordering-in-dart)
