@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Extending Functions in Dart](#extending-functions-in-dart)
 * [Paginated `ListView` in Flutter](#paginated-listview-in-flutter)
 * [Immutable Classes in Dart](#immutable-classes-in-dart)
 * [Card Widget in Flutter](#card-widget-in-flutter)
@@ -223,6 +224,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Extending Functions in Dart
+
+[Source Code](source/extending-functions-in-dart.dart)
+
+![](images/extending-functions-in-dart.jpg)
 
 # Paginated `ListView` in Flutter
 
