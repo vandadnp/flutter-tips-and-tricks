@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Haptic Feedback in Flutter](#haptic-feedback-in-flutter)
 * [Localization Delegates in Flutter](#localization-delegates-in-flutter)
 * [Extending Functions in Dart](#extending-functions-in-dart)
 * [Paginated `ListView` in Flutter](#paginated-listview-in-flutter)
@@ -225,6 +226,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Haptic Feedback in Flutter
+
+[Video Demo](https://youtu.be/9kzrtLb0YCE)
+
+[Source Code](source/haptic-feedback-in-flutter.dart)
+
+![](images/haptic-feedback-in-flutter.jpg)
 
 # Localization Delegates in Flutter
 
