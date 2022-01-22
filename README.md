@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
 * [Haptic Feedback in Flutter](#haptic-feedback-in-flutter)
 * [Localization Delegates in Flutter](#localization-delegates-in-flutter)
 * [Extending Functions in Dart](#extending-functions-in-dart)
@@ -226,6 +227,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Smart Quotes/Dashes in Flutter
+
+[Source Code](source/smart-quotes-dashes-in-flutter.dart)
+
+![](images/smart-quotes-dashes-in-flutter.jpg)
 
 # Haptic Feedback in Flutter
 
