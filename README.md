@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Unique `Map` Values in Dart](#unique-map-values-in-dart)
 * [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
 * [Haptic Feedback in Flutter](#haptic-feedback-in-flutter)
 * [Localization Delegates in Flutter](#localization-delegates-in-flutter)
@@ -227,6 +228,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Unique `Map` Values in Dart
+
+[Source Code](../unique-map-values-in-dart.dart)
+
+![](../unique-map-values-in-dart.jpg)
 
 # Smart Quotes/Dashes in Flutter
 
