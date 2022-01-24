@@ -231,9 +231,9 @@
 
 # Unique `Map` Values in Dart
 
-[Source Code](../unique-map-values-in-dart.dart)
+[Source Code](source/unique-map-values-in-dart.dart)
 
-![](../unique-map-values-in-dart.jpg)
+![](images/unique-map-values-in-dart.jpg)
 
 # Smart Quotes/Dashes in Flutter
 
