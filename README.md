@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Breadcrumbs in Flutter](#breadcrumbs-in-flutter)
 * [Unique `Map` Values in Dart](#unique-map-values-in-dart)
 * [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
 * [Haptic Feedback in Flutter](#haptic-feedback-in-flutter)
@@ -228,6 +229,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Breadcrumbs in Flutter
+
+[Video Demo](https://youtu.be/_4JJR35B7lM)
+
+[Source Code](source/breadcrumbs-in-flutter.dart)
+
+![](images/breadcrumbs-in-flutter.jpg)
 
 # Unique `Map` Values in Dart
 
