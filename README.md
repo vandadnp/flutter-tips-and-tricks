@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter.dart)
+* [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter)
 * [Breadcrumbs in Flutter](#breadcrumbs-in-flutter)
 * [Unique `Map` Values in Dart](#unique-map-values-in-dart)
 * [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
