@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter.dart)
 * [Breadcrumbs in Flutter](#breadcrumbs-in-flutter)
 * [Unique `Map` Values in Dart](#unique-map-values-in-dart)
 * [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
@@ -229,6 +230,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `AsyncSnapshot` to `Widget` in Flutter
+
+[Source Code](source/asyncsnapshot-to-widget-in-flutter.dart)
+
+![](images/asyncsnapshot-to-widget-in-flutter.jpg)
 
 # Breadcrumbs in Flutter
 
