@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Manually Scroll in List View in Flutter](#manually-scroll-in-list-view-in-flutter)
 * [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter)
 * [Breadcrumbs in Flutter](#breadcrumbs-in-flutter)
 * [Unique `Map` Values in Dart](#unique-map-values-in-dart)
@@ -230,6 +231,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Manually Scroll in List View in Flutter
+
+[Video Demo](https://youtu.be/ZYC6yd0nI9s)
+
+[Source Code](source/manually-scroll-in-list-view-in-flutter.dart)
+
+![](images/manually-scroll-in-list-view-in-flutter.jpg)
 
 # `AsyncSnapshot` to `Widget` in Flutter
 
