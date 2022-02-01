@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Random Iterable Value in Dart](#random-iterable-value-in-dart)
 * [Hardcoded Strings in Flutter](#hardcoded-strings-in-flutter)
 * [Manually Scroll in List View in Flutter](#manually-scroll-in-list-view-in-flutter)
 * [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter)
@@ -232,6 +233,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Random Iterable Value in Dart
+
+[Video Demo](https://youtu.be/ys6NatnIzOg)
+
+[Source Code](source/random-iterable-value-in-dart.dart)
+
+![](images/random-iterable-value-in-dart.jpg)
 
 # Hardcoded Strings in Flutter
 
