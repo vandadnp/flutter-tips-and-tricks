@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Object.hash` in Dart](#object.hash-in-dart.dart)
+* [`Object.hash` in Dart](#objecthash-in-dart.dart)
 * [Expanded Equally in Flutter](#expanded-equally-in-flutter)
 * [Random Iterable Value in Dart](#random-iterable-value-in-dart)
 * [Hardcoded Strings in Flutter](#hardcoded-strings-in-flutter)
