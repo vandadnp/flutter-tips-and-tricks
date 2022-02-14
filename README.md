@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Reusable APIs in Flutter](#reusable-apis-in-flutter)
 * [`ListTile` Shadow in Flutter](#listtile-shadow-in-flutter)
 * [Transparent AppBar in Flutter](#transparent-appbar-in-flutter)
 * [Constructors on Abstract Classes in Dart](#constructors-on-abstract-classes-in-dart)
@@ -240,6 +241,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Reusable APIs in Flutter
+
+[Source Code](source/reusable-apis-in-flutter.dart)
+
+![](images/reusable-apis-in-flutter.jpg)
 
 # `ListTile` Shadow in Flutter
 
