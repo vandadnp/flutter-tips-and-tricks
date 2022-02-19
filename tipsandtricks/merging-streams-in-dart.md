@@ -1,4 +1,4 @@
-# Mergins Streams in Dart
+# Merging Streams in Dart
 
 [Source Code](../source/merging-streams-in-dart.dart)
 
