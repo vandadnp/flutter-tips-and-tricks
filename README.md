@@ -245,7 +245,7 @@
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
 
-# Mergins Streams in Dart
+# Merging Streams in Dart
 
 [Source Code](source/merging-streams-in-dart.dart)
 
