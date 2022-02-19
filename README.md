@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Merging Streams in Dart](#merging-streams-in-dart)
 * [`Isolate` Stream in Dart](#isolate-stream-in-dart)
 * [Network Image Retry in Flutter](#network-image-retry-in-flutter)
 * [Reusable APIs in Flutter](#reusable-apis-in-flutter)
@@ -243,6 +244,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Mergins Streams in Dart
+
+[Source Code](source/merging-streams-in-dart.dart)
+
+![](images/merging-streams-in-dart.jpg)
 
 # `Isolate` Stream in Dart
 
