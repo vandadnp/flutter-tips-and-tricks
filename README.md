@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`useEffect` in Flutter Hooks](#useeffect-in-flutter-hooks)
 * [Merging Streams in Dart](#merging-streams-in-dart)
 * [`Isolate` Stream in Dart](#isolate-stream-in-dart)
 * [Network Image Retry in Flutter](#network-image-retry-in-flutter)
@@ -244,6 +245,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `useEffect` in Flutter Hooks
+
+[Source Code](source/useeffect-in-flutter-hooks.dart)
+
+![](images/useeffect-in-flutter-hooks.jpg)
 
 # Merging Streams in Dart
 
