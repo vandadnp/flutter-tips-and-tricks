@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Iterable.compactMap` in Dart](#iterable-compactmap-in-dart)
+* [`Iterable.compactMap` in Dart](#iterablecompactmap-in-dart)
 * [`useEffect` in Flutter Hooks](#useeffect-in-flutter-hooks)
 * [Merging Streams in Dart](#merging-streams-in-dart)
 * [`Isolate` Stream in Dart](#isolate-stream-in-dart)
