@@ -7,9 +7,9 @@ extension Log on Object {
   void log() => devtools.log(toString());
 }
 
-extension CompactMap<T> on Iterable<T> {
+extension CompactMap<T> on Iterable<T?> {
   Iterable<T> compactMap<E>([
-    E? Function(T)? transform,
+    E? Function(T?)? transform,
   ]) =>
       map(transform ?? (e) => e).where((e) => e != null).cast();
 }
