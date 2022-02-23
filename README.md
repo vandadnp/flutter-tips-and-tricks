@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Hide Sensitive Information in Flutter](#hide-sensitive-information-in-flutter)
 * [`Iterable.compactMap` in Dart](#iterablecompactmap-in-dart)
 * [`useEffect` in Flutter Hooks](#useeffect-in-flutter-hooks)
 * [Merging Streams in Dart](#merging-streams-in-dart)
@@ -246,6 +247,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+Hide Sensitive Information in Flutter
+
+[Video Demo](https://www.youtube.com/watch?v=N16cqlAbtyE)
+
+[Source Code](source/hide-sensitive-information-in-flutter.dart)
+
+![](images/hide-sensitive-information-in-flutter.jpg)
 
 # `Iterable.compactMap` in Dart
 
