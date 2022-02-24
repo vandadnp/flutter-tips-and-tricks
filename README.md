@@ -253,7 +253,7 @@
 
 [Source Code](source/doublenormalize-in-dart.dart)
 
-![](images/doublenormalize-in-dartjpg)
+![](images/doublenormalize-in-dart.jpg)
 
 # Hide Sensitive Information in Flutter
 
