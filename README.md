@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Stream<T>` Initial Value in Flutter](#streamt-initial-value-in-flutter)
 * [`Double.normalize` in Dart](#doublenormalize-in-dart)
 * [Hide Sensitive Information in Flutter](#hide-sensitive-information-in-flutter)
 * [`Iterable.compactMap` in Dart](#iterablecompactmap-in-dart)
@@ -248,6 +249,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Stream<T>` Initial Value in Flutter
+
+[Video Demo](https://youtu.be/vF8Nxlw1uY8)
+
+[Source Code](source/stream<t>-initial-value-in-flutter.dart)
+
+![](images/stream<t>-initial-value-in-flutter.jpg)
 
 # `Double.normalize` in Dart
 
