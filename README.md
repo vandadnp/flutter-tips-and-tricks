@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Iterable` +/- in Dart](#iterable-+--in-dart)
+* [`Iterable` +/- in Dart](#iterable---in-dart)
 * [Periodic Streams in Dart](#periodic-streams-in-dart)
 * [`EmptyOnError` in Dart](#emptyonerror-in-dart)
 * [`Stream<T>` Initial Value in Flutter](#streamt-initial-value-in-flutter)
