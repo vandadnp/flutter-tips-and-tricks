@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Iterable` +/- in Dart](#iterable-+--in-dart)
 * [Periodic Streams in Dart](#periodic-streams-in-dart)
 * [`EmptyOnError` in Dart](#emptyonerror-in-dart)
 * [`Stream<T>` Initial Value in Flutter](#streamt-initial-value-in-flutter)
@@ -251,6 +252,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Iterable` +/- in Dart
+
+[Source Code](source/iterable-plus-minus-in-dart.dart)
+
+![](images/iterable-plus-minus-in-dart.jpg)
 
 # Periodic Streams in Dart
 
