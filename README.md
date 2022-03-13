@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Copying Bloc State in Flutter](#copying-bloc-state-in-flutter)
 * [`Iterable` Subscripts in Dart](#iterable-subscripts-in-dart)
 * [`useState` in Flutter Hooks](#usestate-in-flutter-hooks)
 * [Folding Iterables in Dart](#folding-iterables-in-dart)
@@ -257,6 +258,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Copying Bloc State in Flutter
+
+[Source Code](source/copying-bloc-state-in-flutter.dart)
+
+![](images/copying-bloc-state-in-flutter.jpg)
 
 # `Iterable` Subscripts in Dart
 
