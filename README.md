@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Fast `Object.toString()` in Dart]()
+* [Fast `Object.toString()` in Dart](#fast-objecttostring-in-dart)
 * [Copying Bloc State in Flutter](#copying-bloc-state-in-flutter)
 * [`Iterable` Subscripts in Dart](#iterable-subscripts-in-dart)
 * [`useState` in Flutter Hooks](#usestate-in-flutter-hooks)
