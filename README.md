@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Fast `Object.toString()` in Dart]()
 * [Copying Bloc State in Flutter](#copying-bloc-state-in-flutter)
 * [`Iterable` Subscripts in Dart](#iterable-subscripts-in-dart)
 * [`useState` in Flutter Hooks](#usestate-in-flutter-hooks)
@@ -258,6 +259,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Fast `Object.toString()` in Dart
+
+[Source Code](source/fast-object-tostring-in-dart.dart)
+
+![](images/fast-object-tostring-in-dart.jpg)
 
 # Copying Bloc State in Flutter
 
