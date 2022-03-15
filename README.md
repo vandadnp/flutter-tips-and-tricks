@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Password Mask in Flutter](#password-mask-in-flutter)
 * [Fast `Object.toString()` in Dart](#fast-objecttostring-in-dart)
 * [Copying Bloc State in Flutter](#copying-bloc-state-in-flutter)
 * [`Iterable` Subscripts in Dart](#iterable-subscripts-in-dart)
@@ -259,6 +260,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Password Mask in Flutter
+
+[Video Demo](https://youtu.be/sVRiM_1GGBA)
+
+[Source Code](source/password-mask-in-flutter.dart)
+
+![](images/password-mask-in-flutter.jpg)
 
 # Fast `Object.toString()` in Dart
 
