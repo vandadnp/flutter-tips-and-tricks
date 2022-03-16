@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Unordered `Map` Equality in Dart](#unordered-map-equality-in-dart)
 * [`Iterable` to `ListView` in Flutter](#iterable-to-listview-in-flutter)
 * [Password Mask in Flutter](#password-mask-in-flutter)
 * [Fast `Object.toString()` in Dart](#fast-objecttostring-in-dart)
@@ -261,6 +262,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Unordered `Map` Equality in Dart
+
+[Source Code](source/unordered-map-equality-in-dart.dart)
+
+![](images/unordered-map-equality-in-dart.jpg)
 
 # `Iterable` to `ListView` in Flutter
 
