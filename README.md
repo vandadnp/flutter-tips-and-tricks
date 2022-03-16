@@ -266,9 +266,9 @@
 
 # `AnnotatedRegion` in Flutter
 
-[Source Code](source/annotated-region-in-flutter.dart)
+[Source Code](source/annotatedregion-in-flutter.dart)
 
-![](images/annotated-region-in-flutter.jpg)
+![](images/annotatedregion-in-flutter.jpg)
 
 # Unordered `Map` Equality in Dart
 
