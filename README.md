@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Stream.startWith` in Flutter](streamstartwith-in-flutter)
 * [Optional Functions in Dart](#optional-functions-in-dart)
 * [`AnnotatedRegion` in Flutter](#annotatedregion-in-flutter)
 * [Unordered `Map` Equality in Dart](#unordered-map-equality-in-dart)
@@ -264,6 +265,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Stream.startWith` in Flutter
+
+[Source Code](source/streamstartwith-in-flutter.dart)
+
+![](images/streamstartwith-in-flutter.jpg)
 
 # Optional Functions in Dart
 
