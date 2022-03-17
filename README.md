@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Stream.startWith` in Flutter](streamstartwith-in-flutter)
+* [`Stream.startWith` in Flutter](#streamstartwith-in-flutter)
 * [Optional Functions in Dart](#optional-functions-in-dart)
 * [`AnnotatedRegion` in Flutter](#annotatedregion-in-flutter)
 * [Unordered `Map` Equality in Dart](#unordered-map-equality-in-dart)
