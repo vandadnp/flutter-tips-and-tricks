@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Keyboard Appearance in Flutter](#keyboard-appearance-in-flutter)
 * [Get `String` Data in Dart](#get-string-data-in-dart)
 * [`Stream.startWith` in Flutter](#streamstartwith-in-flutter)
 * [Optional Functions in Dart](#optional-functions-in-dart)
@@ -266,6 +267,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Keyboard Appearance in Flutter
+
+[Source Code](source/keyboard-appearance-in-flutter.dart)
+
+![](images/keyboard-appearance-in-flutter.jpg)
 
 # Get `String` Data in Dart
 
