@@ -12,7 +12,7 @@ const authErrorMapping = {
 @immutable
 abstract class AuthError {
   factory AuthError.from(FirebaseAuthException exception) =>
-      authErrorMapping[exception.code.toLowerCase().trim] ??
+      authErrorMapping[exception.code.toLowerCase().trim()] ??
       const AuthErrorUnknown();
 }
 
