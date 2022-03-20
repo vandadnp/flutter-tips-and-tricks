@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Firebase Auth Errors in Flutter](#firebase-auth-errors-in-flutter)
 * [Debug Strings in Flutter](#debug-strings-in-flutter)
 * [Keyboard Appearance in Flutter](#keyboard-appearance-in-flutter)
 * [Get `String` Data in Dart](#get-string-data-in-dart)
@@ -268,6 +269,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Firebase Auth Errors in Flutter
+
+[Source Code](source/firebase-auth-errors-in-flutter.dart)
+
+![](images/firebase-auth-errors-in-flutter.jpg)
 
 # Debug Strings in Flutter
 
