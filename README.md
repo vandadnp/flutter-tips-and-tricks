@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [MapList in Flutter](#maplist-in-flutter)
 * [`Future<bool>` in Flutter](#futurebool-in-flutter)
 * [Async Bloc Init in Flutter](#async-bloc-init-in-flutter)
 * [Firebase Auth Errors in Flutter](#firebase-auth-errors-in-flutter)
@@ -271,6 +272,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# MapList in Flutter
+
+[Source Code](source/maplist-in-flutter.dart)
+
+![](images/maplist-in-flutter.jpg)
 
 # `Future<bool>` in Flutter
 
