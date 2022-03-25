@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Custom Lists in Dart](#custom-lists-in-dart)
 * [Optional Chaining in Dart](#optional-chaining-in-dart)
 * [MapList in Flutter](#maplist-in-flutter)
 * [`Future<bool>` in Flutter](#futurebool-in-flutter)
@@ -273,6 +274,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Custom Lists in Dart
+
+[Source Code](source/custom-lists-in-dart.dart)
+
+![](images/custom-lists-in-dart.jpg)
 
 # Optional Chaining in Dart
 
