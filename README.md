@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Caching Temp Files in Flutter](#caching-temp-files-in-flutter)
 * [Custom Lists in Dart](#custom-lists-in-dart)
 * [Optional Chaining in Dart](#optional-chaining-in-dart)
 * [MapList in Flutter](#maplist-in-flutter)
@@ -274,6 +275,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Caching Temp Files in Flutter
+
+[Source Code](source/caching-temp-files-in-flutter.dart)
+
+![](images/caching-temp-files-in-flutter.jpg)
 
 # Custom Lists in Dart
 
