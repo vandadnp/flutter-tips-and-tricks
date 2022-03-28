@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`FutureGroup` in Dart](#futuregroup-in-flutter)
+* [`FutureGroup` in Dart](#futuregroup-in-dart)
 * [Flatten `Iterable<bool>` in Dart](#flatten-iterablebool-in-dart)
 * [Caching Temp Files in Flutter](#caching-temp-files-in-flutter)
 * [Custom Lists in Dart](#custom-lists-in-dart)
