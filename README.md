@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [API Caching in Flutter](#api-caching-in-flutter)
 * [`FutureGroup` in Dart](#futuregroup-in-dart)
 * [Flatten `Iterable<bool>` in Dart](#flatten-iterablebool-in-dart)
 * [Caching Temp Files in Flutter](#caching-temp-files-in-flutter)
@@ -277,6 +278,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# API Caching in Flutter
+
+[Source Code](../source/api-caching-in-flutter)
+
+![](../images/api-caching-in-flutter)
 
 # `FutureGroup` in Dart
 
