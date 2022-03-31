@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Cancelable APIs in Flutter](#cancelable-apis-in-flutter)
 * [Asset Data in Flutter](#asset-data-in-flutter)
 * [API Caching in Flutter](#api-caching-in-flutter)
 * [`FutureGroup` in Dart](#futuregroup-in-dart)
@@ -279,6 +280,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Cancelable APIs in Flutter
+
+[Source Code](source/cancelable-apis-in-flutter.dart)
+
+![](images/cancelable-apis-in-flutter.jpg)
 
 # Asset Data in Flutter
 
