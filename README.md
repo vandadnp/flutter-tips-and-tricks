@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Restartable Timer in Dart](#restartable-timer-in-dart)
 * [`LazyStream` in Flutter and Dart](#lazystream-in-flutter-and-dart)
 * [Cancelable APIs in Flutter](#cancelable-apis-in-flutter)
 * [Asset Data in Flutter](#asset-data-in-flutter)
@@ -281,6 +282,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Restartable Timer in Dart
+
+[Source Code](source/restartable-timer-in-dart.dart)
+
+![](images/restartable-timer-in-dart.jpg)
 
 # `LazyStream` in Flutter and Dart
 
