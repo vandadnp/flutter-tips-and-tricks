@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Cherry Pick Provider Changes in Flutter](#cherry-pick-provider-changes-in-flutter)
 * [URL Data in Dart](#url-data-in-dart)
 * [Observe Network Connection in Flutter](#observe-network-connection-in-flutter)
 * [Restartable Timer in Dart](#restartable-timer-in-dart)
@@ -284,6 +285,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Cherry Pick Provider Changes in Flutter
+
+[Source Code](source/cherry-pick-provider-changes-in-flutter.dart)
+
+![](images/cherry-pick-provider-changes-in-flutter.jpg)
 
 # URL Data in Dart
 
