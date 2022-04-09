@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Hide Keyword in Dart](#hide-keyword-in-dart)
 * [Firebase Batch Operations in Flutter](#firebase-batch-operations-in-flutter)
 * [Show Keyword in Dart](#show-keyword-in-dart)
 * [Cherry Pick Provider Changes in Flutter](#cherry-pick-provider-changes-in-flutter)
@@ -287,6 +288,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Hide Keyword in Dart
+
+[Source Code](source/hide-keyword-in-dart.dart)
+
+![](images/hide-keyword-in-dart.jpg)
 
 # Firebase Batch Operations in Flutter
 
