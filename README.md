@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Delay Extension in Flutter](#delay-extension-in-flutter)
 * [Hide Keyword in Dart](#hide-keyword-in-dart)
 * [Firebase Batch Operations in Flutter](#firebase-batch-operations-in-flutter)
 * [Show Keyword in Dart](#show-keyword-in-dart)
@@ -288,6 +289,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Delay Extension in Flutter
+
+[Source Code](source/delay-extension-in-flutter.dart)
+
+![](images/delay-extension-in-flutter.jpg)
 
 # Hide Keyword in Dart
 
