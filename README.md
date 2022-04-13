@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Multi-field Object Comparison in Dart](#multi-field-object-comparison-in-dart)
 * [Expectation Extensions in Flutter](#expectation-extensions-in-flutter)
 * [Delay Extension in Flutter](#delay-extension-in-flutter)
 * [Hide Keyword in Dart](#hide-keyword-in-dart)
@@ -290,6 +291,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Multi-field Object Comparison in Dart
+
+[Source Code](source/multi-field-object-comparison-in-dart.dart)
+
+![](images/multi-field-object-comparison-in-dart.jpg)
 
 # Expectation Extensions in Flutter
 
