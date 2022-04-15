@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Function Pointers in Flutter](#function-pointers-in-flutter)
 * [Multi-field Object Comparison in Dart](#multi-field-object-comparison-in-dart)
 * [Expectation Extensions in Flutter](#expectation-extensions-in-flutter)
 * [Delay Extension in Flutter](#delay-extension-in-flutter)
@@ -291,6 +292,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Function Pointers in Flutter
+
+[Source Code](source/function-pointers-in-flutter.dart)
+
+![](images/function-pointers-in-flutter.jpg)
 
 # Multi-field Object Comparison in Dart
 
