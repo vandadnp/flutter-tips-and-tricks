@@ -3,6 +3,7 @@
 // 🎥 YouTube                   https://youtube.com/c/vandadnp
 // 💙 Free Flutter Course       https://linktr.ee/vandadnp
 // 📦 11+ Hours Bloc Course     https://youtu.be/Mn254cnduOY
+// 🔶 7+ Hours MobX Course      https://youtu.be/7Od55PBxYkI
 // 🤝 Want to support my work?  https://buymeacoffee.com/vandad
 
 import 'package:flutter/material.dart';
