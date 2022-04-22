@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [RequireData in AsyncSnapshot in Flutter](#requiredata-in-asyncsnapshot-in-flutter)
+* [RequireData in `AsyncSnapshot` in Flutter](#requiredata-in-asyncsnapshot-in-flutter)
 * [`Symbol` in Dart](#symbol-in-dart)
 * [`RadioListTile` in Flutter](#radiolisttile-in-flutter)
 * [Infinite `ListView` in Flutter](#infinite-listview-in-flutter)
