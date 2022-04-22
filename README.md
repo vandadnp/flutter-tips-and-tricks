@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [RequireData in AsyncSnapshot in Flutter](#requiredata-in-asyncsnapshot-in-flutter)
 * [`Symbol` in Dart](#symbol-in-dart)
 * [`RadioListTile` in Flutter](#radiolisttile-in-flutter)
 * [Infinite `ListView` in Flutter](#infinite-listview-in-flutter)
@@ -296,6 +297,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# RequireData in `AsyncSnapshot` in Flutter
+
+[Source Code](source/requiredata-in-asyncsnapshot-in-flutter.dart)
+
+![](images/requiredata-in-asyncsnapshot-in-flutter.jpg)
 
 # `Symbol` in Dart
 
