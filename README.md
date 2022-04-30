@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Reusable Separators in Flutter](#reusable-separators-in-flutter)
 * [`AsyncSnapshotBuilder` in Flutter](#asyncsnapshotbuilder-in-flutter)
 * [Default Parameter Values in Dart](#default-parameter-values-in-dart)
 * [`Clipboard` in Flutter](#clipboard-in-flutter)
@@ -301,6 +302,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Reusable Separators in Flutter
+
+[Source Code](source/reusable-separators-in-flutter.dart)
+
+![](images/reusable-separators-in-flutter.jpg)
 
 # `AsyncSnapshotBuilder` in Flutter
 
