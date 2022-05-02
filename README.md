@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Stream` Drain in Flutter](#stream-drain-in-flutter)
 * [Reusable Separators in Flutter](#reusable-separators-in-flutter)
 * [`AsyncSnapshotBuilder` in Flutter](#asyncsnapshotbuilder-in-flutter)
 * [Default Parameter Values in Dart](#default-parameter-values-in-dart)
@@ -302,6 +303,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Stream` Drain in Flutter
+
+[Source Code](source/stream-drain-in-flutter.dart)
+
+![](images/stream-drain-in-flutter.jpg)
 
 # Reusable Separators in Flutter
 
