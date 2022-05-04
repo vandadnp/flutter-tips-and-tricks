@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`+` Operator on `Map` in Dart](#+-operator-on-map-in-dart)
+* [`+` Operator on `Map` in Dart](#-operator-on-map-in-dart)
 * [`Stream` Drain in Flutter](#stream-drain-in-flutter)
 * [Reusable Separators in Flutter](#reusable-separators-in-flutter)
 * [`AsyncSnapshotBuilder` in Flutter](#asyncsnapshotbuilder-in-flutter)
