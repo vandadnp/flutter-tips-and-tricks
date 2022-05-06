@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Functions as First Class Citizens in Flutter](#functions-as-first-class-citizens-in-flutter)
 * [`+` Operator on `Map` in Dart](#-operator-on-map-in-dart)
 * [`Stream` Drain in Flutter](#stream-drain-in-flutter)
 * [Reusable Separators in Flutter](#reusable-separators-in-flutter)
@@ -304,6 +305,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Functions as First Class Citizens in Flutter
+
+[Source Code](source/functions-as-first-class-citizens-in-flutter.dart)
+
+![](images/functions-as-first-class-citizens-in-flutter.jpg)
 
 # `+` Operator on `Map` in Dart
 
