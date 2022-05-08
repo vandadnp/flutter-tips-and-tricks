@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Inline Synchronous Generators in Dart](#inline-synchronous-generators-in-dart)
 * [Functions as First Class Citizens in Flutter](#functions-as-first-class-citizens-in-flutter)
 * [`+` Operator on `Map` in Dart](#-operator-on-map-in-dart)
 * [`Stream` Drain in Flutter](#stream-drain-in-flutter)
@@ -305,6 +306,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Inline Synchronous Generators in Dart
+
+[Source Code](source/inline-synchronous-generators-in-dart.dart)
+
+![](images/inline-synchronous-generators-in-dart.jpg)
 
 # Functions as First Class Citizens in Flutter
 
