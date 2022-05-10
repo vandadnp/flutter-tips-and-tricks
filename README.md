@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Unwrapping Streams in Dart](#unwrapping-streams-in-dart)
 * [Appending to `Iterable<T>` in Dart](#appending-to-iterablet-in-dart)
 * [Inline Synchronous Generators in Dart](#inline-synchronous-generators-in-dart)
 * [Functions as First Class Citizens in Flutter](#functions-as-first-class-citizens-in-flutter)
@@ -307,6 +308,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Unwrapping Streams in Dart
+
+[Source Code](source/unwrapping-streams-in-dart.dart)
+
+![](images/unwrapping-streams-in-dart.jpg)
 
 # Appending to `Iterable<T>` in Dart
 
