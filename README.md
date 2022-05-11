@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Constructor vs Factory Constructor in Dart](#constructor-vs-factory-constructor-in-dart)
 * [Unwrapping Streams in Dart](#unwrapping-streams-in-dart)
 * [Appending to `Iterable<T>` in Dart](#appending-to-iterablet-in-dart)
 * [Inline Synchronous Generators in Dart](#inline-synchronous-generators-in-dart)
@@ -308,6 +309,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Constructor vs Factory Constructor
+
+[Source Code](source/constructor-vs-factory-constructor-in-dart.dart)
+
+![](images/constructor-vs-factory-constructor-in-dart.jpg)
 
 # Unwrapping Streams in Dart
 
