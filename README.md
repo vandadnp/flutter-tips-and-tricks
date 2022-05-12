@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Enum Members in Dart 2.17](#enum-members-in-dart-217)
 * [Constructor vs Factory Constructor in Dart](#constructor-vs-factory-constructor-in-dart)
 * [Unwrapping Streams in Dart](#unwrapping-streams-in-dart)
 * [Appending to `Iterable<T>` in Dart](#appending-to-iterablet-in-dart)
@@ -309,6 +310,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Enum Members in Dart 2.17
+
+[Source Code](source/enum-members-in-dart-2-17.dart)
+
+![](images/enum-members-in-dart-2-17.jpg)
 
 # Constructor vs Factory Constructor in Dart
 
