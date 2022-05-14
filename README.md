@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`StreamController` Sink in Flutter](#streamcontroller-sink-in-flutter)
 * [Enum Members in Dart 2.17](#enum-members-in-dart-217)
 * [Constructor vs Factory Constructor in Dart](#constructor-vs-factory-constructor-in-dart)
 * [Unwrapping Streams in Dart](#unwrapping-streams-in-dart)
@@ -310,6 +311,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `StreamController` Sink in Flutter
+
+[Video Demo](https://youtu.be/4gg_lij3XH4)
+
+[Source Code](source/streamcontroller-sink-in-flutter.dart)
+
+![](images/streamcontroller-sink-in-flutter.jpg)
 
 # Enum Members in Dart 2.17
 
