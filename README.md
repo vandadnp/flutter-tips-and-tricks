@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Static vs Factory Constructors in Dart](#static-vs-factory-constructors-in-dart)
 * [Result Type in Dart](#result-type-in-dart)
 * [`StreamController` Sink in Flutter](#streamcontroller-sink-in-flutter)
 * [Enum Members in Dart 2.17](#enum-members-in-dart-217)
@@ -312,6 +313,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Static vs Factory Constructors in Dart
+
+[Source Code](source/static-vs-factory-constructors-in-dart.dart)
+
+![](images/static-vs-factory-constructors-in-dart.jpg)
 
 # Result Type in Dart
 
