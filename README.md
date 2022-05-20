@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Integer Range Extension in Dart](#integer-range-extension-in-dart)
 * [Static vs Factory Constructors in Dart](#static-vs-factory-constructors-in-dart)
 * [Result Type in Dart](#result-type-in-dart)
 * [`StreamController` Sink in Flutter](#streamcontroller-sink-in-flutter)
@@ -313,6 +314,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Integer Range extension in Dart
+
+[Source Code](source/integer-range-extension-in-dart.dart)
+
+![](images/integer-range-extension-in-dart.jpg)
 
 # Static vs Factory Constructors in Dart
 
