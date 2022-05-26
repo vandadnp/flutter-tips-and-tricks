@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Email Drag and Drop in Flutter](#email-drag-and-drop-in-flutter)
 * [Cherry-Picking Functions in Dart](#cherry-picking-functions-in-dart)
 * [Integer Range Extension in Dart](#integer-range-extension-in-dart)
 * [Static vs Factory Constructors in Dart](#static-vs-factory-constructors-in-dart)
@@ -315,6 +316,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Email Drag and Drop in Flutter
+
+[Video Demo](https://youtu.be/UMOoBaw1tBE)
+
+[Source Code](source/email-drag-and-drop-in-flutter.dart)
+
+![](images/email-drag-and-drop-in-flutter.jpg)
 
 # Cherry Picking Functions in Dart
 
