@@ -4,7 +4,7 @@
 // 💙 Free Flutter Course       https://linktr.ee/vandadnp
 // 📦 11+ Hours Bloc Course     https://youtu.be/Mn254cnduOY
 // 🔶 7+ Hours MobX Course      https://youtu.be/7Od55PBxYkI
-// 🦄 8+ Hours RxSwift Coursde  https://youtu.be/xBFWMYmm9ro
+// 🦄 9+ Hours RxDart Course    https://youtu.be/xBFWMYmm9ro
 // 🤝 Want to support my work?  https://buymeacoffee.com/vandad
 
 import 'package:flutter/material.dart';
