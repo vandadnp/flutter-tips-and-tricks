@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`Set` Comprehension in Dart](#set-comprehension-in-dart)
 * [Stretching `GridView` Items in Flutter](#stretching-gridview-items-in-flutter)
 * [Email Drag and Drop in Flutter](#email-drag-and-drop-in-flutter)
 * [Cherry-Picking Functions in Dart](#cherry-picking-functions-in-dart)
@@ -317,6 +318,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `Set` Comprehension in Dart
+
+[Source Code](source/set-comprehension-in-dart.jpg)
+
+![](images/set-comprehension-in-dart.jpg)
 
 # Stretching `GridView` Items in Flutter
 
