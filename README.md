@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Animating FAB in Flutter](#animating-fab-in-flutter)
 * [Image Gallery in Flutter](#image-gallery-in-flutter)
 * [Map with Index in Dart](#map-with-index-in-dart)
 * [`Set` Comprehension in Dart](#set-comprehension-in-dart)
@@ -320,6 +321,12 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# Animating FAB in Flutter
+
+[Source Code](source/animating-fab-in-flutter.dart)
+
+![](images/animating-fab-in-flutter.jpg)
 
 # Image Gallery in Flutter
 
