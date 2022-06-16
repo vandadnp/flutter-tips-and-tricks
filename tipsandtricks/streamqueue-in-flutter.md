@@ -4,4 +4,4 @@
 
 [Source Code](../source/streamqueue-in-flutter.dart)
 
-[Images](../images/streamqueue-in-flutter.jpg)
+![](../images/streamqueue-in-flutter.jpg)
