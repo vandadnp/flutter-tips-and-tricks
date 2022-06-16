@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`StreamQueue` in Flutter](#streamqueue-in-flutter)
 * [Enum Annotations in Flutter](#enum-annotations-in-flutter)
 * [Sorting Generics in Dart](#sorting-generics-in-dart)
 * [Animating FAB in Flutter](#animating-fab-in-flutter)
@@ -323,6 +324,14 @@
 * [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
 * [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
+
+# `StreamQueue` in Flutter
+
+[Video Demo](https://youtu.be/aE9e3aTUf3k)
+
+[Source Code](source/streamqueue-in-flutter.dart)
+
+![](images/streamqueue-in-flutter.jpg)
 
 # Enum Annotations in Flutter
 
