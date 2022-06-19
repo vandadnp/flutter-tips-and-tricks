@@ -1,5 +1,5 @@
 # Firebase Batch Operations in Flutter
 
-[Source Code](../source/firebase-batch-operations-in-flutter.dart)
+[Source Code](firebase-batch-operations-in-flutter.dart)
 
-![](../images/firebase-batch-operations-in-flutter.jpg)
+![](firebase-batch-operations-in-flutter.jpg)

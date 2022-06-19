@@ -1,5 +1,5 @@
 # Custom Error Widget in Flutter
 
-[Source Code](../source/custom-error-widget-in-flutter.dart)
+[Source Code](custom-error-widget-in-flutter.dart)
 
-![](../images/custom-error-widget-in-flutter.jpg)
+![](custom-error-widget-in-flutter.jpg)

@@ -1,5 +1,5 @@
 # Unique Maps in Dart
 
-[Source Code](../source/unique-maps-in-dart.dart)
+[Source Code](unique-maps-in-dart.dart)
 
-![](../images/unique-maps-in-dart.jpg)
+![](unique-maps-in-dart.jpg)

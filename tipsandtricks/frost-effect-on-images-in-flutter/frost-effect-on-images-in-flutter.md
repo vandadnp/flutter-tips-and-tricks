@@ -1,5 +1,5 @@
 # Frost Effect on Images in Flutter
 
-[Source Code](../source/frost-effect-on-images-in-flutter.dart)
+[Source Code](frost-effect-on-images-in-flutter.dart)
 
-![](../images/frost-effect-on-images-in-flutter.jpg)
+![](frost-effect-on-images-in-flutter.jpg)

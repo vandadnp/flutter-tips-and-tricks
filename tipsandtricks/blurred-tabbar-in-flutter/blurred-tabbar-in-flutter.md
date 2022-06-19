@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/j4QolzZZ6yM)
 
-[Source Code](../source/blurred-tabbar-in-flutter.dart)
+[Source Code](blurred-tabbar-in-flutter.dart)
 
-![](../images/blurred-tabbar-in-flutter.jpg)
+![](blurred-tabbar-in-flutter.jpg)

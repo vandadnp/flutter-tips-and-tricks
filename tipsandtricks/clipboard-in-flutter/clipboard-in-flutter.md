@@ -1,5 +1,5 @@
 # `Clipboard` in Flutter
 
-[Source Code](../source/clipboard-in-flutter.dart)
+[Source Code](clipboard-in-flutter.dart)
 
-![](../images/clipboard-in-flutter.jpg)
+![](clipboard-in-flutter.jpg)

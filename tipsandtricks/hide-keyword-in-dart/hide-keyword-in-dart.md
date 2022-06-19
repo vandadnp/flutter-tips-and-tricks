@@ -1,5 +1,5 @@
 # Hide Keyword in Dart
 
-[Source Code](../source/hide-keyword-in-dart.dart)
+[Source Code](hide-keyword-in-dart.dart)
 
-![](../images/hide-keyword-in-dart.jpg)
+![](hide-keyword-in-dart.jpg)

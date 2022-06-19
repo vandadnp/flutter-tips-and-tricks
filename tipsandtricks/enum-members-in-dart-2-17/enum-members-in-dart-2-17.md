@@ -1,5 +1,5 @@
 # Enum Members in Dart 2.17
 
-[Source Code](../source/enum-members-in-dart-2-17.dart)
+[Source Code](enum-members-in-dart-2-17.dart)
 
-![](../images/enum-members-in-dart-2-17.jpg)
+![](enum-members-in-dart-2-17.jpg)

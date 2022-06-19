@@ -1,5 +1,5 @@
 # Optional Functions in Dart
 
-[Source Code](../source/optional-functions-in-dart.dart)
+[Source Code](optional-functions-in-dart.dart)
 
-![](../images/optional-functions-in-dart.jpg)
+![](optional-functions-in-dart.jpg)

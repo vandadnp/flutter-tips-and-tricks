@@ -1,5 +1,5 @@
 # Linear Gradient in Flutter
 
-[Source Code](../source/linear-gradient-in-flutter.dart)
+[Source Code](linear-gradient-in-flutter.dart)
 
-![](../images/linear-gradient-in-flutter.jpg)
+![](linear-gradient-in-flutter.jpg)

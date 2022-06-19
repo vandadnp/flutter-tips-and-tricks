@@ -1,5 +1,5 @@
 # Waiting in Dart
 
-[Source Code](../source/waiting-in-dart.dart)
+[Source Code](waiting-in-dart.dart)
 
-![](../images/waiting-in-dart.jpg)
+![](waiting-in-dart.jpg)

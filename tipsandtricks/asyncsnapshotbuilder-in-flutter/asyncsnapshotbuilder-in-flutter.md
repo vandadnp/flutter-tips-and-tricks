@@ -1,5 +1,5 @@
 # `AsyncSnapshotBuilder` in Flutter
 
-[Source Code](../source/asyncsnapshotbuilder-in-flutter.dart)
+[Source Code](asyncsnapshotbuilder-in-flutter.dart)
 
-![](../images/asyncsnapshotbuilder-in-flutter.jpg)
+![](asyncsnapshotbuilder-in-flutter.jpg)

@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/9kzrtLb0YCE)
 
-[Source Code](../source/haptic-feedback-in-flutter.dart)
+[Source Code](haptic-feedback-in-flutter.dart)
 
-![](../images/haptic-feedback-in-flutter.jpg)
+![](haptic-feedback-in-flutter.jpg)

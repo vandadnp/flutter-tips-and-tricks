@@ -1,5 +1,5 @@
 # Displaying Scroll Wheels in Flutter
 
-[Source Code](../source/displaying-scroll-wheels-in-flutter.dart)
+[Source Code](displaying-scroll-wheels-in-flutter.dart)
 
-![](../images/displaying-scroll-wheels-in-flutter.jpg)
+![](displaying-scroll-wheels-in-flutter.jpg)

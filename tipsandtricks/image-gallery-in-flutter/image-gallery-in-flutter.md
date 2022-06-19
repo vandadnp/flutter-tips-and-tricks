@@ -1,5 +1,5 @@
 # Image Gallery in Flutter
 
-[Source Code](../source/image-gallery-in-flutter.dart)
+[Source Code](image-gallery-in-flutter.dart)
 
-![](../images/image-gallery-in-flutter.jpg)
+![](image-gallery-in-flutter.jpg)

@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/saENmhvugSo)
 
-[Source Code](../source/shake-animation-in-flutter.dart)
+[Source Code](shake-animation-in-flutter.dart)
 
-![](../images/shake-animation-in-flutter.jpg)
+![](shake-animation-in-flutter.jpg)

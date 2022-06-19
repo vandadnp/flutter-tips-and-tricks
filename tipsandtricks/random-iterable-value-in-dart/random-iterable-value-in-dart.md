@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/ys6NatnIzOg)
 
-[Source Code](../source/random-iterable-value-in-dart.dart)
+[Source Code](random-iterable-value-in-dart.dart)
 
-![](../images/random-iterable-value-in-dart.jpg)
+![](random-iterable-value-in-dart.jpg)

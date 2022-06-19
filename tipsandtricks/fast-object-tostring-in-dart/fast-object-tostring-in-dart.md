@@ -1,5 +1,5 @@
 # Fast `Object.toString()` in Dart
 
-[Source Code](../source/fast-object-tostring-in-dart.dart)
+[Source Code](fast-object-tostring-in-dart.dart)
 
-![](../images/fast-object-tostring-in-dart.jpg)
+![](fast-object-tostring-in-dart.jpg)

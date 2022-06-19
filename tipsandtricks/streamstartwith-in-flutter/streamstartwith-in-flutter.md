@@ -1,5 +1,5 @@
 # `Stream.startWith` in Flutter
 
-[Source Code](../source/streamstartwith-in-flutter.dart)
+[Source Code](streamstartwith-in-flutter.dart)
 
-![](../images/streamstartwith-in-flutter.jpg)
+![](streamstartwith-in-flutter.jpg)

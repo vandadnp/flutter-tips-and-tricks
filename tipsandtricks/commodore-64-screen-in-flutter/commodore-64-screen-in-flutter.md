@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/Kj639jHjeaw)
 
-[Source Code](../source/commodore-64-screen-in-flutter.dart)
+[Source Code](commodore-64-screen-in-flutter.dart)
 
-![](../images/commodore-64-screen-in-flutter.jpg)
+![](commodore-64-screen-in-flutter.jpg)

@@ -1,5 +1,5 @@
 # Extending Functions in Dart
 
-[Source Code](../source/extending-functions-in-dart.dart)
+[Source Code](extending-functions-in-dart.dart)
 
-![](../images/extending-functions-in-dart.jpg)
+![](extending-functions-in-dart.jpg)

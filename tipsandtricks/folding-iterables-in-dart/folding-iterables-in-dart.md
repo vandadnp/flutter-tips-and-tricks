@@ -1,5 +1,5 @@
 # Folding Iterables in Dart
 
-[Source Code](../source/folding-iterables-in-dart.dart)
+[Source Code](folding-iterables-in-dart.dart)
 
-![](../images/folding-iterables-in-dart.jpg)
+![](folding-iterables-in-dart.jpg)

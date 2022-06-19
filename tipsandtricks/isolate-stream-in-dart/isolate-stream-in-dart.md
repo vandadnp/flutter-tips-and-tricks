@@ -1,5 +1,5 @@
 # `Isolate` Stream in Dart
 
-[Source Code](../source/isolate-stream-in-dart.dart)
+[Source Code](isolate-stream-in-dart.dart)
 
-![](../images/isolate-stream-in-dart.jpg)
+![](isolate-stream-in-dart.jpg)

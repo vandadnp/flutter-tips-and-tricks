@@ -1,5 +1,5 @@
 # Localization Delegates in Flutter
 
-[Source Code](../source/localization-delegates-in-flutter.dart)
+[Source Code](localization-delegates-in-flutter.dart)
 
-![](../images/localization-delegates-in-flutter.jpg)
+![](localization-delegates-in-flutter.jpg)

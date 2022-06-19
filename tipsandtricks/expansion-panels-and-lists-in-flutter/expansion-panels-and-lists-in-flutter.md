@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/7yJm1tqCQRg)
 
-[Source Code](../source/expansion-panels-and-lists-in-flutter.dart)
+[Source Code](expansion-panels-and-lists-in-flutter.dart)
 
-![](../images/expansion-panels-and-lists-in-flutter.jpg)
+![](expansion-panels-and-lists-in-flutter.jpg)

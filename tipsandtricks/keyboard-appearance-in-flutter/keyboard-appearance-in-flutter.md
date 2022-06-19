@@ -1,5 +1,5 @@
 # Keyboard Appearance in Flutter
 
-[Source Code](../source/keyboard-appearance-in-flutter.dart)
+[Source Code](keyboard-appearance-in-flutter.dart)
 
-![](../images/keyboard-appearance-in-flutter.jpg)
+![](keyboard-appearance-in-flutter.jpg)

@@ -1,5 +1,5 @@
 # Integer Range extension in Dart
 
-[Source Code](../source/integer-range-extension-in-dart.dart)
+[Source Code](integer-range-extension-in-dart.dart)
 
-![](../images/integer-range-extension-in-dart.jpg)
+![](integer-range-extension-in-dart.jpg)

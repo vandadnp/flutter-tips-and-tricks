@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/5RI0oll1p3M)
 
-[Source Code](../source/listview-background-in-flutter.dart)
+[Source Code](listview-background-in-flutter.dart)
 
-![](../images/listview-background-in-flutter.jpg)
+![](listview-background-in-flutter.jpg)

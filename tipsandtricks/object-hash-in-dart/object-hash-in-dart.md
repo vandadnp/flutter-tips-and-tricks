@@ -1,5 +1,5 @@
 # `Object.hash` in Dart
 
-[Source Code](../source/object-hash-in-dart.dart)
+[Source Code](object-hash-in-dart.dart)
 
-![](../images/object-hash-in-dart.jpg)
+![](object-hash-in-dart.jpg)

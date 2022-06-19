@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/4gg_lij3XH4)
 
-[Source Code](../source/streamcontroller-sink-in-flutter.dart)
+[Source Code](streamcontroller-sink-in-flutter.dart)
 
-![](../images/streamcontroller-sink-in-flutter.jpg)
+![](streamcontroller-sink-in-flutter.jpg)

@@ -1,5 +1,5 @@
 # Generic Dialog in Flutter
 
-[Source Code](../source/generic-dialog-in-flutter.dart)
+[Source Code](generic-dialog-in-flutter.dart)
 
-![](../images/generic-dialog-in-flutter.jpg)
+![](generic-dialog-in-flutter.jpg)

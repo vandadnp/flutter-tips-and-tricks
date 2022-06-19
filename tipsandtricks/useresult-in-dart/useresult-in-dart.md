@@ -1,5 +1,5 @@
 # `@useResult` in Dart
 
-[Source Code](../source/useresult-in-dart.dart)
+[Source Code](useresult-in-dart.dart)
 
-![](../images/useresult-in-dart.jpg)
+![](useresult-in-dart.jpg)

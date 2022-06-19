@@ -1,5 +1,5 @@
 # Generic URL Retrieval in Dart
 
-[Source Code](../source/generic-url-retrieval-in-dart.dart)
+[Source Code](generic-url-retrieval-in-dart.dart)
 
-![](../images/generic-url-retrieval-in-dart.jpg)
+![](generic-url-retrieval-in-dart.jpg)

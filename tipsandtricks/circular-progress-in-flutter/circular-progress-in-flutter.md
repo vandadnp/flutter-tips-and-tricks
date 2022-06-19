@@ -1,5 +1,5 @@
 # Circular Progress in Flutter
 
-[Source Code](../source/circular-progress-in-flutter.dart)
+[Source Code](circular-progress-in-flutter.dart)
 
-![](../images/circular-progress-in-flutter.jpg)
+![](circular-progress-in-flutter.jpg)

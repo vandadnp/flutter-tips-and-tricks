@@ -1,5 +1,5 @@
 # Covariant in Dart
 
-[Source Code](../source/covariant-in-dart.dart)
+[Source Code](covariant-in-dart.dart)
 
-![](../images/covariant-in-dart.jpg)
+![](covariant-in-dart.jpg)

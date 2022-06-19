@@ -1,5 +1,5 @@
 # Expectation Extensions in Flutter
 
-[Source Code](../source/expectation-extensions-in-flutter.dart)
+[Source Code](expectation-extensions-in-flutter.dart)
 
-![](../images/expectation-extensions-in-flutter.jpg)
+![](expectation-extensions-in-flutter.jpg)

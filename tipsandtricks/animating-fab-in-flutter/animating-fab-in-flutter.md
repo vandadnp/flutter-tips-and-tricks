@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/ijHEylEPfYQ)
 
-[Source Code](../source/animating-fab-in-flutter.dart)
+[Source Code](animating-fab-in-flutter.dart)
 
-![](../images/animating-fab-in-flutter.jpg)
+![](animating-fab-in-flutter.jpg)

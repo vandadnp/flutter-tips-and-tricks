@@ -1,5 +1,5 @@
 # Inline Synchronous Generators in Dart
 
-[Source Code](../source/inline-synchronous-generators-in-dart.dart)
+[Source Code](inline-synchronous-generators-in-dart.dart)
 
-![](../images/inline-synchronous-generators-in-dart.jpg)
+![](inline-synchronous-generators-in-dart.jpg)

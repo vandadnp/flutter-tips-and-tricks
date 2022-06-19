@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/Svu1FmjYn88)
 
-[Source Code](../source/complete-crud-app-in-flutter.dart)
+[Source Code](complete-crud-app-in-flutter.dart)
 
-![](../images/complete-crud-app-in-flutter.jpg)
+![](complete-crud-app-in-flutter.jpg)

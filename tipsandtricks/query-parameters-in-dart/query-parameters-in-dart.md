@@ -1,5 +1,5 @@
 # Query Parameters in Dart
 
-[Source Code](../source/query-parameters-in-dart.dart)
+[Source Code](query-parameters-in-dart.dart)
 
-![](../images/query-parameters-in-dart.jpg)
+![](query-parameters-in-dart.jpg)

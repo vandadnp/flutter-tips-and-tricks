@@ -1,5 +1,5 @@
 # `Future<bool>` in Flutter
 
-[Source Code](../source/futurebool-in-flutter.dart)
+[Source Code](futurebool-in-flutter.dart)
 
-![](../images/futurebool-in-flutter.jpg)
+![](futurebool-in-flutter.jpg)

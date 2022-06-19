@@ -1,5 +1,5 @@
 # Smart Quotes/Dashes in Flutter
 
-[Source Code](../source/smart-quotes-dashes-in-flutter.dart)
+[Source Code](smart-quotes-dashes-in-flutter.dart)
 
-![](../images/smart-quotes-dashes-in-flutter.jpg)
+![](smart-quotes-dashes-in-flutter.jpg)

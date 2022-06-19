@@ -1,5 +1,5 @@
 # Compute in Flutter
 
-[Source Code](../source/compute-in-flutter.dart)
+[Source Code](compute-in-flutter.dart)
 
-![](../images/compute-in-flutter.jpg)
+![](compute-in-flutter.jpg)

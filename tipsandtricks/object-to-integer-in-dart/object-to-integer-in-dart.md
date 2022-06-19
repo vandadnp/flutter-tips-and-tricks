@@ -1,5 +1,5 @@
 # Object to Integer in Dart
 
-[Source Code](../source/object-to-integer-in-dart.dart)
+[Source Code](object-to-integer-in-dart.dart)
 
-![](../images/object-to-integer-in-dart.jpg)
+![](object-to-integer-in-dart.jpg)

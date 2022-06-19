@@ -1,5 +1,5 @@
 # `Double.normalize` in Dart
 
-[Source Code](../source/doublenormalize-in-dart.dart)
+[Source Code](doublenormalize-in-dart.dart)
 
-![](../images/doublenormalize-in-dart.jpg)
+![](doublenormalize-in-dart.jpg)

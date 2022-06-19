@@ -1,5 +1,5 @@
 # Function Pointers in Flutter
 
-[Source Code](../source/function-pointers-in-flutter.dart)
+[Source Code](function-pointers-in-flutter.dart)
 
-![](../images/function-pointers-in-flutter.jpg)
+![](function-pointers-in-flutter.jpg)

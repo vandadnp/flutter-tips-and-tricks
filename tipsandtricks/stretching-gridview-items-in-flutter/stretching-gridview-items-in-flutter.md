@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/oYj0_JJnjfc)
 
-[Source Code](../source/stretching-gridview-items-in-flutter.dart)
+[Source Code](stretching-gridview-items-in-flutter.dart)
 
-![](../images/stretching-gridview-items-in-flutter.jpg)
+![](stretching-gridview-items-in-flutter.jpg)

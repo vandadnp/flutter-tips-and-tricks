@@ -1,5 +1,5 @@
 # Hashable Mixins in Dart
 
-[Source Code](../images/hashable-mixins-in-dart.dart)
+[Source Code](hashable-mixins-in-dart.dart)
 
-![](../images/hashable-mixins-in-dart.jpg)
+![](hashable-mixins-in-dart.jpg)

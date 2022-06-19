@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/m2MiGGO5Wig)
 
-[Source Code](../source/raw-auto-complete-in-flutter.dart)
+[Source Code](raw-auto-complete-in-flutter.dart)
 
-![](../images/raw-auto-complete-in-flutter.jpg)
+![](raw-auto-complete-in-flutter.jpg)

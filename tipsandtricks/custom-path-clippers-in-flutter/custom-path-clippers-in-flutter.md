@@ -1,5 +1,5 @@
 # Custom Path Clippers in Flutter
 
-[Source Code](../source/custom-path-clippers-in-flutter.dart)
+[Source Code](custom-path-clippers-in-flutter.dart)
 
-![](../images/custom-path-clippers-in-flutter.jpg)
+![](custom-path-clippers-in-flutter.jpg)

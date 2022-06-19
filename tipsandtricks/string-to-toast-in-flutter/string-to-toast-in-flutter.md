@@ -2,6 +2,6 @@
 
 [Video Demo](https://youtu.be/G4ta9YtIdks)
 
-[Source Code](../source/string-to-toast-in-flutter.dart)
+[Source Code](string-to-toast-in-flutter.dart)
 
-![](../images/string-to-toast-in-flutter.jpg)
+![](string-to-toast-in-flutter.jpg)

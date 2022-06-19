@@ -1,5 +1,5 @@
 # Filter on `Map` in Dart
 
-[Source Code](../source/filter-on-map-in-dart.dart)
+[Source Code](filter-on-map-in-dart.dart)
 
-![](../images/filter-on-map-in-dart.jpg)
+![](filter-on-map-in-dart.jpg)

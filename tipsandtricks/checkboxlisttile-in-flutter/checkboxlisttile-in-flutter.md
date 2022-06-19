@@ -1,5 +1,5 @@
 # `CheckboxListTile` in Flutter
 
-[Source Code](../source/checkboxlisttile-in-flutter.dart)
+[Source Code](checkboxlisttile-in-flutter.dart)
 
-![](../images/checkboxlisttile-in-flutter.jpg)
+![](checkboxlisttile-in-flutter.jpg)

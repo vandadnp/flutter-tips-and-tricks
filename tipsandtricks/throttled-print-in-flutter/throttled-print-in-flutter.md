@@ -1,5 +1,5 @@
 # Throttled Print in Flutter
 
-[Source Code](../source/throttled-print-in-flutter.dart)
+[Source Code](throttled-print-in-flutter.dart)
 
-![](../images/throttled-print-in-flutter.jpg)
+![](throttled-print-in-flutter.jpg)

@@ -1,5 +1,5 @@
 # Move Widget Shadows with Animation
 
-[Source Code](../source/move-widget-shadows-with-animation.dart)
+[Source Code](move-widget-shadows-with-animation.dart)
 
-![](../images/move-widget-shadows-with-animation.jpg)
+![](move-widget-shadows-with-animation.jpg)

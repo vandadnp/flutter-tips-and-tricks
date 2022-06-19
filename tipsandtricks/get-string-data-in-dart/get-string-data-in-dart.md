@@ -1,5 +1,5 @@
 # Get `String` Data in Dart
 
-[Source Code](../source/get-string-data-in-dart.dart)
+[Source Code](get-string-data-in-dart.dart)
 
-![](../images/get-string-data-in-dart.jpg)
+![](get-string-data-in-dart.jpg)

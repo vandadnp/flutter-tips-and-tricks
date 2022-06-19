@@ -1,5 +1,5 @@
 # `EmptyOnError` in Dart
 
-[Source Code](../source/emptyonerror-in-dart.dart)
+[Source Code](emptyonerror-in-dart.dart)
 
-![](../images/emptyonerror-in-dart.jpg)
+![](emptyonerror-in-dart.jpg)

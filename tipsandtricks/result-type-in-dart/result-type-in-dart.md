@@ -1,5 +1,5 @@
 # Result Type in Dart
 
-[Source Code](../source/result-type-in-dart.dart)
+[Source Code](result-type-in-dart.dart)
 
-![](../images/result-type-in-dart.jpg)
+![](result-type-in-dart.jpg)

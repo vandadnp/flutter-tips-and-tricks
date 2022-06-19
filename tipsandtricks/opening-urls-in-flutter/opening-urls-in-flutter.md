@@ -1,5 +1,5 @@
 # Opening URLs in Flutter
 
-[Source Code](../source/opening-urls-in-flutter.dart)
+[Source Code](opening-urls-in-flutter.dart)
 
-![](../images/opening-urls-in-flutter.jpg)
+![](opening-urls-in-flutter.jpg)

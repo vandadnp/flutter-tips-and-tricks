@@ -1,5 +1,5 @@
 # `Symbol` in Dart
 
-[Source Code](../source/symbol-in-dart.dart)
+[Source Code](symbol-in-dart.dart)
 
-![](../images/symbol-in-dart.jpg)
+![](symbol-in-dart.jpg)

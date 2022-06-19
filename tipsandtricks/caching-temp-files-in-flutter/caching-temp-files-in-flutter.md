@@ -1,5 +1,5 @@
 # Caching Temp Files in Flutter
 
-[Source Code](../source/caching-temp-files-in-flutter.dart)
+[Source Code](caching-temp-files-in-flutter.dart)
 
-![](../images/caching-temp-files-in-flutter.jpg)
+![](caching-temp-files-in-flutter.jpg)

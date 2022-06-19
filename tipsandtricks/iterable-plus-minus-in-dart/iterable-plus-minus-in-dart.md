@@ -1,5 +1,5 @@
 # `Iterable` +/- in Dart
 
-[Source Code](../source/iterable-plus-minus-in-dart.dart)
+[Source Code](iterable-plus-minus-in-dart.dart)
 
-![](../images/iterable-plus-minus-in-dart.jpg)
+![](iterable-plus-minus-in-dart.jpg)
