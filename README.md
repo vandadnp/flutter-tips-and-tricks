@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`StreamQueue` in Flutter](tipsandtricks/streamqueue-in-flutter/streamqueue-in-flutter.md)
 * [Enum Annotations in Flutter](tipsandtricks/enum-annotations-in-flutter/enum-annotations-in-flutter.md)
 * [Sorting Generics in Dart](tipsandtricks/sorting-generics-in-dart/sorting-generics-in-dart.md)
 * [Animating FAB in Flutter](tipsandtricks/animating-fab-in-flutter/animating-fab-in-flutter.md)
