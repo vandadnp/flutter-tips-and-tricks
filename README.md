@@ -1,2139 +1,326 @@
 # Table of Contents
 
-* [`StreamQueue` in Flutter](#streamqueue-in-flutter)
-* [Enum Annotations in Flutter](#enum-annotations-in-flutter)
-* [Sorting Generics in Dart](#sorting-generics-in-dart)
-* [Animating FAB in Flutter](#animating-fab-in-flutter)
-* [Image Gallery in Flutter](#image-gallery-in-flutter)
-* [Map with Index in Dart](#map-with-index-in-dart)
-* [`Set` Comprehension in Dart](#set-comprehension-in-dart)
-* [Stretching `GridView` Items in Flutter](#stretching-gridview-items-in-flutter)
-* [Email Drag and Drop in Flutter](#email-drag-and-drop-in-flutter)
-* [Cherry-Picking Functions in Dart](#cherry-picking-functions-in-dart)
-* [Integer Range Extension in Dart](#integer-range-extension-in-dart)
-* [Static vs Factory Constructors in Dart](#static-vs-factory-constructors-in-dart)
-* [Result Type in Dart](#result-type-in-dart)
-* [`StreamController` Sink in Flutter](#streamcontroller-sink-in-flutter)
-* [Enum Members in Dart 2.17](#enum-members-in-dart-217)
-* [Constructor vs Factory Constructor in Dart](#constructor-vs-factory-constructor-in-dart)
-* [Unwrapping Streams in Dart](#unwrapping-streams-in-dart)
-* [Appending to `Iterable<T>` in Dart](#appending-to-iterablet-in-dart)
-* [Inline Synchronous Generators in Dart](#inline-synchronous-generators-in-dart)
-* [Functions as First Class Citizens in Flutter](#functions-as-first-class-citizens-in-flutter)
-* [`+` Operator on `Map` in Dart](#-operator-on-map-in-dart)
-* [`Stream` Drain in Flutter](#stream-drain-in-flutter)
-* [Reusable Separators in Flutter](#reusable-separators-in-flutter)
-* [`AsyncSnapshotBuilder` in Flutter](#asyncsnapshotbuilder-in-flutter)
-* [Default Parameter Values in Dart](#default-parameter-values-in-dart)
-* [`Clipboard` in Flutter](#clipboard-in-flutter)
-* [Generic Object Map in Dart](#generic-object-map-in-dart)
-* [RequireData in `AsyncSnapshot` in Flutter](#requiredata-in-asyncsnapshot-in-flutter)
-* [`Symbol` in Dart](#symbol-in-dart)
-* [`RadioListTile` in Flutter](#radiolisttile-in-flutter)
-* [Infinite `ListView` in Flutter](#infinite-listview-in-flutter)
-* [`FilterChip` in Flutter](#filterchip-in-flutter)
-* [Function Pointers in Flutter](#function-pointers-in-flutter)
-* [Multi-field Object Comparison in Dart](#multi-field-object-comparison-in-dart)
-* [Expectation Extensions in Flutter](#expectation-extensions-in-flutter)
-* [Delay Extension in Flutter](#delay-extension-in-flutter)
-* [Hide Keyword in Dart](#hide-keyword-in-dart)
-* [Firebase Batch Operations in Flutter](#firebase-batch-operations-in-flutter)
-* [Show Keyword in Dart](#show-keyword-in-dart)
-* [Cherry Pick Provider Changes in Flutter](#cherry-pick-provider-changes-in-flutter)
-* [URL Data in Dart](#url-data-in-dart)
-* [Observe Network Connection in Flutter](#observe-network-connection-in-flutter)
-* [Restartable Timer in Dart](#restartable-timer-in-dart)
-* [`LazyStream` in Flutter and Dart](#lazystream-in-flutter-and-dart)
-* [Cancelable APIs in Flutter](#cancelable-apis-in-flutter)
-* [Asset Data in Flutter](#asset-data-in-flutter)
-* [API Caching in Flutter](#api-caching-in-flutter)
-* [`FutureGroup` in Dart](#futuregroup-in-dart)
-* [Flatten `Iterable<bool>` in Dart](#flatten-iterablebool-in-dart)
-* [Caching Temp Files in Flutter](#caching-temp-files-in-flutter)
-* [Custom Lists in Dart](#custom-lists-in-dart)
-* [Optional Chaining in Dart](#optional-chaining-in-dart)
-* [MapList in Flutter](#maplist-in-flutter)
-* [`Future<bool>` in Flutter](#futurebool-in-flutter)
-* [Async Bloc Init in Flutter](#async-bloc-init-in-flutter)
-* [Firebase Auth Errors in Flutter](#firebase-auth-errors-in-flutter)
-* [Debug Strings in Flutter](#debug-strings-in-flutter)
-* [Keyboard Appearance in Flutter](#keyboard-appearance-in-flutter)
-* [Get `String` Data in Dart](#get-string-data-in-dart)
-* [`Stream.startWith` in Flutter](#streamstartwith-in-flutter)
-* [Optional Functions in Dart](#optional-functions-in-dart)
-* [`AnnotatedRegion` in Flutter](#annotatedregion-in-flutter)
-* [Unordered `Map` Equality in Dart](#unordered-map-equality-in-dart)
-* [`Iterable` to `ListView` in Flutter](#iterable-to-listview-in-flutter)
-* [Password Mask in Flutter](#password-mask-in-flutter)
-* [Fast `Object.toString()` in Dart](#fast-objecttostring-in-dart)
-* [Copying Bloc State in Flutter](#copying-bloc-state-in-flutter)
-* [`Iterable` Subscripts in Dart](#iterable-subscripts-in-dart)
-* [`useState` in Flutter Hooks](#usestate-in-flutter-hooks)
-* [Folding Iterables in Dart](#folding-iterables-in-dart)
-* [Custom Iterables in Dart](#custom-iterables-in-dart)
-* [Class Clusters in Dart](#class-clusters-in-dart)
-* [`Iterable` +/- in Dart](#iterable---in-dart)
-* [Periodic Streams in Dart](#periodic-streams-in-dart)
-* [`EmptyOnError` in Dart](#emptyonerror-in-dart)
-* [`Stream<T>` Initial Value in Flutter](#streamt-initial-value-in-flutter)
-* [`Double.normalize` in Dart](#doublenormalize-in-dart)
-* [Hide Sensitive Information in Flutter](#hide-sensitive-information-in-flutter)
-* [`Iterable.compactMap` in Dart](#iterablecompactmap-in-dart)
-* [`useEffect` in Flutter Hooks](#useeffect-in-flutter-hooks)
-* [Merging Streams in Dart](#merging-streams-in-dart)
-* [`Isolate` Stream in Dart](#isolate-stream-in-dart)
-* [Network Image Retry in Flutter](#network-image-retry-in-flutter)
-* [Reusable APIs in Flutter](#reusable-apis-in-flutter)
-* [`ListTile` Shadow in Flutter](#listtile-shadow-in-flutter)
-* [Transparent AppBar in Flutter](#transparent-appbar-in-flutter)
-* [Constructors on Abstract Classes in Dart](#constructors-on-abstract-classes-in-dart)
-* [`@useResult` in Dart](#useresult-in-dart)
-* [`@mustCallSuper` in Dart](#mustcallsuper-in-dart)
-* [`Object.hash` in Dart](#objecthash-in-dart)
-* [Expanded Equally in Flutter](#expanded-equally-in-flutter)
-* [Random Iterable Value in Dart](#random-iterable-value-in-dart)
-* [Hardcoded Strings in Flutter](#hardcoded-strings-in-flutter)
-* [Manually Scroll in List View in Flutter](#manually-scroll-in-list-view-in-flutter)
-* [`AsyncSnapshot` to `Widget` in Flutter](#asyncsnapshot-to-widget-in-flutter)
-* [Breadcrumbs in Flutter](#breadcrumbs-in-flutter)
-* [Unique `Map` Values in Dart](#unique-map-values-in-dart)
-* [Smart Quotes/Dashes in Flutter](#smart-quotesdashes-in-flutter)
-* [Haptic Feedback in Flutter](#haptic-feedback-in-flutter)
-* [Localization Delegates in Flutter](#localization-delegates-in-flutter)
-* [Extending Functions in Dart](#extending-functions-in-dart)
-* [Paginated `ListView` in Flutter](#paginated-listview-in-flutter)
-* [Immutable Classes in Dart](#immutable-classes-in-dart)
-* [Card Widget in Flutter](#card-widget-in-flutter)
-* [List Equality Ignoring Ordering in Dart](#list-equality-ignoring-ordering-in-dart)
-* [Shorten GitHub URLs in Dart](#shorten-github-urls-in-dart)
-* [Time Picker in Flutter](#time-picker-in-flutter)
-* [Throttled Print in Flutter](#throttled-print-in-flutter)
-* [Map Equality in Dart](#map-equality-in-dart)
-* [Unique Maps in Dart](#unique-maps-in-dart)
-* [Raw Auto Complete in Flutter](#raw-auto-complete-in-flutter)
-* [Title on `Object` in Dart](#title-on-object-in-dart)
-* [Compute in Flutter](#compute-in-flutter)
-* [Filter on `Map` in Dart](#filter-on-map-in-dart)
-* [Type Alias in Dart](#type-alias-in-dart)
-* [`ValueNotifier` in Flutter](#valuenotifier-in-flutter)
-* [Object to Integer in Dart](#object-to-integer-in-dart)
-* [Image Opacity in Flutter](#image-opacity-in-flutter)
-* [Covariant in Dart](#covariant-in-dart)
-* [Custom Errors in Streams in Dart](#custom-errors-in-streams-in-dart)
-* [Shake Animation in Flutter](#shake-animation-in-flutter)
-* [Throw Enums in Dart](#throw-enums-in-dart)
-* [`Future` Error Test in Flutter](#future-error-test-in-flutter)
-* [Generic URL Retrieval in Dart](#generic-url-retrieval-in-dart)
-* [Custom Error Widget in Flutter](#custom-error-widget-in-flutter)
-* [Handle Multiple `Future` Errors in Dart](#handle-multiple-future-errors-in-dart)
-* [`Future` Error Handling in Dart](#future-error-handling-in-dart)
-* [String to Toast in Flutter](#string-to-toast-in-flutter)
-* [Waiting in Dart](#waiting-in-dart)
-* [Loading Dialog in Flutter](#loading-dialog-in-flutter)
-* [Compact Map on `Map<K,V>` in Dart](#compact-map-on-mapkv-in-dart)
-* [Query Parameters in Dart](#query-parameters-in-dart)
-* [Multiple Gradients in Container in Flutter](#multiple-gradients-in-container-in-flutter)
-* [Filter on `Stream<List<T>>` in Dart](#filter-on-streamlistt-in-dart)
-* [Generic Route Arguments in Flutter](#generic-route-arguments-in-flutter)
-* [Generic Dialog in Flutter](#generic-dialog-in-flutter)
-* [GitHub API in Flutter](#github-api-in-flutter)
-* [`ChangeNotifier` in Flutter](#changenotifier-in-flutter)
-* [Refresh Indicator in Flutter](#refresh-indicator-in-flutter)
-* [FlatMap in Dart](#flatmap-in-dart)
-* [`OrientationBuilder` in Flutter](#orientationbuilder-in-flutter)
-* [Linear Gradient in Flutter](#linear-gradient-in-flutter)
-* [Bloc Text Editing Controller in Flutter](#bloc-text-editing-controller-in-flutter)
-* [Blurred TabBar in Flutter](#blurred-tabbar-in-flutter)
-* [Play YouTube in Flutter](#play-youtube-in-flutter)
-* [ListView Background in Flutter](#listview-background-in-flutter)
-* [Integer to Binary in Dart](#integer-to-binary-in-dart)
-* [Split String by Length in Dart](#split-string-by-length-in-dart)
-* [Image Tint in Flutter](#image-tint-in-flutter)
-* [SlideTransition in Flutter](#slidetransition-in-flutter)
-* [Expansion Panels and Lists in Flutter](#expansion-panels-and-lists-in-flutter)
-* [Complete CRUD App in Flutter](#complete-crud-app-in-flutter)
-* [SQLite Storage in Flutter](#sqlite-storage-in-flutter)
-* [Circular Progress with Percentage in Flutter](#circular-progress-with-percentage-in-flutter)
-* [Opening URLs in Flutter](#opening-urls-in-flutter)
-* [Commodore 64 Screen in Flutter](#commodore-64-screen-in-flutter)
-* [Animated Lists in Flutter](#animated-lists-in-flutter)
-* [`CheckboxListTile` in Flutter](#checkboxlisttile-in-flutter)
-* [`-` Operator on `String` in Dart](#--operator-on-string-in-dart)
-* [Dart Progress for `Future<T>`](#dart-progress-for-futuret)
-* [Move Widget Shadows with Animation](#move-widget-shadows-with-animation)
-* [Gallery with Blurred Backgrounds in Flutter](#gallery-with-blurred-backgrounds-in-flutter)
-* [Custom Path Clippers in Flutter](#custom-path-clippers-in-flutter)
-* [Frost Effect on Images in Flutter](#frost-effect-on-images-in-flutter)
-* [Custom Clippers in Flutter](#custom-clippers-in-flutter)
-* [Check if Website is Up or Down in Dart](#check-if-website-is-up-or-down-in-dart)
-* [Section Titles on ListView in Flutter](#section-titles-on-listview-in-flutter)
-* [Circular Progress in Flutter](#circular-progress-in-flutter)
-* [Displaying Scroll Wheels in Flutter](#displaying-scroll-wheels-in-flutter)
-* [Post Messages to Slack with Dart](#post-messages-to-slack-with-dart)
-* [Unwrap `List<T?>?` in Dart](#unwrap-listt-in-dart)
-* [Avoiding UI Jitters When Switching Widgets in Flutter](#avoiding-ui-jitters-when-switching-widgets-in-flutter)
-* [Detect Redirects in Dart](#detect-redirects-in-dart)
-* [Proportional Constraints in Flutter](#proportional-constraints-in-flutter)
-* [Displaying Cupertino Action Sheets in Flutter](#displaying-cupertino-action-sheets-in-flutter)
-* [Rotating `List<T>` in Dart](#rotating-listt-in-dart)
-* [Displaying SnackBars in Flutter](#displaying-snackbars-in-flutter)
-* [Custom Tab Bar Using ToggleButtons in Flutter](#custom-tab-bar-using-togglebuttons-in-flutter)
-* [Hashable Mixins in Dart](#hashable-mixins-in-dart)
-* [Flutter Tips and Tricks in Terminal](#flutter-tips-and-tricks-in-terminal)
-* [Searching `List<List<T>>` in Dart](#searching-listlistt-in-dart)
-* [Cloning Objects in Dart](#cloning-objects-in-dart)
-* [Color Filters in Flutter](#color-filters-in-flutter)
-* [Flattening Lists in Dart](#flattening-lists-in-dart)
-* [Managing Duplicates in `List<T>` in Dart](#managing-duplicates-in-listt-in-dart)
-* [FlatMap and CompactMap in Dart](#flatmap-and-compactmap-in-dart)
-* [Equality of `List<T>` in Dart](#equality-of-listt-in-dart)
-* [Constants in Dart](#constants-in-dart)
-* [Displaying Scrollable Bottom Sheets in Flutter](#displaying-scrollable-bottom-sheets-in-flutter)
-* [YouTube Ad Remover in Dart](#youtube-ad-remover-in-dart)
-* [Fade Between Widgets in Flutter](#fade-between-widgets-in-flutter)
-* [Sort Descriptors in Dart](#sort-descriptors-in-dart)
-* [User Sortable Columns and Tables in Flutter](#user-sortable-columns-and-tables-in-flutter)
-* [Content-Length of `List<Uri>` in Dart](#content-length-of-listuri-in-dart)
-* [Recursive Dot Notation on Maps in Dart](#recursive-dot-notation-on-maps-in-dart)
-* [Allow User Selection of Text in Flutter](#allow-user-selection-of-text-in-flutter)
-* [Placing Constraints on Widgets in Flutter](#placing-constraints-on-widgets-in-flutter)
-* [Animating Position Changes in Flutter](#animating-position-changes-in-flutter)
-* [Transitioning Between Widgets in Flutter](#transitioning-between-widgets-in-flutter)
-* [Doubly Linked Lists in Dart](#doubly-linked-lists-in-dart)
-* [Reordering Items Inside List Views in Flutter](#reordering-items-inside-list-views-in-flutter)
-* [Custom Stream Transformers in Dart](#custom-stream-transformers-in-dart)
-* [Expanding Stream Elements in Dart](#expanding-stream-elements-in-dart)
-* [Consume Streams for a Duration in Dart](#consume-streams-for-a-duration-in-dart)
-* [Shortening URLs in Dart](#shortening-urls-in-dart)
-* [LimitedBox Widget as ListView Items in Flutter](#limitedbox-widget-as-listview-items-in-flutter)
-* [Generically Convert Anything to Int in Dart](#generically-convert-anything-to-int-in-dart)
-* [Validating URL Certificates in Dart](#validating-url-certificates-in-dart)
-* [Displaying Popup Menus in Flutter](#displaying-popup-menus-in-flutter)
-* [Implementing Drag and Drop in Flutter](#implementing-drag-and-drop-in-flutter)
-* [Dismissing List Items in Flutter](#dismissing-list-items-in-flutter)
-* [Animating Widgets with Ease in Flutter](#animating-widgets-with-ease-in-flutter)
-* [Displaying Tool Tips in Flutter](#displaying-tool-tips-in-flutter)
-* [Displaying Assorted Widgets Inside TableView in Flutter](#displaying-assorted-widgets-inside-tableview-in-flutter)
-* [Page Indicator with Page View in Flutter](#page-indicator-with-page-view-in-flutter)
-* [Animating and Moving a Floating Action Button in Flutter](#animating-and-moving-a-floating-action-button-in-flutter)
-* [Fading Network Image Widget in Flutter](#fading-network-image-widget-in-flutter)
-* [Transparent Alert Dialogs in Flutter](#transparent-alert-dialogs-in-flutter)
-* [Network Image Size in Dart](#network-image-size-in-dart)
-* [Animated Icons in Flutter](#animated-icons-in-flutter)
-* [Custom Scroll Views in Flutter](#custom-scroll-views-in-flutter)
-* [Parallax App Bar in Flutter](#parallax-app-bar-in-flutter)
-* [JSON HTTP Requests in Dart](#json-http-requests-in-dart)
-* [URL Timeouts in Dart](#url-timeouts-in-dart)
-* [Detecting URL File Types in Dart](#detecting-url-file-types-in-dart)
-* [Paginated Lists in Dart](#paginated-lists-in-dart)
-* [Requesting DELETE on APIs in Dart](#requesting-delete-on-apis-in-dart)
-* [Animated Containers in Flutter](#animated-containers-in-flutter)
-* [Hiding Widgets in Flutter](#hiding-widgets-in-flutter)
-* [Simple Opacity Animation in Flutter](#simple-opacity-animation-in-flutter)
-* [Vignette Widget in Flutter](#vignette-widget-in-flutter)
-* [Drop Down Button Configuration and Usage in Flutter](#drop-down-button-configuration-and-usage-in-flutter)
-* [Expandable List Items in Flutter](#expandable-list-items-in-flutter)
-* [Infinite Scrolling in Flutter](#infinite-scrolling-in-flutter)
-* [Infinite Arrays in Dart](#infinite-arrays-in-dart)
-* [Custom Color Picker Component in Flutter](#custom-color-picker-component-in-flutter)
-* [Displaying and Reacting to Switches in Flutter](#displaying-and-reacting-to-switches-in-flutter)
-* [Displaying Bottom Bars in Flutter](#displaying-bottom-bars-in-flutter)
-* [Displaying Buttons on AppBar in Flutter](#displaying-buttons-on-appbar-in-flutter)
-* [Displaying Bottom Sheets in Flutter](#displaying-bottom-sheets-in-flutter)
-* [Converting Enums to Radio Buttons in Flutter](#converting-enums-to-radio-buttons-in-flutter)
-* [Check Existence of Websites in Flutter](#check-existence-of-websites-in-flutter)
-* [Images inside AlertDialog in Flutter](#images-inside-alertdialog-in-flutter)
-* [Returning Values from AlertDialog in Flutter](#returning-values-from-alertdialog-in-flutter)
-* [Simple Grid View in Flutter](#simple-grid-view-in-flutter)
-* [Rendering Bullet Points in Flutter](#rendering-bullet-points-in-flutter)
-* [Retrying Futures in Flutter](#retrying-futures-in-flutter)
-* [Containers as ClipOvals in Flutter](#containers-as-clipovals-in-flutter)
-* [Rich Texts in Flutter](#rich-texts-in-flutter)
-* [Wrapping Widgets in Flutter](#wrapping-widgets-in-flutter)
-* [Sweep Gradients in Flutter](#sweep-gradients-in-flutter)
-* [`Stream` and `StreamBuilder` in Flutter](#stream-and-streambuilder-in-flutter)
-* [Blur Effect in Flutter](#blur-effect-in-flutter)
-* [Convert Enums to Strings in Dart](#convert-enums-to-strings-in-dart)
-* [Replacing Text in TextField in Flutter](#replacing-text-in-textfield-in-flutter)
-* [Aspect Ratio in Flutter](#aspect-ratio-in-flutter)
-* [Zoom and Pan in Flutter](#zoom-and-pan-in-flutter)
-* [Resizing Images in Flutter to Fit Screen Height](#resizing-images-in-flutter-to-fit-screen-height)
-* [Validating URLs in Flutter](#validating-urls-in-flutter)
-* [FrameBuilder for Network Images in Flutter](#framebuilder-for-network-images-in-flutter)
-* [Adding Shadow to Icons in Flutter](#adding-shadow-to-icons-in-flutter)
-* [Calculating Median of Lists in Dart](#calculating-median-of-lists-in-dart)
-* [Generic Functions with Reduce in Dart](#generic-functions-with-reduce-in-dart)
-* [Passing Back Data From a Screen to the Previous One in Flutter](#passing-back-data-from-a-screen-to-the-previous-one-in-flutter)
-* [Flinging an Animation in Flutter](#flinging-an-animation-in-flutter)
-* [Fade Animations in Flutter](#fade-animations-in-flutter)
-* [Throttling User Input in Flutter](#throttling-user-input-in-flutter)
-* [Censoring TextFields in Flutter](#censoring-textfields-in-flutter)
-* [Customizing TextButton in Flutter](#customizing-textbutton-in-flutter)
-* [Multiline TextFields in Flutter](#multiline-textfields-in-flutter)
-* [Filtering TextField Input in Flutter](#filtering-textfield-input-in-flutter)
-* [Focusing Manually on TextFields in Flutter](#focusing-manually-on-textfields-in-flutter)
-* [Data Streams Over HTTP/HTTPs in Dart](#data-streams-over-httphttps-in-dart)
-* [Catching Nonexistent Accessors or Methods in Dart](#catching-nonexistent-accessors-or-methods-in-dart)
-* [Using Expando in Dart](#using-expando-in-dart)
-* [Implementing Custom Maps in Dart](#implementing-custom-maps-in-dart)
-* [Dynamically Calling Functions in Dart](#dynamically-calling-functions-in-dart)
-* [Factory Constructors in Dart](#factory-constructors-in-dart)
-* [Calculating the Sum of List Items in Dart](#calculating-the-sum-of-list-items-in-dart)
-* [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](#removing-duplicate-strings-in-lists-in-dart-case-insensitive)
-* [Implementing Range in Dart](#implementing-range-in-dart)
-* [Converting Lists to Maps in Dart](#converting-lists-to-maps-in-dart)
-* [Implementing Hashable in Dart](#implementing-hashable-in-dart)
-* [Random Name Generator in Dart](#random-name-generator-in-dart)
-* [Capturing Stack Traces in Dart Exceptions](#capturing-stack-traces-in-dart-exceptions)
-* [Removing Duplicates from Lists in Dart](#removing-duplicates-from-lists-in-dart)
-* [Optional Spread Operator in Dart](#optional-spread-operator-in-dart)
-* [Calling Optional Functions in Dart](#calling-optional-functions-in-dart)
-* [Odd-Even Sort in Dart](#odd-even-sort-in-dart)
-* [Implementing Zip and Tuples in Dart](#implementing-zip-and-tuples-in-dart)
-* [Swapping Values in Lists with XOR in Dart](#swapping-values-in-lists-with-xor-in-dart)
-* [Waiting for Multiple Futures in Dart](#waiting-for-multiple-futures-in-dart)
-* [Using Queues as Stacks in Dart](#using-queues-as-stacks-in-dart)
-* [Custom Iterators in Dart](#custom-iterators-in-dart)
-* [Iterables as Ranges + Transform in Dart](#iterables-as-ranges-and-transform-in-dart)
-* [Errors vs Exceptions in Dart](#errors-vs-exceptions-in-dart)
-* [Custom Annotations in Dart](#custom-annotations-in-dart)
-* [Classes as Enums in Dart](#classes-as-enums-in-dart)
-* [Spread Operator in Collection Literals in Dart](#spread-operator-in-collection-literals-in-dart)
-* [`StreamBuilder` and `StreamController` in Dart](#streambuilder-and-streamcontroller-in-dart)
-* [Almost Equal in Dart](#almost-equal-in-dart)
-* [Enum Associated Values in Dart](#enum-associated-values-in-dart)
-* [Implementing `Comparable` in Dart](#implementing-comparable-in-dart)
-* [Implementing Custom Integer Types in Dart](#implementing-custom-integer-types-in-dart)
-* [Custom Subscripts in Dart](#custom-subscripts-in-dart)
-* [Dart List Enumeration with Index](#dart-list-enumeration-with-index)
-* [Applying Mixins to Other Mixins in Dart](#applying-mixins-to-other-mixins-in-dart)
-* [Parameter Types in Dart](#parameter-types-in-dart)
-* [Custom Exceptions in Dart](#custom-exceptions-in-dart)
-* [`rethrow`ing Exceptions in Dart](#rethrowing-exceptions-in-dart)
-* [`mixin`s and JSON Parsing in Dart](#mixins-and-json-parsing-in-dart)
-* [`mixin`s vs `abstract class`es in Dart](#mixins-vs-abstract-classes-in-dart)
-* [Drawing Shapes in Flutter with `LayoutBuilder`, `CustomPaint` and `CustomPainter`](#drawing-shapes-in-flutter-with-layoutbuilder-custompaint-and-custompainter)
-* [Generic Type Aliases in Dart](#generic-type-aliases-in-dart)
-* [Callable Classes in Dart](#callable-classes-in-dart)
-* [Synchronous Generators in Dart](#synchronous-generators-in-dart)
-* [Implicit Interfaces in Dart](#implicit-interfaces-in-dart)
-* [`const` Constructors in Dart](#do-you-know-how-const-constructors-work-in-dart)
-* [`async`-`await` Over Raw `Future`s in Dart](#did-you-know-that-in-dart-it-is-actually-preferred-to-use-async-and-await-over-using-raw-futures)
-* [Initializer List and Default Values as Convenience Intializers in Dart](#in-dart-you-can-use-a-combination-of-initializer-list-plus-default-values-for-your-class-member-fields-to-create-elegant-and-handy-convenience-initializers)
-* [Extract Elements of Certain Type from Lists in Dart](#did-you-know-that-in-dart-you-can-extract-elements-of-a-certain-type-from-your-lists-using-the-wheretype-generic-function-instead-of-calculating-the-equality-yourselves)
-* [Type Promotion in Dart](#do-you-know-about-type-promotion-in-dart)
-* [Extract Minimum and Maximum Values in `List<num>` in Dart](#4-lines-of-dart-code-that-include-the-spread-operator-cascade-operator-generics-extensions-private-prefix-and-getters)
-* [Functions as First Class Citizens in Dart](#functions-as-first-class-citizens-in-dart)
-
-# `StreamQueue` in Flutter
-
-[Video Demo](https://youtu.be/aE9e3aTUf3k)
-
-[Source Code](source/streamqueue-in-flutter.dart)
-
-![](images/streamqueue-in-flutter.jpg)
-
-# Enum Annotations in Flutter
-
-[Source Code](source/enum-annotations-in-flutter.dart)
-
-![](images/enum-annotations-in-flutter.jpg)
-
-# Sorting Generics in Dart
-
-[Source Code](source/sorting-generics-in-dart.dart)
-
-![](images/sorting-generics-in-dart.jpg)
-
-# Animating FAB in Flutter
-
-[Video Demo](https://youtu.be/ijHEylEPfYQ)
-
-[Source Code](source/animating-fab-in-flutter.dart)
-
-![](images/animating-fab-in-flutter.jpg)
-
-# Image Gallery in Flutter
-
-[Source Code](source/image-gallery-in-flutter.dart)
-
-![](images/image-gallery-in-flutter.jpg)
-
-# Map with Index in Dart
-
-[Source Code](source/map-with-index-in-dart.dart)
-
-![](images/map-with-index-in-dart.jpg)
-
-# `Set` Comprehension in Dart
-
-[Source Code](source/set-comprehension-in-dart.dart)
-
-![](images/set-comprehension-in-dart.jpg)
-
-# Stretching `GridView` Items in Flutter
-
-[Video Demo](https://youtu.be/oYj0_JJnjfc)
-
-[Source Code](source/stretching-gridview-items-in-flutter.dart)
-
-![](images/stretching-gridview-items-in-flutter.jpg)
-
-# Email Drag and Drop in Flutter
-
-[Video Demo](https://youtu.be/UMOoBaw1tBE)
-
-[Source Code](source/email-drag-and-drop-in-flutter.dart)
-
-![](images/email-drag-and-drop-in-flutter.jpg)
-
-# Cherry Picking Functions in Dart
-
-[Source Code](source/cherry-picking-functions-in-dart.dart)
-
-![](images/cherry-picking-functions-in-dart.jpg)
-
-# Integer Range extension in Dart
-
-[Source Code](source/integer-range-extension-in-dart.dart)
-
-![](images/integer-range-extension-in-dart.jpg)
-
-# Static vs Factory Constructors in Dart
-
-[Source Code](source/static-vs-factory-constructors-in-dart.dart)
-
-![](images/static-vs-factory-constructors-in-dart.jpg)
-
-# Result Type in Dart
-
-[Source Code](source/result-type-in-dart.dart)
-
-![](images/result-type-in-dart.jpg)
-
-# `StreamController` Sink in Flutter
-
-[Video Demo](https://youtu.be/4gg_lij3XH4)
-
-[Source Code](source/streamcontroller-sink-in-flutter.dart)
-
-![](images/streamcontroller-sink-in-flutter.jpg)
-
-# Enum Members in Dart 2.17
-
-[Source Code](source/enum-members-in-dart-2-17.dart)
-
-![](images/enum-members-in-dart-2-17.jpg)
-
-# Constructor vs Factory Constructor in Dart
-
-[Source Code](source/constructor-vs-factory-constructor-in-dart.dart)
-
-![](images/constructor-vs-factory-constructor-in-dart.jpg)
-
-# Unwrapping Streams in Dart
-
-[Source Code](source/unwrapping-streams-in-dart.dart)
-
-![](images/unwrapping-streams-in-dart.jpg)
-
-# Appending to `Iterable<T>` in Dart
-
-[Source Code](source/appending-to-iterablet-in-dart.dart)
-
-![](images/appending-to-iterablet-in-dart.jpg)
-
-# Inline Synchronous Generators in Dart
-
-[Source Code](source/inline-synchronous-generators-in-dart.dart)
-
-![](images/inline-synchronous-generators-in-dart.jpg)
-
-# Functions as First Class Citizens in Flutter
-
-[Source Code](source/functions-as-first-class-citizens-in-flutter.dart)
-
-![](images/functions-as-first-class-citizens-in-flutter.jpg)
-
-# `+` Operator on `Map` in Dart
-
-[Source Code](source/+-operator-on-map-in-dart.dart)
-
-![](images/+-operator-on-map-in-dart.jpg)
-
-# `Stream` Drain in Flutter
-
-[Source Code](source/stream-drain-in-flutter.dart)
-
-![](images/stream-drain-in-flutter.jpg)
-
-# Reusable Separators in Flutter
-
-[Source Code](source/reusable-separators-in-flutter.dart)
-
-![](images/reusable-separators-in-flutter.jpg)
-
-# `AsyncSnapshotBuilder` in Flutter
-
-[Source Code](source/asyncsnapshotbuilder-in-flutter.dart)
-
-![](images/asyncsnapshotbuilder-in-flutter.jpg)
-
-# Default Parameter Values in Dart
-
-[Source Code](source/default-parameter-values-in-dart.dart)
-
-![](images/default-parameter-values-in-dart.jpg)
-
-# `Clipboard` in Flutter
-
-[Source Code](source/clipboard-in-flutter.dart)
-
-![](images/clipboard-in-flutter.jpg)
-
-# Generic Object Map in Dart
-
-[Source Code](source/generic-object-map-in-dart.dart)
-
-![](images/generic-object-map-in-dart.jpg)
-
-# RequireData in `AsyncSnapshot` in Flutter
-
-[Source Code](source/requiredata-in-asyncsnapshot-in-flutter.dart)
-
-![](images/requiredata-in-asyncsnapshot-in-flutter.jpg)
-
-# `Symbol` in Dart
-
-[Source Code](source/symbol-in-dart.dart)
-
-![](images/symbol-in-dart.jpg)
-
-# `RadioListTile` in Flutter
-
-[Source Code](source/radiolisttile-in-flutter.dart)
-
-![](images/radiolisttile-in-flutter.jpg)
-
-# Infinite `ListView` in Flutter
-
-[Video Demo](https://youtu.be/4PZisKAxK84)
-
-[Source Code](source/infinite-listview-in-flutter.dart)
-
-![](images/infinite-listview-in-flutter.jpg)
-
-# `FilterChip` in Flutter
-
-[Video Demo](https://youtu.be/NcewIu3faU0)
-
-[Source Code](source/filterchip-in-flutter.dart)
-
-![](images/filterchip-in-flutter.jpg)
-
-# Function Pointers in Flutter
-
-[Source Code](source/function-pointers-in-flutter.dart)
-
-![](images/function-pointers-in-flutter.jpg)
-
-# Multi-field Object Comparison in Dart
-
-[Source Code](source/multi-field-object-comparison-in-dart.dart)
-
-![](images/multi-field-object-comparison-in-dart.jpg)
-
-# Expectation Extensions in Flutter
-
-[Source Code](source/expectation-extensions-in-flutter.dart)
-
-![](images/expectation-extensions-in-flutter.jpg)
-
-# Delay Extension in Flutter
-
-[Source Code](source/delay-extension-in-flutter.dart)
-
-![](images/delay-extension-in-flutter.jpg)
-
-# Hide Keyword in Dart
-
-[Source Code](source/hide-keyword-in-dart.dart)
-
-![](images/hide-keyword-in-dart.jpg)
-
-# Firebase Batch Operations in Flutter
-
-[Source Code](source/firebase-batch-operations-in-flutter.dart)
-
-![](images/firebase-batch-operations-in-flutter.jpg)
-
-# Show Keyword in Dart
-
-[Source Code](source/show-keyword-in-dart.dart)
-
-![](images/show-keyword-in-dart.jpg)
-
-# Cherry Pick Provider Changes in Flutter
-
-[Source Code](source/cherry-pick-provider-changes-in-flutter.dart)
-
-![](images/cherry-pick-provider-changes-in-flutter.jpg)
-
-# URL Data in Dart
-
-[Source Code](source/url-data-in-dart.dart)
-
-![](images/url-data-in-dart.jpg)
-
-# Observe Network Connection in Flutter
-
-[Source Code](source/observe-network-connection-in-flutter.dart)
-
-![](images/observe-network-connection-in-flutter.jpg)
-
-# Restartable Timer in Dart
-
-[Source Code](source/restartable-timer-in-dart.dart)
-
-![](images/restartable-timer-in-dart.jpg)
-
-# `LazyStream` in Flutter and Dart
-
-[Source Code](source/lazystream-in-flutter-and-dart.dart)
-
-![](images/lazystream-in-flutter-and-dart.jpg)
-
-# Cancelable APIs in Flutter
-
-[Source Code](source/cancelable-apis-in-flutter.dart)
-
-![](images/cancelable-apis-in-flutter.jpg)
-
-# Asset Data in Flutter
-
-[Source Code](source/asset-data-in-flutter.dart)
-
-![](images/asset-data-in-flutter.jpg)
-
-# API Caching in Flutter
-
-[Source Code](source/api-caching-in-flutter.dart)
-
-![](images/api-caching-in-flutter.jpg)
-
-# `FutureGroup` in Dart
-
-[Source Code](source/futuregroup-in-dart.dart)
-
-![](images/futuregroup-in-dart.jpg)
-
-# Flatten `Iterable<bool>` in Dart
-
-[Source Code](source/flatten-iterablebool-in-dart.dart)
-
-![](images/flatten-iterablebool-in-dart.jpg)
-
-# Caching Temp Files in Flutter
-
-[Source Code](source/caching-temp-files-in-flutter.dart)
-
-![](images/caching-temp-files-in-flutter.jpg)
-
-# Custom Lists in Dart
-
-[Source Code](source/custom-lists-in-dart.dart)
-
-![](images/custom-lists-in-dart.jpg)
-
-# Optional Chaining in Dart
-
-[Source Code](source/optional-chaining-in-dart.dart)
-
-![](images/optional-chaining-in-dart.jpg)
-
-# MapList in Flutter
-
-[Source Code](source/maplist-in-flutter.dart)
-
-![](images/maplist-in-flutter.jpg)
-
-# `Future<bool>` in Flutter
-
-[Source Code](source/futurebool-in-flutter.dart)
-
-![](images/futurebool-in-flutter.jpg)
-
-# Async Bloc Init in Flutter
-
-[Source Code](source/async-bloc-init-in-flutter.dart)
-
-![](images/async-bloc-init-in-flutter.jpg)
-
-# Firebase Auth Errors in Flutter
-
-[Source Code](source/firebase-auth-errors-in-flutter.dart)
-
-![](images/firebase-auth-errors-in-flutter.jpg)
-
-# Debug Strings in Flutter
-
-[Source Code](source/debug-strings-in-flutter.dart)
-
-![](images/debug-strings-in-flutter.jpg)
-
-# Keyboard Appearance in Flutter
-
-[Source Code](source/keyboard-appearance-in-flutter.dart)
-
-![](images/keyboard-appearance-in-flutter.jpg)
-
-# Get `String` Data in Dart
-
-[Source Code](source/get-string-data-in-dart.dart)
-
-![](images/get-string-data-in-dart.jpg)
-
-# `Stream.startWith` in Flutter
-
-[Source Code](source/streamstartwith-in-flutter.dart)
-
-![](images/streamstartwith-in-flutter.jpg)
-
-# Optional Functions in Dart
-
-[Source Code](source/optional-functions-in-dart.dart)
-
-![](images/optional-functions-in-dart.jpg)
-
-# `AnnotatedRegion` in Flutter
-
-[Source Code](source/annotatedregion-in-flutter.dart)
-
-![](images/annotatedregion-in-flutter.jpg)
-
-# Unordered `Map` Equality in Dart
-
-[Source Code](source/unordered-map-equality-in-dart.dart)
-
-![](images/unordered-map-equality-in-dart.jpg)
-
-# `Iterable` to `ListView` in Flutter
-
-[Source Code](source/iterable-to-listview-in-flutter.dart)
-
-![](images/iterable-to-listview-in-flutter.jpg)
-
-# Password Mask in Flutter
-
-[Video Demo](https://youtu.be/sVRiM_1GGBA)
-
-[Source Code](source/password-mask-in-flutter.dart)
-
-![](images/password-mask-in-flutter.jpg)
-
-# Fast `Object.toString()` in Dart
-
-[Source Code](source/fast-object-tostring-in-dart.dart)
-
-![](images/fast-object-tostring-in-dart.jpg)
-
-# Copying Bloc State in Flutter
-
-[Source Code](source/copying-bloc-state-in-flutter.dart)
-
-![](images/copying-bloc-state-in-flutter.jpg)
-
-# `Iterable` Subscripts in Dart
-
-[Source Code](source/iterable-subscripts-in-dart.dart)
-
-![](images/iterable-subscripts-in-dart.jpg)
-
-# `useState` in Flutter Hooks
-
-[Video Demo](https://youtu.be/weNzfLm1bDI)
-
-[Source Code](source/usestate-in-flutter-hooks.dart)
-
-![](images/usestate-in-flutter-hooks.jpg)
-
-# Folding Iterables in Dart
-
-[Source Code](source/folding-iterables-in-dart.dart)
-
-![](images/folding-iterables-in-dart.jpg)
-
-# Custom Iterables in Dart
-
-[Source Code](source/custom-iterables-in-dart.dart)
-
-![](images/custom-iterables-in-dart.jpg)
-
-# Class Clusters in Dart
-
-[Source Code](source/class-clusters-in-dart.dart)
-
-![](images/class-clusters-in-dart.jpg)
-
-# `Iterable` +/- in Dart
-
-[Source Code](source/iterable-plus-minus-in-dart.dart)
-
-![](images/iterable-plus-minus-in-dart.jpg)
-
-# Periodic Streams in Dart
-
-[Source Code](source/periodic-streams-in-dart.dart)
-
-![](images/periodic-streams-in-dart.jpg)
-
-# `EmptyOnError` in Dart
-
-[Source Code](source/emptyonerror-in-dart.dart)
-
-![](images/emptyonerror-in-dart.jpg)
-
-# `Stream<T>` Initial Value in Flutter
-
-[Video Demo](https://youtu.be/vF8Nxlw1uY8)
-
-[Source Code](source/stream<t>-initial-value-in-flutter.dart)
-
-![](images/stream<t>-initial-value-in-flutter.jpg)
-
-# `Double.normalize` in Dart
-
-[Source Code](source/doublenormalize-in-dart.dart)
-
-![](images/doublenormalize-in-dart.jpg)
-
-# Hide Sensitive Information in Flutter
-
-[Video Demo](https://www.youtube.com/watch?v=N16cqlAbtyE)
-
-[Source Code](source/hide-sensitive-information-in-flutter.dart)
-
-![](images/hide-sensitive-information-in-flutter.jpg)
-
-# `Iterable.compactMap` in Dart
-
-[Source Code](source/iterable-compactmap-in-dart.dart)
-
-![](images/iterable-compactmap-in-dart.jpg)
-
-# `useEffect` in Flutter Hooks
-
-[Source Code](source/useeffect-in-flutter-hooks.dart)
-
-![](images/useeffect-in-flutter-hooks.jpg)
-
-# Merging Streams in Dart
-
-[Source Code](source/merging-streams-in-dart.dart)
-
-![](images/merging-streams-in-dart.jpg)
-
-# `Isolate` Stream in Dart
-
-[Source Code](source/isolate-stream-in-dart.dart)
-
-![](images/isolate-stream-in-dart.jpg)
-
-# Network Image Retry in Flutter
-
-[Source Code](source/network-image-retry-in-flutter.dart)
-
-![](images/network-image-retry-in-flutter.jpg)
-
-# Reusable APIs in Flutter
-
-[Source Code](source/reusable-apis-in-flutter.dart)
-
-![](images/reusable-apis-in-flutter.jpg)
-
-# `ListTile` Shadow in Flutter
-
-[Source Code](source/listtile-shadow-in-flutter.dart)
-
-![](images/listtile-shadow-in-flutter.jpg)
-
-# Transparent AppBar in Flutter
-
-[Source Code](source/transparent-appbar-in-flutter.dart)
-
-![](images/transparent-appbar-in-flutter.jpg)
-
-# Constructors on Abstract Classes in Dart
-
-[Source Code](source/constructors-on-abstract-classes-in-dart.dart)
-
-![](images/constructors-on-abstract-classes-in-dart.jpg)
-
-# `@useResult` in Dart
-
-[Source Code](source/useresult-in-dart.dart)
-
-![](images/useresult-in-dart.jpg)
-
-# `@mustCallSuper` in Dart
-
-[Source Code](source/mustcallsuper-in-dart.dart)
-
-![](images/mustcallsuper-in-dart.jpg)
-
-# `Object.hash` in Dart
-
-[Source Code](source/object-hash-in-dart.dart)
-
-![](images/object-hash-in-dart.jpg)
-
-# Expanded Equally in Flutter
-
-[Source Code](source/expanded-equally-in-flutter.dart)
-
-![](images/expanded-equally-in-flutter.jpg)
-
-# Random Iterable Value in Dart
-
-[Video Demo](https://youtu.be/ys6NatnIzOg)
-
-[Source Code](source/random-iterable-value-in-dart.dart)
-
-![](images/random-iterable-value-in-dart.jpg)
-
-# Hardcoded Strings in Flutter
-
-[Source Code](source/hardcoded-strings-in-flutter.dart)
-
-![](images/hardcoded-strings-in-flutter.jpg)
-
-# Manually Scroll in List View in Flutter
-
-[Video Demo](https://youtu.be/ZYC6yd0nI9s)
-
-[Source Code](source/manually-scroll-in-list-view-in-flutter.dart)
-
-![](images/manually-scroll-in-list-view-in-flutter.jpg)
-
-# `AsyncSnapshot` to `Widget` in Flutter
-
-[Source Code](source/asyncsnapshot-to-widget-in-flutter.dart)
-
-![](images/asyncsnapshot-to-widget-in-flutter.jpg)
-
-# Breadcrumbs in Flutter
-
-[Video Demo](https://youtu.be/_4JJR35B7lM)
-
-[Source Code](source/breadcrumbs-in-flutter.dart)
-
-![](images/breadcrumbs-in-flutter.jpg)
-
-# Unique `Map` Values in Dart
-
-[Source Code](source/unique-map-values-in-dart.dart)
-
-![](images/unique-map-values-in-dart.jpg)
-
-# Smart Quotes/Dashes in Flutter
-
-[Source Code](source/smart-quotes-dashes-in-flutter.dart)
-
-![](images/smart-quotes-dashes-in-flutter.jpg)
-
-# Haptic Feedback in Flutter
-
-[Video Demo](https://youtu.be/9kzrtLb0YCE)
-
-[Source Code](source/haptic-feedback-in-flutter.dart)
-
-![](images/haptic-feedback-in-flutter.jpg)
-
-# Localization Delegates in Flutter
-
-[Source Code](source/localization-delegates-in-flutter.dart)
-
-![](images/localization-delegates-in-flutter.jpg)
-
-# Extending Functions in Dart
-
-[Source Code](source/extending-functions-in-dart.dart)
-
-![](images/extending-functions-in-dart.jpg)
-
-# Paginated `ListView` in Flutter
-
-[Video Demo](https://youtu.be/V7ETQ9pBx34)
-
-[Source Code](source/paginated-listview-in-flutter.dart)
-
-![](images/paginated-listview-in-flutter.jpg)
-
-# Immutable Classes in Dart
-
-[Source Code](source/immutable-classes-in-dart.dart)
-
-![](images/immutable-classes-in-dart.jpg)
-
-# Card Widget in Flutter
-
-[Source Code](source/card-widget-in-flutter.dart)
-
-![](images/card-widget-in-flutter.jpg)
-
-# List Equality Ignoring Ordering in Dart
-
-[Source Code](source/list-equality-ignoring-ordering-in-dart.dart)
-
-![](images/list-equality-ignoring-ordering-in-dart.jpg)
-
-# Shorten GitHub URLs in Dart
-
-[Source Code](source/shorten-github-urls-in-dart.dart)
-
-![](images/shorten-github-urls-in-dart.jpg)
-
-# Time Picker in Flutter
-
-[Video Demo](https://youtu.be/s_YGWwbmrZQ)
-
-[Source Code](source/time-picker-in-flutter.dart)
-
-![](images/time-picker-in-flutter.jpg)
-
-# Throttled Print in Flutter
-
-[Source Code](source/throttled-print-in-flutter.dart)
-
-![](images/throttled-print-in-flutter.jpg)
-
-# Map Equality in Dart
-
-[Source Code](source/map-equality-in-dart.dart)
-
-![](images/map-equality-in-dart.jpg)
-
-# Unique Maps in Dart
-
-[Source Code](source/unique-maps-in-dart.dart)
-
-![](images/unique-maps-in-dart.jpg)
-
-# Raw Auto Complete in Flutter
-
-[Video Demo](https://youtu.be/m2MiGGO5Wig)
-
-[Source Code](source/raw-auto-complete-in-flutter.dart)
-
-![](images/raw-auto-complete-in-flutter.jpg)
-
-# Title on `Object` in Dart
-
-[Source Code](source/title-on-object-in-dart.dart)
-
-![](images/title-on-object-in-dart.jpg)
-
-# Compute in Flutter
-
-[Source Code](source/compute-in-flutter.dart)
-
-![](images/compute-in-flutter.jpg)
-
-# Filter on `Map` in Dart
-
-[Source Code](source/filter-on-map-in-dart.dart)
-
-![](images/filter-on-map-in-dart.jpg)
-
-# Type Alias in Dart
-
-[Source Code](source/type-alias-in-dart.dart)
-
-![](images/type-alias-in-dart.jpg)
-
-# `ValueNotifier` in Flutter
-
-[Source Code](source/valuenotifier-in-flutter.dart)
-
-![](images/valuenotifier-in-flutter.jpg)
-
-# Object to Integer in Dart
-
-[Source Code](source/object-to-integer-in-dart.dart)
-
-![](images/object-to-integer-in-dart.jpg)
-
-# Image Opacity in Flutter
-
-[Video Demo](https://youtu.be/94-cWk_bQbw)
-
-[Source Code](source/image-opacity-in-flutter.dart)
-
-![](images/image-opacity-in-flutter.jpg)
-
-# Covariant in Dart
-
-[Source Code](source/covariant-in-dart.dart)
-
-![](images/covariant-in-dart.jpg)
-
-# Custom Errors in Streams in Dart
-
-[Source Code](source/custom-errors-in-streams-in-dart.dart)
-
-![](images/custom-errors-in-streams-in-dart.jpg)
-
-# Shake Animation in Flutter
-
-[Video Demo](https://youtu.be/saENmhvugSo)
-
-[Source Code](source/shake-animation-in-flutter.dart)
-
-![](images/shake-animation-in-flutter.jpg)
-
-# Throw Enums in Dart
-
-[Source Code](source/throw-enums-in-dart.dart)
-
-![](images/throw-enums-in-dart.jpg)
-
-# `Future` Error Test in Flutter
-
-[Source Code](source/future-error-test-in-flutter.dart)
-
-![](images/future-error-test-in-flutter.jpg)
-
-# Generic URL Retrieval in Dart
-
-[Source Code](source/generic-url-retrieval-in-dart.dart)
-
-![](images/generic-url-retrieval-in-dart.jpg)
-
-# Custom Error Widget in Flutter
-
-[Source Code](source/custom-error-widget-in-flutter.dart)
-
-![](images/custom-error-widget-in-flutter.jpg)
-
-# Handle Multiple `Future` Errors in Dart
-
-[Source Code](source/handle-multiple-future-errors-in-dart.dart)
-
-![](images/handle-multiple-future-errors-in-dart.jpg)
-
-# `Future` Error Handling in Dart
-
-[Source Code](source/future-error-handling-in-dart.dart)
-
-![](images/future-error-handling-in-dart.jpg)
-
-# String to Toast in Flutter
-
-[Video Demo](https://youtu.be/G4ta9YtIdks)
-
-[Source Code](source/string-to-toast-in-flutter.dart)
-
-![](images/string-to-toast-in-flutter.jpg)
-
-# Waiting in Dart
-
-[Source Code](source/waiting-in-dart.dart)
-
-![](images/waiting-in-dart.jpg)
-
-# Loading Dialog in Flutter
-
-[Video Demo](https://youtu.be/WLPoV1unyJw)
-
-[Source Code](source/loading-dialog-in-flutter.dart)
-
-![](images/loading-dialog-in-flutter.jpg)
-
-# Compact Map on `Map<K,V>` in Dart
-
-[Source Code](source/compact-map-on-mapkv-in-dart.dart)
-
-![](images/compact-map-on-mapkv-in-dart.jpg)
-
-# Query Parameters in Dart
-
-[Source Code](source/query-parameters-in-dart.dart)
-
-![](images/query-parameters-in-dart.jpg)
-
-# Multiple Gradients in Container in Flutter
-
-[Source Code](source/multiple-gradients-in-container-in-flutter.dart)
-
-![](images/multiple-gradients-in-container-in-flutter.jpg)
-
-# Filter on `Stream<List<T>>` in Dart
-
-[Source Code](source/filter-on-streamlistt-in-dart.dart)
-
-![](images/filter-on-streamlistt-in-dart.jpg)
-
-# Generic Route Arguments in Flutter
-
-[Source Code](source/generic-route-arguments-in-flutter.dart)
-
-![](images/generic-route-arguments-in-flutter.jpg)
-
-# Generic Dialog in Flutter
-
-[Source Code](source/generic-dialog-in-flutter.dart)
-
-![](images/generic-dialog-in-flutter.jpg)
-
-# GitHub API in Flutter
-
-[Video Demo](https://youtu.be/XinxzuylqRY)
-
-[Source Code](source/github-api-in-flutter.dart)
-
-![](images/github-api-in-flutter.jpg)
-
-# `ChangeNotifier` in Flutter
-
-[Video Demo](https://youtu.be/gjxFHKXSo-8)
-
-[Source Code](source/changenotifier-in-flutter.dart)
-
-![](images/changenotifier-in-flutter.jpg)
-
-# Refresh Indicator in Flutter
-
-[Video Demo](https://youtu.be/w5vpDQKrOlo)
-
-[Source Code](source/refresh-indicator-in-flutter.dart)
-
-![](images/refresh-indicator-in-flutter.jpg)
-
-# FlatMap in Dart
-
-[Source Code](source/flatmap-in-dart.dart)
-
-![](images/flatmap-in-dart.jpg)
-
-# `OrientationBuilder` in Flutter
-
-[Video Demo](https://youtu.be/b0YCGpBXsmk)
-
-[Source Code](source/orientationbuilder-in-flutter.dart)
-
-![](images/orientationbuilder-in-flutter.jpg)
-
-# Linear Gradient in Flutter
-
-[Source Code](source/linear-gradient-in-flutter.dart)
-
-![](images/linear-gradient-in-flutter.jpg)
-
-# Bloc Text Editing Controller in Flutter
-
-[Video Demo](https://youtu.be/rXgVasUPT9o)
-
-[Soure Code](source/bloc-text-editing-controller-in-flutter.dart)
-
-![](images/bloc-text-editing-controller-in-flutter.jpg)
-
-# Blurred TabBar in Flutter
-
-[Video Demo](https://youtu.be/j4QolzZZ6yM)
-
-[Source Code](source/blurred-tabbar-in-flutter.dart)
-
-![](images/blurred-tabbar-in-flutter.jpg)
-
-# Play YouTube in Flutter
-
-[Video Demo](https://youtu.be/4QWA65ysTw4)
-
-[Source Code](source/play-youtube-in-flutter.dart)
-
-![](images/play-youtube-in-flutter.jpg)
-
-# ListView Background in Flutter
-
-[Video Demo](https://youtu.be/5RI0oll1p3M)
-
-[Source Code](source/listview-background-in-flutter.dart)
-
-![](images/listview-background-in-flutter.jpg)
-
-# Integer to Binary in Dart
-
-[Source Code](source/integer-to-binary-in-dart.dart)
-
-![](images/integer-to-binary-in-dart.jpg)
-
-# Split String by Length in Dart
-
-[Source Code](source/split-string-by-length-in-dart.dart)
-
-![](images/split-string-by-length-in-dart.jpg)
-
-# Image Tint in Flutter
-
-[Video Demo](https://youtu.be/kkHU3TBAjjY)
-
-[Source Code](source/image-tint-in-flutter.dart)
-
-![](images/image-tint-in-flutter.jpg)
-
-# SlideTransition in Flutter
-
-[Video Demo](https://youtu.be/7lgF3gsC1HI)
-
-[Source Code](source/slidetransition-in-flutter.dart)
-
-![](images/slidetransition-in-flutter.jpg)
-
-# Expansion Panels and Lists in Flutter
-
-[Video Demo](https://youtu.be/7yJm1tqCQRg)
-
-[Source Code](source/expansion-panels-and-lists-in-flutter.dart)
-
-![](images/expansion-panels-and-lists-in-flutter.jpg)
-
-# Complete CRUD App in Flutter
-
-[Video Demo](https://youtu.be/Svu1FmjYn88)
-
-[Source Code](source/complete-crud-app-in-flutter.dart)
-
-![](images/complete-crud-app-in-flutter.jpg)
-
-# SQLite Storage in Flutter
-
-[Video Demo](https://youtu.be/OY7r3CWjdgE)
-
-[Source Code](source/sqlite-storage-in-flutter.dart)
-
-![](images/sqlite-storage-in-flutter.jpg)
-
-# Circular Progress with Percentage in Flutter
-
-[Video Demo](https://youtu.be/a84otkvIr1Y)
-
-[Source Code](source/circular-progress-indicator-with-percentage-in-flutter.dart)
-
-![](images/circular-progress-with-percentage-in-flutter.jpg)
-
-# Opening URLs in Flutter
-
-[Source Code](source/opening-urls-in-flutter.dart)
-
-![](images/opening-urls-in-flutter.jpg)
-
-# Commodore 64 Screen in Flutter
-
-[Video Demo](https://youtu.be/Kj639jHjeaw)
-
-[Source Code](source/commodore-64-screen-in-flutter.dart)
-
-![](images/commodore-64-screen-in-flutter.jpg)
-
-# Animated Lists in Flutter
-
-[Video Demo](https://youtu.be/XekBgccBJHM)
-
-[Source Code](source/animated-lists-in-flutter.dart)
-
-![](images/animated-lists-in-flutter.jpg)
-
-# `CheckboxListTile` in Flutter
-
-[Source Code](source/checkboxlisttile-in-flutter.dart)
-
-![](images/checkboxlisttile-in-flutter.jpg)
-
-# `-` Operator on `String` in Dart
-
-[Source Code](source/minus-operator-on-string-in-dart.dart)
-
-![](images/minus-operator-on-string-in-dart.jpg)
-  
-# Dart Progress for `Future<T>`
-
-[Source Code](source/dart-progress-for-futuret.dart)
-  
-![](images/dart-progress-for-futuret.jpg)
-
-# Move Widget Shadows with Animation
-
-[Source Code](source/move-widget-shadows-with-animation.dart)
-
-![](images/move-widget-shadows-with-animation.jpg)
-
-# Gallery with Blurred Backgrounds in Flutter
-
-[Source Code](source/gallery-with-blurred-backgrounds-in-flutter.dart)
-
-![](images/gallery-with-blurred-backgrounds-in-flutter.jpg)
-
-# Custom Path Clippers in Flutter
-
-[Source Code](source/custom-path-clippers-in-flutter.dart)
-
-![](images/custom-path-clippers-in-flutter.jpg)
-
-# Frost Effect on Images in Flutter
-
-[Source Code](source/frost-effect-on-images-in-flutter.dart)
-
-![](images/frost-effect-on-images-in-flutter.jpg)
-
-# Custom Clippers in Flutter
-
-[Source Code](source/custom-clippers-in-flutter.dart)
-
-![](images/custom-clippers-in-flutter.jpg)
-
-# Check if Website is Up or Down in Dart
-
-[Source Code](source/check-if-website-is-up-or-down-in-dart.dart)
-
-![](images/check-if-website-is-up-or-down-in-dart.jpg)
-
-# Section Titles on ListView in Flutter
-
-[Source Code](source/section-titles-on-listview-in-flutter.dart)
-
-![](images/section-titles-on-listview-in-flutter.jpg)
-
-# Circular Progress in Flutter
-
-[Source Code](source/circular-progress-in-flutter.dart)
-
-![](images/circular-progress-in-flutter.jpg)
-
-# Displaying Scroll Wheels in Flutter
-
-[Source Code](source/displaying-scroll-wheels-in-flutter.dart)
-
-![](images/displaying-scroll-wheels-in-flutter.jpg)
-
-# Post Messages to Slack with Dart
-
-[Source Code](source/post-messages-to-slack-with-dart.dart)
-
-![](images/post-messages-to-slack-with-dart.jpg)
-
-# Unwrap `List<T?>?` in Dart
-
-[Source Code](source/unwrap-list-t%3F-%3F-in-dart.dart)
-
-![](images/unwrap-list-t%3F-%3F-in-dart.jpg)
-
-# Avoiding UI Jitters When Switching Widgets in Flutter
-
-[Source Code](source/avoiding-ui-jitters-when-switching-widgets-in-flutter.dart)
-
-![](images/avoiding-ui-jitters-when-switching-widgets-in-flutter.jpg)
-
-# Detect Redirects in Dart
-
-[Source Code](source/detect-redirects-in-dart.dart)
-
-![](images/detect-redirects-in-dart.jpg)
-
-# Proportional Constraints in Flutter
-
-[Source Code](source/proportional-constraints-in-flutter.dart)
-
-![](images/proportional-constraints-in-flutter.jpg)
-
-# Displaying Cupertino Action Sheets in Flutter
-
-[Source Code](source/displaying-cupertino-action-sheets-in-flutter.dart)
-
-![](images/displaying-cupertino-action-sheets-in-flutter.jpg)
-
-# Rotating `List<T>` in Dart
-
-[Source Code](source/rotating-list-t-in-dart.dart)
-
-![](images/rotating-list-t-in-dart.jpg)
-
-# Displaying SnackBars in Flutter
-
-[Source Code](source/displaying-snackbars-in-flutter.dart)
-
-![](images/displaying-snackbars-in-flutter.jpg)
-
-# Custom Tab Bar Using ToggleButtons in Flutter
-
-[Source Code](source/custom-tab-bar-using-togglebuttons-in-flutter.dart)
-
-![](images/custom-tab-bar-using-togglebuttons-in-flutter.jpg)
-
-# Hashable Mixins in Dart
-
-[Source Code](source/hashable-mixins-in-dart.dart)
-
-![](images/hashable-mixins-in-dart.jpg)
-
-# Flutter Tips and Tricks in Terminal
-
-[Source Code](source/flutter-tips-and-tricks-in-terminal.dart)
-
-![](images/flutter-tips-and-tricks-in-terminal.jpg)
-
-# Searching `List<List<T>>` in Dart
-
-[Source Code](source/searching-listlistt-in-dart.dart)
-
-![](images/searching-listlistt-in-dart.jpg)
-
-# Cloning Objects in Dart
-
-[Source Code](source/cloning-objects-in-dart.dart)
-
-![](images/cloning-objects-in-dart.jpg)
-
-# Color Filters in Flutter
-
-[Source Code](source/color-filters-in-flutter.dart)
-
-![](images/color-filters-in-flutter.jpg)
-
-# Flattening Lists in Dart
-
-[Source Code](source/flattening-lists-in-dart.dart)
-
-![](images/flattening-lists-in-dart.jpg)
-
-# Managing Duplicates in `List<T>` in Dart
-
-[Source Code](source/managing-duplicates-in-list-t-in-dart.dart)
-
-![](images/managing-duplicates-in-list-t-in-dart.jpg)
-
-# FlatMap and CompactMap in Dart
-
-[Source Code](source/flatmap-and-compactmap-in-dart.dart)
-
-![](images/flatmap-and-compactmap-in-dart.jpg)
-
-# Equality of `List<T>` in Dart
-
-[Source Code](source/equality-of-list-t-in-dart.dart)
-
-![](images/equality-of-list-t-in-dart.jpg)
-
-# Constants in Dart
-
-[Source Code](source/constants-in-dart.dart)
-
-![](images/constants-in-dart.jpg)
-
-# Displaying Scrollable Bottom Sheets in Flutter
-
-[Source Code](source/draggable-scrollable-sheet-in-flutter.dart)
-
-![](images/draggable-scrollable-sheet-in-flutter.jpg)
-
-# YouTube Ad Remover in Dart
-
-[Source Code](source/youtube-ad-remover-in-dart.dart)
-
-![](images/youtube-ad-remover-in-dart.jpg)
-
-# Fade Between Widgets in Flutter
-
-[Source Code](source/fade-between-widgets-in-flutter.dart)
-
-![](images/fade-between-widgets-in-flutter.jpg)
-
-# Sort Descriptors in Dart
-
-[Source Code](source/sort-descriptors-in-dart.dart)
-
-![](images/sort-descriptors-in-dart.jpg)
-
-# User Sortable Columns and Tables in Flutter
-
-[Source Code](source/user-sortable-columns-and-tables-in-flutter.dart)
-
-![](images/user-sortable-columns-and-tables-in-flutter.jpg)
-
-# Content-Length of `List<Uri>` in Dart
-
-[Source Code](source/content-length-of-list-of-uri-in-dart.dart)
-
-![](images/content-length-of-list-of-uri-in-dart.jpg)
-
-# Recursive Dot Notation on Maps in Dart
-
-[Source Code](source/recursive-dot-notation-on-maps-in-dart.dart)
-
-![](images/recursive-dot-notation-on-maps-in-dart.jpg)
-
-# Allow User Selection of Text in Flutter
-
-[Source Code](source/allow-user-selection-of-text-in-flutter.dart)
-
-![](images/allow-user-selection-of-text-in-flutter.jpg)
-
-# Placing Constraints on Widgets in Flutter
-
-[Source Code](source/placing-constraints-on-widgets-in-flutter.dart)
-
-![](images/placing-constraints-on-widgets-in-flutter.jpg)
-
-# Animating Position Changes in Flutter
-
-[Source Code](source/animating-position-changes-in-flutter.dart)
-
-![](images/animating-position-changes-in-flutter.jpg)
-
-# Transitioning Between Widgets in Flutter
-
-[Source Code](source/transitioning-between-widgets-in-flutter.dart)
-
-![](images/transitioning-between-widgets-in-flutter.jpg)
-
-# Doubly Linked Lists in Dart
-
-[Source Code](source/doubly-linked-lists-in-dart.dart)
-
-![](images/doubly-linked-lists-in-dart.jpg)
-
-# Reordering Items Inside List Views in Flutter
-
-[Source Code](source/reordering-items-inside-list-views-in-flutter.dart)
-
-![](images/reordering-items-inside-list-views-in-flutter.jpg)
-
-# Custom Stream Transformers in Dart
-
-[Source Code](source/custom-stream-transformers-in-dart.dart)
-
-![](images/custom-stream-transformers-in-dart.jpg)
-
-# Expanding Stream Elements in Dart
-
-[Source Code](source/expanding-stream-elements-in-dart.dart)
-
-![](images/expanding-stream-elements-in-dart.jpg)
-
-# Consume Streams for a Duration in Dart
-
-[Source Code](source/consume-streams-for-a-duration-in-dart.dart)
-
-![](images/consume-streams-for-a-duration-in-dart.jpg)
-
-# Shortening URLs in Dart
-
-[Source Code](source/shortening-urls-in-dart.dart)
-
-![](images/shortening-urls-in-dart.jpg)
-
-# LimitedBox Widget as ListView Items in Flutter
-
-[Source Code](source/limitedbox-widget-as-listview-items-in-flutter.dart)
-
-![](images/limitedbox-widget-as-listview-items-in-flutter.jpg)
-
-# Generically Convert Anything to Int in Dart
-
-[Source Code](source/generically-convert-anything-to-int-in-dart.dart)
-
-![](images/generically-convert-anything-to-int-in-dart.jpg)
-
-# Validating URL Certificates in Dart
-
-[Source Code](source/validating-url-certificates-in-dart.dart)
-
-![](images/validating-url-certificates-in-dart.jpg)
-
-# Displaying Popup Menus in Flutter
-
-[Source Code](source/displaying-popup-menus-in-flutter.dart)
-
-![](images/displaying-popup-menus-in-flutter.jpg)
-
-# Implementing Drag and Drop in Flutter
-
-[Source Code](source/implementing-drag-and-drop-in-flutter.dart)
-
-![](images/implementing-drag-and-drop-in-flutter.jpg)
-
-# Dismissing List Items in Flutter
-
-[Source Code](source/dismissing-list-items-in-flutter.dart)
-
-![](images/dismissing-list-items-in-flutter.jpg)
-
-# Animating Widgets with Ease in Flutter
-
-[Source Code](source/animating-widgets-with-ease-in-flutter.dart)
-
-![](images/animating-widgets-with-ease-in-flutter.jpg)
-
-# Displaying Tool Tips in Flutter
-[Source Code](source/displaying-tool-tips-in-flutter.dart)
-
-![](images/displaying-tool-tips-in-flutter.jpg)
-
-# Displaying Assorted Widgets Inside TableView in Flutter
-[Source Code](source/displaying-assorted-widgets-inside-tableview-in-flutter.dart)
-
-![](images/displaying-assorted-widgets-inside-tableview-in-flutter.jpg)
-
-# Page Indicator with Page View in Flutter
-[Source Code](source/page-indicator-with-page-view-in-flutter.dart)
-
-![](images/page-indicator-with-page-view-in-flutter.jpg)
-
-# Animating and Moving a Floating Action Button in Flutter
-[Source Code](source/animating-and-moving-a-floating-action-button-in-flutter.dart)
-
-![](images/animating-and-moving-a-floating-action-button-in-flutter.jpg)
-
-# Fading Network Image Widget in Flutter
-[Source Code](source/fading-network-image-widget-in-flutter.dart)
-
-![](images/fading-network-image-widget-in-flutter.jpg)
-
-# Transparent Alert Dialogs in Flutter
-[Source Code](source/transparent-alert-dialogs-in-flutter.dart)
-
-![](images/transparent-alert-dialogs-in-flutter.jpg)
-
-# Network Image Size in Dart
-[Source Code](source/network-image-size-in-dart.dart)
-
-![](images/network-image-size-in-dart.jpg)
-
-# Animated Icons in Flutter
-[Source Code](source/animated-icons-in-flutter.dart)
-
-![](images/animated-icons-in-flutter.jpg)
-
-# Custom Scroll Views in Flutter
-[Source Code](source/custom-scroll-views-in-flutter.dart)
-
-![](images/custom-scroll-views-in-flutter.jpg)
-
-# Parallax App Bar in Flutter
-
-![](images/parallax-app-bar-in-flutter.jpg)
-
-# JSON HTTP Requests in Dart
-
-![](images/json-http-requests-in-dart.jpg)
-
-# URL Timeouts in Dart
-
-![](images/url-timeouts-in-dart.jpg)
-
-# Detecting URL File Types in Dart
-
-![](images/detecting-url-file-types-in-dart.jpg)
-
-# Paginated Lists in Dart
-
-![](images/paginated-lists-in-dart.jpg)
-
-# Requesting DELETE on APIs in Dart
-
-![](images/requesting-delete-on-apis-in-dart.jpg)
-
-# Animated Containers in Flutter
-
-![](images/animated-containers-in-flutter.jpg)
-
-# Hiding Widgets in Flutter
-
-![](images/hiding-widgets-in-flutter.jpg)
-
-# Simple Opacity Animation in Flutter
-
-![](images/simple-opacity-animation-in-flutter.jpg)
-
-# Vignette Widget in Flutter
-
-![](images/vignette-widget-in-flutter.jpg)
-
-# Drop Down Button Configuration and Usage in Flutter
-
-![](images/drop-down-button-configuration-and-usage-in-flutter.jpg)
-
-# Expandable List Items in Flutter
-
-![](images/expandable-list-items-in-flutter.jpg)
-
-# Infinite Scrolling in Flutter
-
-![](images/infinite-scrolling-in-flutter.jpg)
-
-# Infinite Arrays in Dart
-
-![](images/infinite-arrays-in-dart.jpg)
-
-# Custom Color Picker Component in Flutter
-
-![](images/custom-color-picker-component-in-flutter.jpg)
-
-# Displaying and Reacting to Switches in Flutter
-
-![](images/displaying-and-reacting-to-switches-in-flutter.jpg)
-
-# Displaying Bottom Bars in Flutter
-
-![](images/displaying-bottom-bars-in-flutter.jpg)
-
-# Displaying Buttons on AppBar in Flutter
-
-![](images/displaying-buttons-on-appbar-in-flutter.jpg)
-
-# Displaying Bottom Sheets in Flutter
-
-![](images/displaying-bottom-sheets-in-flutter.jpg)
-
-# Converting Enums to Radio Buttons in Flutter
-
-![](images/converting-enums-to-radio-buttons-in-flutter.jpg)
-
-# Check Existence of Websites in Flutter
-
-![](images/check-existence-of-websites-in-flutter.jpg)
-
-# Images inside AlertDialog in Flutter
-
-![](images/images-inside-alertdialog-in-flutter.jpg)
-
-# Returning Values from AlertDialog in Flutter
-
-![](images/returning-values-from-alertdialog-in-flutter.jpg)
-
-# Simple Grid View in Flutter
-
-![](images/simple-grid-view-in-flutter.jpg)
-
-# Rendering Bullet Points in Flutter
-
-![](images/rendering-bullet-points-in-flutter.jpg)
-
-# Retrying Futures in Flutter
-
-![](images/retrying-futures-in-flutter.jpg)
-
-# Containers as ClipOvals in Flutter
-
-![](images/containers-as-clipovals-in-flutter.jpg)
-
-# Rich Texts in Flutter
-
-![](images/rich-texts-in-flutter.jpg)
-
-# Wrapping Widgets in Flutter
-
-![](images/wrapping-widgets-in-flutter.jpg)
-
-# Sweep Gradients in Flutter
-
-![](images/sweep-gradients-in-flutter.jpg)
-
-# `Stream` and `StreamBuilder` in Flutter
-
-![](images/stream-and-stream-builder-in-flutter.jpg)
-
-# Blur Effect in Flutter
-
-![](images/blur-effect-in-flutter.jpg)
-
-# Convert Enums to Strings in Dart
-
-![](images/convert-enums-to-strings-in-dart.jpg)
-
-# Replacing Text in TextField in Flutter
-
-![](images/replacing-text-in-textfield-in-flutter.jpg)
-
-# Aspect Ratio in Flutter
-
-![](images/aspect-ratio-in-flutter.jpg)
-
-# Zoom and Pan in Flutter
-
-![](images/zoom-and-pan-in-flutter.jpg)
-
-# Resizing Images in Flutter to Fit Screen Height
-
-![](images/resizing-images-in-flutter-to-fit-screen-height.jpg)
-
-# Validating URLs in Flutter
-
-![](images/validating-urls-in-flutter.jpg)
-
-# FrameBuilder for Network Images in Flutter
-
-![](images/framebuilder-for-network-images-in-flutter.jpg)
-
-# Adding Shadow to Icons in Flutter
-
-![](images/adding-shadow-to-icons-in-flutter.jpg)
-
-# Calculating Median of Lists in Dart
-
-![](images/calculating-median-of-lists-in-dart.jpg)
-
-# Generic Functions with Reduce in Dart
-
-![](images/generic-functions-with-reduce-in-dart.jpg)
-
-# Passing Back Data From a Screen to the Previous One in Flutter
-
-![](images/passing-back-data-from-a-screen-to-the-previous-one-in-flutter.jpg)
-
-# Flinging an Animation in Flutter
-
-![](images/flinging-an-animation-in-flutter.jpg)
-
-# Fade Animations in Flutter
-
-![](images/fade-animations-in-flutter.jpg)
-
-# Throttling User Input in Flutter
-
-![](images/throttling-user-input-in-flutter.jpg)
-
-# Censoring TextFields in Flutter
-
-![](images/censoring-textfields-in-flutter.jpg)
-
-# Customizing TextButton in Flutter
-
-![](images/customizing-textbutton-in-flutter.jpg)
-
-# Multiline TextFields in Flutter
-
-![](images/multiline-textfields-in-flutter.jpg)
-
-# Filtering TextField Input in Flutter
-
-![](images/filtering-textfield-input-in-flutter.jpg)
-
-# Focusing Manually on TextFields in Flutter
-
-![](images/focusing-manually-on-textfields-in-flutter.jpg)
-
-# Data Streams Over HTTP/HTTPs in Dart
-
-![](images/data-streams-over-http-https-in-dart.jpg)
-
-# Catching Nonexistent Accessors or Methods in Dart
-
-![](images/catching-nonexistent-accessors-or-methods-in-dart.jpg)
-
-# Using Expando in Dart
-
-![](images/using-expando-in-dart.jpg)
-
-# Implementing Custom Maps in Dart
-
-![](images/implementing-custom-maps-in-dart.jpg)
-
-# Dynamically Calling Functions in Dart
-
-![](images/dynamically-calling-functions-in-dart.jpg)
-
-# Factory Constructors in Dart
-
-![](images/factory-constructors-in-dart.jpg)
-
-# Calculating the Sum of List Items in Dart
-
-![](images/calculating-the-sum-of-list-items-in-dart.jpg)
-
-# Removing Duplicate Strings in Lists in Dart (Case-Insensitive)
-
-![](images/removing-duplicate-strings-in-lists-in-dart.jpg)
-
-# Implementing Range in Dart
-
-![](images/implementing-range-in-dart.jpg)
-
-# Converting Lists to Maps in Dart
-
-![](images/converting-lists-to-maps-in-dart.jpg)
-
-# Implementing Hashable in Dart
-
-![](images/implementing-hashable-in-dart.jpg)
-
-# Random Name Generator in Dart
-
-![](images/random-name-generator-in-dart.jpg)
-
-# Capturing Stack Traces in Dart Exceptions
-
-![](images/capturing-stack-traces-in-dart-exceptions.jpg)
-
-# Removing Duplicates from Lists in Dart
-
-![](images/removing-duplicates-from-lists-in-dart.jpg)
-
-# Optional Spread Operator in Dart
-
-![](images/optional-spread-operator-in-dart.jpg)
-
-# Calling Optional Functions in Dart
-
-![](images/calling-optional-functions-in-dart.jpg)
-
-# Odd-Even Sort in Dart
-
-![](images/odd-even-sort-in-dart.jpg)
-
-# Implementing Zip and Tuples in Dart
-
-![](images/implementing-zip-and-tuples-in-dart.jpg)
-
-# Swapping Values in Lists with XOR in Dart
-
-![](images/swapping-values-in-lists-with-xor-in-dart.jpg)
-
-# Waiting for Multiple Futures in Dart
-
-![](images/waiting-for-multiple-futures-in-dart.jpg)
-
-# Using Queues as Stacks in Dart
-
-![](images/using-queues-as-stacks-in-dart.jpg)
-
-# Custom Iterators in Dart
-
-![](images/custom-iterators-in-dart.jpg)
-
-# Iterables as Ranges and Transform in Dart
-
-![](images/iterables-as-ranges-and-transform-in-dart.jpg)
-
-# Errors vs Exceptions in Dart
-
-![](images/errors-vs-exceptions-in-dart.jpg)
-
-# Custom Annotations in Dart
-
-![](images/custom-annotations-in-dart.jpg)
-
-# Classes as Enums in Dart
-
-![](images/classes-as-enums-in-dart.jpg)
-
-# Spread Operator in Collection Literals in Dart
-
-![](images/spread-operator-in-collection-literals-in-dart.jpg)
-
-# `StreamBuilder` and `StreamController` in Dart
-
-![](images/streambuilder-and-streamcontroller-in-dart.jpg)
-
-# Almost Equal in Dart
-
-![](images/almost-equal-in-dart.jpg)
-
-# Enum Associated Values in Dart
-
-![](images/enum-associated-values-in-dart.jpg)
-
-# Implementing `Comparable` in Dart
-
-![](images/implementing-comparable-in-dart.jpg)
-
-# Implementing Custom Integer Types in Dart
-
-![](images/implementing-custom-integer-types-in-dart.jpg)
-
-# Custom Subscripts in Dart
-
-![](images/custom-subscripts-in-dart.jpg)
-
-# Dart List Enumeration with Index
-
-![](images/dart-list-enumeration-with-index.jpg)
-
-# Applying Mixins to Other Mixins in Dart
-
-![](images/applying-mixins-to-other-mixins-in-dart.jpg)
-
-# Parameter Types in Dart
-
-![](images/parameter-types.jpg)
-
-# Custom Exceptions in Dart
-
-![](images/custom-exceptions-in-dart.jpg)
-
-# `rethrow`ing Exceptions in Dart
-
-![](images/rethrowing-exceptions-in-dart.jpg)
-
-# `mixin`s and JSON Parsing in Dart
-
-![](images/mixins-to-download-json.jpg)
-
-# `mixin`s vs `abstract class`es in Dart
-
-![](images/mixins-vs-abstract-classes-in-dart.jpeg)
-
-# Drawing Shapes in Flutter with `LayoutBuilder`, `CustomPaint` and `CustomPainter`
-
-![](images/drawing-shapes-with-layoutbuilder.jpeg)
-
-# Generic Type Aliases in Dart
-
-![](images/generic-typealiases.jpeg)
-
-# Callable Classes in Dart
-
-![](images/callable-classes.jpeg)
-
-# Synchronous Generators in Dart
-
-![](images/synchronous-generators.jpeg)
-
-# Implicit Interfaces in Dart
-
-Did you know that in #Dart, every #class implicitly exports an #interface that can be #implemented (as opposed to #extended) by other classes? This is called "implicit interface".
-
-![](images/implicit-interfaces.jpeg)
-
-# Do you know how "const" constructors work in #Dart?
-
-![](images/const-initializers.jpeg)
-
-# Did you know that in #Dart, it is actually preferred to use #async and #await over using raw #Futures?
-
-![](images/downloading-and-parsing-json.jpeg)
-
-# In #Dart, you can use a combination of #Initializer #List plus default values for your class #member #fields to create elegant and handy convenience initializers
-
-![](images/initializer-list-combined-with-default-values-for-member-fields.jpeg)
-
-# Did you know that in #Dart, you can extract elements of a certain type from your Lists using the #whereType<T> #generic #function instead of calculating the #equality yourselves?
-  
-![](images/checking-for-type-equality-in-dart-lists.jpeg)
-
-# Do you know about #Type #Promotion in Dart?
-
-"address" is an optional field of the "Person" class. If you look at the "doThis()" function you see that I'm saving the value of address in a local variable and then comparing it with null and then returning if it's null. The Dart compiler is intelligent enough to understand that after the if-statement, "address" is NOT null anymore since you've already compared it with null and returned from the function.
-
-If you look at the "insteadOfThis" function, the first one, the Dart compiler cannot make the same assumption if you don't first store the value of address in a local variable. In that first function the Dart compiler, even after the if-statement, needs you to refer to address as an optional, using "address?" syntax.
-
-The mechanism the Dart compiler uses in the "doThis()" function is called Type Promotion.
-
-![](images/type-promotion-with-sound-null-safety.jpeg)
-
-# 4 lines of #Dart code that include the #spread operator, #cascade #operator, #generics, #extensions, #private prefix and #getters
-
-![](images/min-max-extension-on-list.jpeg)
-
-# Functions as First Class Citizens in Dart
-
-![](images/functions-as-first-class-citizens.jpeg)
+* [`StreamQueue` in Flutter](tipsandtricks/streamqueue-in-flutter/streamqueue-in-flutter.md)
+* [Enum Annotations in Flutter](tipsandtricks/enum-annotations-in-flutter/enum-annotations-in-flutter.md)
+* [Sorting Generics in Dart](tipsandtricks/sorting-generics-in-dart/sorting-generics-in-dart.md)
+* [Animating FAB in Flutter](tipsandtricks/animating-fab-in-flutter/animating-fab-in-flutter.md)
+* [Image Gallery in Flutter](tipsandtricks/image-gallery-in-flutter/image-gallery-in-flutter.md)
+* [Map with Index in Dart](tipsandtricks/map-with-index-in-dart/map-with-index-in-dart.md)
+* [`Set` Comprehension in Dart](tipsandtricks/set-comprehension-in-dart/set-comprehension-in-dart.md)
+* [Stretching `GridView` Items in Flutter](tipsandtricks/stretching-gridview-items-in-flutter/stretching-gridview-items-in-flutter.md)
+* [Email Drag and Drop in Flutter](tipsandtricks/email-drag-and-drop-in-flutter/email-drag-and-drop-in-flutter.md)
+* [Cherry-Picking Functions in Dart](tipsandtricks/cherry-picking-functions-in-dart/cherry-picking-functions-in-dart.md)
+* [Integer Range Extension in Dart](tipsandtricks/integer-range-extension-in-dart/integer-range-extension-in-dart.md)
+* [Static vs Factory Constructors in Dart](tipsandtricks/static-vs-factory-constructors-in-dart/static-vs-factory-constructors-in-dart.md)
+* [Result Type in Dart](tipsandtricks/result-type-in-dart/result-type-in-dart.md)
+* [`StreamController` Sink in Flutter](tipsandtricks/streamcontroller-sink-in-flutter/streamcontroller-sink-in-flutter.md)
+* [Enum Members in Dart 2.17](tipsandtricks/enum-members-in-dart-2-17/enum-members-in-dart-2-17.md)
+* [Constructor vs Factory Constructor in Dart](tipsandtricks/constructor-vs-factory-constructor-in-dart/constructor-vs-factory-constructor-in-dart.md)
+* [Unwrapping Streams in Dart](tipsandtricks/unwrapping-streams-in-dart/unwrapping-streams-in-dart.md)
+* [Appending to `Iterable<T>` in Dart](tipsandtricks/appending-to-iterablet-in-dart/appending-to-iterablet-in-dart.md)
+* [Inline Synchronous Generators in Dart](tipsandtricks/inline-synchronous-generators-in-dart/inline-synchronous-generators-in-dart.md)
+* [Functions as First Class Citizens in Flutter](tipsandtricks/functions-as-first-class-citizens-in-flutter/functions-as-first-class-citizens-in-flutter.md)
+* [`+` Operator on `Map` in Dart](tipsandtricks/%2B-operator-on-map-in-dart/%2B-operator-on-map-in-dart.md)
+* [`Stream` Drain in Flutter](tipsandtricks/stream-drain-in-flutter/stream-drain-in-flutter.md)
+* [Reusable Separators in Flutter](tipsandtricks/reusable-separators-in-flutter/reusable-separators-in-flutter.md)
+* [`AsyncSnapshotBuilder` in Flutter](tipsandtricks/asyncsnapshotbuilder-in-flutter/asyncsnapshotbuilder-in-flutter.md)
+* [Default Parameter Values in Dart](tipsandtricks/default-parameter-values-in-dart/default-parameter-values-in-dart.md)
+* [`Clipboard` in Flutter](tipsandtricks/clipboard-in-flutter/clipboard-in-flutter.md)
+* [Generic Object Map in Dart](tipsandtricks/generic-object-map-in-dart/generic-object-map-in-dart.md)
+* [RequireData in `AsyncSnapshot` in Flutter](tipsandtricks/requiredata-in-asyncsnapshot-in-flutter/requiredata-in-asyncsnapshot-in-flutter.md)
+* [`Symbol` in Dart](tipsandtricks/symbol-in-dart/symbol-in-dart.md)
+* [`RadioListTile` in Flutter](tipsandtricks/radiolisttile-in-flutter/radiolisttile-in-flutter.md)
+* [Infinite `ListView` in Flutter](tipsandtricks/infinite-listview-in-flutter/infinite-listview-in-flutter.md)
+* [`FilterChip` in Flutter](tipsandtricks/filterchip-in-flutter/filterchip-in-flutter.md)
+* [Function Pointers in Flutter](tipsandtricks/function-pointers-in-flutter/function-pointers-in-flutter.md)
+* [Multi-field Object Comparison in Dart](tipsandtricks/multi-field-object-comparison-in-dart/multi-field-object-comparison-in-dart.md)
+* [Expectation Extensions in Flutter](tipsandtricks/expectation-extensions-in-flutter/expectation-extensions-in-flutter.md)
+* [Delay Extension in Flutter](tipsandtricks/delay-extension-in-flutter/delay-extension-in-flutter.md)
+* [Hide Keyword in Dart](tipsandtricks/hide-keyword-in-dart/hide-keyword-in-dart.md)
+* [Firebase Batch Operations in Flutter](tipsandtricks/firebase-batch-operations-in-flutter/firebase-batch-operations-in-flutter.md)
+* [Show Keyword in Dart](tipsandtricks/show-keyword-in-dart/show-keyword-in-dart.md)
+* [Cherry Pick Provider Changes in Flutter](tipsandtricks/cherry-pick-provider-changes-in-flutter/cherry-pick-provider-changes-in-flutter.md)
+* [URL Data in Dart](tipsandtricks/url-data-in-dart/url-data-in-dart.md)
+* [Observe Network Connection in Flutter](tipsandtricks/observe-network-connection-in-flutter/observe-network-connection-in-flutter.md)
+* [Restartable Timer in Dart](tipsandtricks/restartable-timer-in-dart/restartable-timer-in-dart.md)
+* [`LazyStream` in Flutter and Dart](tipsandtricks/lazystream-in-flutter-and-dart/lazystream-in-flutter-and-dart.md)
+* [Cancelable APIs in Flutter](tipsandtricks/cancelable-apis-in-flutter/cancelable-apis-in-flutter.md)
+* [Asset Data in Flutter](tipsandtricks/asset-data-in-flutter/asset-data-in-flutter.md)
+* [API Caching in Flutter](tipsandtricks/api-caching-in-flutter/api-caching-in-flutter.md)
+* [`FutureGroup` in Dart](tipsandtricks/futuregroup-in-dart/futuregroup-in-dart.md)
+* [Flatten `Iterable<bool>` in Dart](tipsandtricks/flatten-iterablebool-in-dart/flatten-iterablebool-in-dart.md)
+* [Caching Temp Files in Flutter](tipsandtricks/caching-temp-files-in-flutter/caching-temp-files-in-flutter.md)
+* [Custom Lists in Dart](tipsandtricks/custom-lists-in-dart/custom-lists-in-dart.md)
+* [Optional Chaining in Dart](tipsandtricks/optional-chaining-in-dart/optional-chaining-in-dart.md)
+* [MapList in Flutter](tipsandtricks/maplist-in-flutter/maplist-in-flutter.md)
+* [`Future<bool>` in Flutter](tipsandtricks/futurebool-in-flutter/futurebool-in-flutter.md)
+* [Async Bloc Init in Flutter](tipsandtricks/async-bloc-init-in-flutter/async-bloc-init-in-flutter.md)
+* [Firebase Auth Errors in Flutter](tipsandtricks/firebase-auth-errors-in-flutter/firebase-auth-errors-in-flutter.md)
+* [Debug Strings in Flutter](tipsandtricks/debug-strings-in-flutter/debug-strings-in-flutter.md)
+* [Keyboard Appearance in Flutter](tipsandtricks/keyboard-appearance-in-flutter/keyboard-appearance-in-flutter.md)
+* [Get `String` Data in Dart](tipsandtricks/get-string-data-in-dart/get-string-data-in-dart.md)
+* [`Stream.startWith` in Flutter](tipsandtricks/streamstartwith-in-flutter/streamstartwith-in-flutter.md)
+* [Optional Functions in Dart](tipsandtricks/optional-functions-in-dart/optional-functions-in-dart.md)
+* [`AnnotatedRegion` in Flutter](tipsandtricks/annotatedregion-in-flutter/annotatedregion-in-flutter.md)
+* [Unordered `Map` Equality in Dart](tipsandtricks/unordered-map-equality-in-dart/unordered-map-equality-in-dart.md)
+* [`Iterable` to `ListView` in Flutter](tipsandtricks/iterable-to-listview-in-flutter/iterable-to-listview-in-flutter.md)
+* [Password Mask in Flutter](tipsandtricks/password-mask-in-flutter/password-mask-in-flutter.md)
+* [Fast `Object.toString()` in Dart](tipsandtricks/fast-object-tostring-in-dart/fast-object-tostring-in-dart.md)
+* [Copying Bloc State in Flutter](tipsandtricks/copying-bloc-state-in-flutter/copying-bloc-state-in-flutter.md)
+* [`Iterable` Subscripts in Dart](tipsandtricks/iterable-subscripts-in-dart/iterable-subscripts-in-dart.md)
+* [`useState` in Flutter Hooks](tipsandtricks/usestate-in-flutter-hooks/usestate-in-flutter-hooks.md)
+* [Folding Iterables in Dart](tipsandtricks/folding-iterables-in-dart/folding-iterables-in-dart.md)
+* [Custom Iterables in Dart](tipsandtricks/custom-iterables-in-dart/custom-iterables-in-dart.md)
+* [Class Clusters in Dart](tipsandtricks/class-clusters-in-dart/class-clusters-in-dart.md)
+* [`Iterable` +/- in Dart](tipsandtricks/iterable-plus-minus-in-dart/iterable-plus-minus-in-dart.md)
+* [Periodic Streams in Dart](tipsandtricks/periodic-streams-in-dart/periodic-streams-in-dart.md)
+* [`EmptyOnError` in Dart](tipsandtricks/emptyonerror-in-dart/emptyonerror-in-dart.md)
+* [`Stream<T>` Initial Value in Flutter](tipsandtricks/stream%3CT%3E-initial-value-in-flutter/stream%3CT%3E-initial-value-in-flutter.md)
+* [`Double.normalize` in Dart](tipsandtricks/doublenormalize-in-dart/doublenormalize-in-dart.md)
+* [Hide Sensitive Information in Flutter](tipsandtricks/hide-sensitive-information-in-flutter/hide-sensitive-information-in-flutter.md)
+* [`Iterable.compactMap` in Dart](tipsandtricks/iterable-compactmap-in-dart/iterable-compactmap-in-dart.md)
+* [`useEffect` in Flutter Hooks](tipsandtricks/useeffect-in-flutter-hooks/useeffect-in-flutter-hooks.md)
+* [Merging Streams in Dart](tipsandtricks/merging-streams-in-dart/merging-streams-in-dart.md)
+* [`Isolate` Stream in Dart](tipsandtricks/isolate-stream-in-dart/isolate-stream-in-dart.md)
+* [Network Image Retry in Flutter](tipsandtricks/network-image-retry-in-flutter/network-image-retry-in-flutter.md)
+* [Reusable APIs in Flutter](tipsandtricks/reusable-apis-in-flutter/reusable-apis-in-flutter.md)
+* [`ListTile` Shadow in Flutter](tipsandtricks/listtile-shadow-in-flutter/listtile-shadow-in-flutter.md)
+* [Transparent AppBar in Flutter](tipsandtricks/transparent-appbar-in-flutter/transparent-appbar-in-flutter.md)
+* [Constructors on Abstract Classes in Dart](tipsandtricks/constructors-on-abstract-classes-in-dart/constructors-on-abstract-classes-in-dart.md)
+* [`@useResult` in Dart](tipsandtricks/useresult-in-dart/useresult-in-dart.md)
+* [`@mustCallSuper` in Dart](tipsandtricks/mustcallsuper-in-dart/mustcallsuper-in-dart.md)
+* [`Object.hash` in Dart](tipsandtricks/object-hash-in-dart/object-hash-in-dart.md)
+* [Expanded Equally in Flutter](tipsandtricks/expanded-equally-in-flutter/expanded-equally-in-flutter.md)
+* [Random Iterable Value in Dart](tipsandtricks/random-iterable-value-in-dart/random-iterable-value-in-dart.md)
+* [Hardcoded Strings in Flutter](tipsandtricks/hardcoded-strings-in-flutter/hardcoded-strings-in-flutter.md)
+* [Manually Scroll in List View in Flutter](tipsandtricks/manually-scroll-in-list-view-in-flutter/manually-scroll-in-list-view-in-flutter.md)
+* [`AsyncSnapshot` to `Widget` in Flutter](tipsandtricks/asyncsnapshot-to-widget-in-flutter/asyncsnapshot-to-widget-in-flutter.md)
+* [Breadcrumbs in Flutter](tipsandtricks/breadcrumbs-in-flutter/breadcrumbs-in-flutter.md)
+* [Unique `Map` Values in Dart](tipsandtricks/unique-map-values-in-dart/unique-map-values-in-dart.md)
+* [Smart Quotes/Dashes in Flutter](tipsandtricks/smart-quotes-dashes-in-flutter/smart-quotes-dashes-in-flutter.md)
+* [Haptic Feedback in Flutter](tipsandtricks/haptic-feedback-in-flutter/haptic-feedback-in-flutter.md)
+* [Localization Delegates in Flutter](tipsandtricks/localization-delegates-in-flutter/localization-delegates-in-flutter.md)
+* [Extending Functions in Dart](tipsandtricks/extending-functions-in-dart/extending-functions-in-dart.md)
+* [Paginated `ListView` in Flutter](tipsandtricks/paginated-listview-in-flutter/paginated-listview-in-flutter.md)
+* [Immutable Classes in Dart](tipsandtricks/immutable-classes-in-dart/immutable-classes-in-dart.md)
+* [Card Widget in Flutter](tipsandtricks/card-widget-in-flutter/card-widget-in-flutter.md)
+* [List Equality Ignoring Ordering in Dart](tipsandtricks/list-equality-ignoring-ordering-in-dart/list-equality-ignoring-ordering-in-dart.md)
+* [Shorten GitHub URLs in Dart](tipsandtricks/shorten-github-urls-in-dart/shorten-github-urls-in-dart.md)
+* [Time Picker in Flutter](tipsandtricks/time-picker-in-flutter/time-picker-in-flutter.md)
+* [Throttled Print in Flutter](tipsandtricks/throttled-print-in-flutter/throttled-print-in-flutter.md)
+* [Map Equality in Dart](tipsandtricks/map-equality-in-dart/map-equality-in-dart.md)
+* [Unique Maps in Dart](tipsandtricks/unique-maps-in-dart/unique-maps-in-dart.md)
+* [Raw Auto Complete in Flutter](tipsandtricks/raw-auto-complete-in-flutter/raw-auto-complete-in-flutter.md)
+* [Title on `Object` in Dart](tipsandtricks/title-on-object-in-dart/title-on-object-in-dart.md)
+* [Compute in Flutter](tipsandtricks/compute-in-flutter/compute-in-flutter.md)
+* [Filter on `Map` in Dart](tipsandtricks/filter-on-map-in-dart/filter-on-map-in-dart.md)
+* [Type Alias in Dart](tipsandtricks/type-alias-in-dart/type-alias-in-dart.md)
+* [`ValueNotifier` in Flutter](tipsandtricks/valuenotifier-in-flutter/valuenotifier-in-flutter.md)
+* [Object to Integer in Dart](tipsandtricks/object-to-integer-in-dart/object-to-integer-in-dart.md)
+* [Image Opacity in Flutter](tipsandtricks/image-opacity-in-flutter/image-opacity-in-flutter.md)
+* [Covariant in Dart](tipsandtricks/covariant-in-dart/covariant-in-dart.md)
+* [Custom Errors in Streams in Dart](tipsandtricks/custom-errors-in-streams-in-dart/custom-errors-in-streams-in-dart.md)
+* [Shake Animation in Flutter](tipsandtricks/shake-animation-in-flutter/shake-animation-in-flutter.md)
+* [Throw Enums in Dart](tipsandtricks/throw-enums-in-dart/throw-enums-in-dart.md)
+* [`Future` Error Test in Flutter](tipsandtricks/future-error-test-in-flutter/future-error-test-in-flutter.md)
+* [Generic URL Retrieval in Dart](tipsandtricks/generic-url-retrieval-in-dart/generic-url-retrieval-in-dart.md)
+* [Custom Error Widget in Flutter](tipsandtricks/custom-error-widget-in-flutter/custom-error-widget-in-flutter.md)
+* [Handle Multiple `Future` Errors in Dart](tipsandtricks/handle-multiple-future-errors-in-dart/handle-multiple-future-errors-in-dart.md)
+* [`Future` Error Handling in Dart](tipsandtricks/future-error-handling-in-dart/future-error-handling-in-dart.md)
+* [String to Toast in Flutter](tipsandtricks/string-to-toast-in-flutter/string-to-toast-in-flutter.md)
+* [Waiting in Dart](tipsandtricks/waiting-in-dart/waiting-in-dart.md)
+* [Loading Dialog in Flutter](tipsandtricks/loading-dialog-in-flutter/loading-dialog-in-flutter.md)
+* [Compact Map on `Map<K,V>` in Dart](tipsandtricks/compact-map-on-mapkv-in-dart/compact-map-on-mapkv-in-dart.md)
+* [Query Parameters in Dart](tipsandtricks/query-parameters-in-dart/query-parameters-in-dart.md)
+* [Multiple Gradients in Container in Flutter](tipsandtricks/multiple-gradients-in-container-in-flutter/multiple-gradients-in-container-in-flutter.md)
+* [Filter on `Stream<List<T>>` in Dart](tipsandtricks/filter-on-streamlistt-in-dart/filter-on-streamlistt-in-dart.md)
+* [Generic Route Arguments in Flutter](tipsandtricks/generic-route-arguments-in-flutter/generic-route-arguments-in-flutter.md)
+* [Generic Dialog in Flutter](tipsandtricks/generic-dialog-in-flutter/generic-dialog-in-flutter.md)
+* [GitHub API in Flutter](tipsandtricks/github-api-in-flutter/github-api-in-flutter.md)
+* [`ChangeNotifier` in Flutter](tipsandtricks/changenotifier-in-flutter/changenotifier-in-flutter.md)
+* [Refresh Indicator in Flutter](tipsandtricks/refresh-indicator-in-flutter/refresh-indicator-in-flutter.md)
+* [FlatMap in Dart](tipsandtricks/flatmap-in-dart/flatmap-in-dart.md)
+* [`OrientationBuilder` in Flutter](tipsandtricks/orientationbuilder-in-flutter/orientationbuilder-in-flutter.md)
+* [Linear Gradient in Flutter](tipsandtricks/linear-gradient-in-flutter/linear-gradient-in-flutter.md)
+* [Bloc Text Editing Controller in Flutter](tipsandtricks/bloc-text-editing-controller-in-flutter/bloc-text-editing-controller-in-flutter.md)
+* [Blurred TabBar in Flutter](tipsandtricks/blurred-tabbar-in-flutter/blurred-tabbar-in-flutter.md)
+* [Play YouTube in Flutter](tipsandtricks/play-youtube-in-flutter/play-youtube-in-flutter.md)
+* [ListView Background in Flutter](tipsandtricks/listview-background-in-flutter/listview-background-in-flutter.md)
+* [Integer to Binary in Dart](tipsandtricks/integer-to-binary-in-dart/integer-to-binary-in-dart.md)
+* [Split String by Length in Dart](tipsandtricks/split-string-by-length-in-dart/split-string-by-length-in-dart.md)
+* [Image Tint in Flutter](tipsandtricks/image-tint-in-flutter/image-tint-in-flutter.md)
+* [SlideTransition in Flutter](tipsandtricks/slidetransition-in-flutter/slidetransition-in-flutter.md)
+* [Expansion Panels and Lists in Flutter](tipsandtricks/expansion-panels-and-lists-in-flutter/expansion-panels-and-lists-in-flutter.md)
+* [Complete CRUD App in Flutter](tipsandtricks/complete-crud-app-in-flutter/complete-crud-app-in-flutter.md)
+* [SQLite Storage in Flutter](tipsandtricks/sqlite-storage-in-flutter/sqlite-storage-in-flutter.md)
+* [Circular Progress with Percentage in Flutter](tipsandtricks/circular-progress-with-percentage-in-flutter/circular-progress-with-percentage-in-flutter.md)
+* [Opening URLs in Flutter](tipsandtricks/opening-urls-in-flutter/opening-urls-in-flutter.md)
+* [Commodore 64 Screen in Flutter](tipsandtricks/commodore-64-screen-in-flutter/commodore-64-screen-in-flutter.md)
+* [Animated Lists in Flutter](tipsandtricks/animated-lists-in-flutter/animated-lists-in-flutter.md)
+* [`CheckboxListTile` in Flutter](tipsandtricks/checkboxlisttile-in-flutter/checkboxlisttile-in-flutter.md)
+* [`-` Operator on `String` in Dart](tipsandtricks/minus-operator-on-string-in-dart/minus-operator-on-string-in-dart.md)
+* [Dart Progress for `Future<T>`](tipsandtricks/dart-progress-for-futuret/dart-progress-for-futuret.md)
+* [Move Widget Shadows with Animation](tipsandtricks/move-widget-shadows-with-animation/move-widget-shadows-with-animation.md)
+* [Gallery with Blurred Backgrounds in Flutter](tipsandtricks/gallery-with-blurred-backgrounds-in-flutter/gallery-with-blurred-backgrounds-in-flutter.md)
+* [Custom Path Clippers in Flutter](tipsandtricks/custom-path-clippers-in-flutter/custom-path-clippers-in-flutter.md)
+* [Frost Effect on Images in Flutter](tipsandtricks/frost-effect-on-images-in-flutter/frost-effect-on-images-in-flutter.md)
+* [Custom Clippers in Flutter](tipsandtricks/custom-clippers-in-flutter/custom-clippers-in-flutter.md)
+* [Check if Website is Up or Down in Dart](tipsandtricks/check-if-website-is-up-or-down-in-dart/check-if-website-is-up-or-down-in-dart.md)
+* [Section Titles on ListView in Flutter](tipsandtricks/section-titles-on-listview-in-flutter/section-titles-on-listview-in-flutter.md)
+* [Circular Progress in Flutter](tipsandtricks/circular-progress-in-flutter/circular-progress-in-flutter.md)
+* [Displaying Scroll Wheels in Flutter](tipsandtricks/displaying-scroll-wheels-in-flutter/displaying-scroll-wheels-in-flutter.md)
+* [Post Messages to Slack with Dart](tipsandtricks/post-messages-to-slack-with-dart/post-messages-to-slack-with-dart.md)
+* [Unwrap `List<T?>?` in Dart](tipsandtricks/unwrap-list-t%3F-%3F-in-dart/unwrap-list-t%3F-%3F-in-dart.md)
+* [Avoiding UI Jitters When Switching Widgets in Flutter](tipsandtricks/avoiding-ui-jitters-when-switching-widgets-in-flutter/avoiding-ui-jitters-when-switching-widgets-in-flutter.md)
+* [Detect Redirects in Dart](tipsandtricks/detect-redirects-in-dart/detect-redirects-in-dart.md)
+* [Proportional Constraints in Flutter](tipsandtricks/proportional-constraints-in-flutter/proportional-constraints-in-flutter.md)
+* [Displaying Cupertino Action Sheets in Flutter](tipsandtricks/displaying-cupertino-action-sheets-in-flutter/displaying-cupertino-action-sheets-in-flutter.md)
+* [Rotating `List<T>` in Dart](tipsandtricks/rotating-list-t-in-dart/rotating-list-t-in-dart.md)
+* [Displaying SnackBars in Flutter](tipsandtricks/displaying-snackbars-in-flutter/displaying-snackbars-in-flutter.md)
+* [Custom Tab Bar Using ToggleButtons in Flutter](tipsandtricks/custom-tab-bar-using-togglebuttons-in-flutter/custom-tab-bar-using-togglebuttons-in-flutter.md)
+* [Hashable Mixins in Dart](tipsandtricks/hashable-mixins-in-dart/hashable-mixins-in-dart.md)
+* [Flutter Tips and Tricks in Terminal](tipsandtricks/flutter-tips-and-tricks-in-terminal/flutter-tips-and-tricks-in-terminal.md)
+* [Searching `List<List<T>>` in Dart](tipsandtricks/searching-listlistt-in-dart/searching-listlistt-in-dart.md)
+* [Cloning Objects in Dart](tipsandtricks/cloning-objects-in-dart/cloning-objects-in-dart.md)
+* [Color Filters in Flutter](tipsandtricks/color-filters-in-flutter/color-filters-in-flutter.md)
+* [Flattening Lists in Dart](tipsandtricks/flattening-lists-in-dart/flattening-lists-in-dart.md)
+* [Managing Duplicates in `List<T>` in Dart](tipsandtricks/managing-duplicates-in-list-t-in-dart/managing-duplicates-in-list-t-in-dart.md)
+* [FlatMap and CompactMap in Dart](tipsandtricks/flatmap-and-compactmap-in-dart/flatmap-and-compactmap-in-dart.md)
+* [Equality of `List<T>` in Dart](tipsandtricks/equality-of-list-t-in-dart/equality-of-list-t-in-dart.md)
+* [Constants in Dart](tipsandtricks/constants-in-dart/constants-in-dart.md)
+* [Displaying Scrollable Bottom Sheets in Flutter](tipsandtricks/displaying-scrollable-bottom-sheets-in-flutter/displaying-scrollable-bottom-sheets-in-flutter.md)
+* [YouTube Ad Remover in Dart](tipsandtricks/youtube-ad-remover-in-dart/youtube-ad-remover-in-dart.md)
+* [Fade Between Widgets in Flutter](tipsandtricks/fade-between-widgets-in-flutter/fade-between-widgets-in-flutter.md)
+* [Sort Descriptors in Dart](tipsandtricks/sort-descriptors-in-dart/sort-descriptors-in-dart.md)
+* [User Sortable Columns and Tables in Flutter](tipsandtricks/user-sortable-columns-and-tables-in-flutter/user-sortable-columns-and-tables-in-flutter.md)
+* [Content-Length of `List<Uri>` in Dart](tipsandtricks/content-length-of-list-of-uri-in-dart/content-length-of-list-of-uri-in-dart.md)
+* [Recursive Dot Notation on Maps in Dart](tipsandtricks/recursive-dot-notation-on-maps-in-dart/recursive-dot-notation-on-maps-in-dart.md)
+* [Allow User Selection of Text in Flutter](tipsandtricks/allow-user-selection-of-text-in-flutter/allow-user-selection-of-text-in-flutter.md)
+* [Placing Constraints on Widgets in Flutter](tipsandtricks/placing-constraints-on-widgets-in-flutter/placing-constraints-on-widgets-in-flutter.md)
+* [Animating Position Changes in Flutter](tipsandtricks/animating-position-changes-in-flutter/animating-position-changes-in-flutter.md)
+* [Transitioning Between Widgets in Flutter](tipsandtricks/transitioning-between-widgets-in-flutter/transitioning-between-widgets-in-flutter.md)
+* [Doubly Linked Lists in Dart](tipsandtricks/doubly-linked-lists-in-dart/doubly-linked-lists-in-dart.md)
+* [Reordering Items Inside List Views in Flutter](tipsandtricks/reordering-items-inside-list-views-in-flutter/reordering-items-inside-list-views-in-flutter.md)
+* [Custom Stream Transformers in Dart](tipsandtricks/custom-stream-transformers-in-dart/custom-stream-transformers-in-dart.md)
+* [Expanding Stream Elements in Dart](tipsandtricks/expanding-stream-elements-in-dart/expanding-stream-elements-in-dart.md)
+* [Consume Streams for a Duration in Dart](tipsandtricks/consume-streams-for-a-duration-in-dart/consume-streams-for-a-duration-in-dart.md)
+* [Shortening URLs in Dart](tipsandtricks/shortening-urls-in-dart/shortening-urls-in-dart.md)
+* [LimitedBox Widget as ListView Items in Flutter](tipsandtricks/limitedbox-widget-as-listview-items-in-flutter/limitedbox-widget-as-listview-items-in-flutter.md)
+* [Generically Convert Anything to Int in Dart](tipsandtricks/generically-convert-anything-to-int-in-dart/generically-convert-anything-to-int-in-dart.md)
+* [Validating URL Certificates in Dart](tipsandtricks/validating-url-certificates-in-dart/validating-url-certificates-in-dart.md)
+* [Displaying Popup Menus in Flutter](tipsandtricks/displaying-popup-menus-in-flutter/displaying-popup-menus-in-flutter.md)
+* [Implementing Drag and Drop in Flutter](tipsandtricks/implementing-drag-and-drop-in-flutter/implementing-drag-and-drop-in-flutter.md)
+* [Dismissing List Items in Flutter](tipsandtricks/dismissing-list-items-in-flutter/dismissing-list-items-in-flutter.md)
+* [Animating Widgets with Ease in Flutter](tipsandtricks/animating-widgets-with-ease-in-flutter/animating-widgets-with-ease-in-flutter.md)
+* [Displaying Tool Tips in Flutter](tipsandtricks/displaying-tool-tips-in-flutter/displaying-tool-tips-in-flutter.md)
+* [Displaying Assorted Widgets Inside TableView in Flutter](tipsandtricks/displaying-assorted-widgets-inside-tableview-in-flutter/displaying-assorted-widgets-inside-tableview-in-flutter.md)
+* [Page Indicator with Page View in Flutter](tipsandtricks/page-indicator-with-page-view-in-flutter/page-indicator-with-page-view-in-flutter.md)
+* [Animating and Moving a Floating Action Button in Flutter](tipsandtricks/animating-and-moving-a-floating-action-button-in-flutter/animating-and-moving-a-floating-action-button-in-flutter.md)
+* [Fading Network Image Widget in Flutter](tipsandtricks/fading-network-image-widget-in-flutter/fading-network-image-widget-in-flutter.md)
+* [Transparent Alert Dialogs in Flutter](tipsandtricks/transparent-alert-dialogs-in-flutter/transparent-alert-dialogs-in-flutter.md)
+* [Network Image Size in Dart](tipsandtricks/network-image-size-in-dart/network-image-size-in-dart.md)
+* [Animated Icons in Flutter](tipsandtricks/animated-icons-in-flutter/animated-icons-in-flutter.md)
+* [Custom Scroll Views in Flutter](tipsandtricks/custom-scroll-views-in-flutter/custom-scroll-views-in-flutter.md)
+* [Parallax App Bar in Flutter](tipsandtricks/parallax-app-bar-in-flutter/parallax-app-bar-in-flutter.md)
+* [JSON HTTP Requests in Dart](tipsandtricks/json-http-requests-in-dart/json-http-requests-in-dart.md)
+* [URL Timeouts in Dart](tipsandtricks/url-timeouts-in-dart/url-timeouts-in-dart.md)
+* [Detecting URL File Types in Dart](tipsandtricks/detecting-url-file-types-in-dart/detecting-url-file-types-in-dart.md)
+* [Paginated Lists in Dart](tipsandtricks/paginated-lists-in-dart/paginated-lists-in-dart.md)
+* [Requesting DELETE on APIs in Dart](tipsandtricks/requesting-delete-on-apis-in-dart/requesting-delete-on-apis-in-dart.md)
+* [Animated Containers in Flutter](tipsandtricks/animated-containers-in-flutter/animated-containers-in-flutter.md)
+* [Hiding Widgets in Flutter](tipsandtricks/hiding-widgets-in-flutter/hiding-widgets-in-flutter.md)
+* [Simple Opacity Animation in Flutter](tipsandtricks/simple-opacity-animation-in-flutter/simple-opacity-animation-in-flutter.md)
+* [Vignette Widget in Flutter](tipsandtricks/vignette-widget-in-flutter/vignette-widget-in-flutter.md)
+* [Drop Down Button Configuration and Usage in Flutter](tipsandtricks/drop-down-button-configuration-and-usage-in-flutter/drop-down-button-configuration-and-usage-in-flutter.md)
+* [Expandable List Items in Flutter](tipsandtricks/expandable-list-items-in-flutter/expandable-list-items-in-flutter.md)
+* [Infinite Scrolling in Flutter](tipsandtricks/infinite-scrolling-in-flutter/infinite-scrolling-in-flutter.md)
+* [Infinite Arrays in Dart](tipsandtricks/infinite-arrays-in-dart/infinite-arrays-in-dart.md)
+* [Custom Color Picker Component in Flutter](tipsandtricks/custom-color-picker-component-in-flutter/custom-color-picker-component-in-flutter.md)
+* [Displaying and Reacting to Switches in Flutter](tipsandtricks/displaying-and-reacting-to-switches-in-flutter/displaying-and-reacting-to-switches-in-flutter.md)
+* [Displaying Bottom Bars in Flutter](tipsandtricks/displaying-bottom-bars-in-flutter/displaying-bottom-bars-in-flutter.md)
+* [Displaying Buttons on AppBar in Flutter](tipsandtricks/displaying-buttons-on-appbar-in-flutter/displaying-buttons-on-appbar-in-flutter.md)
+* [Displaying Bottom Sheets in Flutter](tipsandtricks/displaying-bottom-sheets-in-flutter/displaying-bottom-sheets-in-flutter.md)
+* [Converting Enums to Radio Buttons in Flutter](tipsandtricks/converting-enums-to-radio-buttons-in-flutter/converting-enums-to-radio-buttons-in-flutter.md)
+* [Check Existence of Websites in Flutter](tipsandtricks/check-existence-of-websites-in-flutter/check-existence-of-websites-in-flutter.md)
+* [Images inside AlertDialog in Flutter](tipsandtricks/images-inside-alertdialog-in-flutter/images-inside-alertdialog-in-flutter.md)
+* [Returning Values from AlertDialog in Flutter](tipsandtricks/returning-values-from-alertdialog-in-flutter/returning-values-from-alertdialog-in-flutter.md)
+* [Simple Grid View in Flutter](tipsandtricks/simple-grid-view-in-flutter/simple-grid-view-in-flutter.md)
+* [Rendering Bullet Points in Flutter](tipsandtricks/rendering-bullet-points-in-flutter/rendering-bullet-points-in-flutter.md)
+* [Retrying Futures in Flutter](tipsandtricks/retrying-futures-in-flutter/retrying-futures-in-flutter.md)
+* [Containers as ClipOvals in Flutter](tipsandtricks/containers-as-clipoval-in-flutter/containers-as-clipoval-in-flutter.md)
+* [Rich Texts in Flutter](tipsandtricks/rich-texts-in-flutter/rich-texts-in-flutter.md)
+* [Wrapping Widgets in Flutter](tipsandtricks/wrapping-widgets-in-flutter/wrapping-widgets-in-flutter.md)
+* [Sweep Gradients in Flutter](tipsandtricks/sweep-gradients-in-flutter/sweep-gradients-in-flutter.md)
+* [`Stream` and `StreamBuilder` in Flutter](tipsandtricks/stream-and-stream-builder-in-flutter/stream-and-stream-builder-in-flutter.md)
+* [Blur Effect in Flutter](tipsandtricks/blur-effect-in-flutter/blur-effect-in-flutter.md)
+* [Convert Enums to Strings in Dart](tipsandtricks/convert-enums-to-strings-in-dart/convert-enums-to-strings-in-dart.md)
+* [Replacing Text in TextField in Flutter](tipsandtricks/replacing-text-in-textfield-in-flutter/replacing-text-in-textfield-in-flutter.md)
+* [Aspect Ratio in Flutter](tipsandtricks/aspect-ratio-in-flutter/aspect-ratio-in-flutter.md)
+* [Zoom and Pan in Flutter](tipsandtricks/zoom-and-pan-in-flutter/zoom-and-pan-in-flutter.md)
+* [Resizing Images in Flutter to Fit Screen Height](tipsandtricks/resizing-images-in-flutter-to-fit-screen-height/resizing-images-in-flutter-to-fit-screen-height.md)
+* [Validating URLs in Flutter](tipsandtricks/validating-urls-in-flutter/validating-urls-in-flutter.md)
+* [FrameBuilder for Network Images in Flutter](tipsandtricks/framebuilder-for-network-images-in-flutter/framebuilder-for-network-images-in-flutter.md)
+* [Adding Shadow to Icons in Flutter](tipsandtricks/adding-shadow-to-icons-in-flutter/adding-shadow-to-icons-in-flutter.md)
+* [Calculating Median of Lists in Dart](tipsandtricks/calculating-median-of-lists-in-dart/calculating-median-of-lists-in-dart.md)
+* [Generic Functions with Reduce in Dart](tipsandtricks/generic-functions-with-reduce-in-dart/generic-functions-with-reduce-in-dart.md)
+* [Passing Back Data From a Screen to the Previous One in Flutter](tipsandtricks/passing-back-data-from-a-screen-to-the-previous-one-in-flutter/passing-back-data-from-a-screen-to-the-previous-one-in-flutter.md)
+* [Flinging an Animation in Flutter](tipsandtricks/flinging-an-animation-in-flutter/flinging-an-animation-in-flutter.md)
+* [Fade Animations in Flutter](tipsandtricks/fade-animations-in-flutter/fade-animations-in-flutter.md)
+* [Throttling User Input in Flutter](tipsandtricks/throttling-user-input-in-flutter/throttling-user-input-in-flutter.md)
+* [Censoring TextFields in Flutter](tipsandtricks/censoring-textfields-in-flutter/censoring-textfields-in-flutter.md)
+* [Customizing TextButton in Flutter](tipsandtricks/customizing-textbutton-in-flutter/customizing-textbutton-in-flutter.md)
+* [Multiline TextFields in Flutter](tipsandtricks/multiline-textfields-in-flutter/multiline-textfields-in-flutter.md)
+* [Filtering TextField Input in Flutter](tipsandtricks/filtering-textfield-input-in-flutter/filtering-textfield-input-in-flutter.md)
+* [Focusing Manually on TextFields in Flutter](tipsandtricks/focusing-manually-on-textfields-in-flutter/focusing-manually-on-textfields-in-flutter.md)
+* [Data Streams Over HTTP/HTTPs in Dart](tipsandtricks/data-streams-over-http-https-in-dart/data-streams-over-http-https-in-dart.md)
+* [Catching Nonexistent Accessors or Methods in Dart](tipsandtricks/catching-nonexistent-accessors-or-methods-in-dart/catching-nonexistent-accessors-or-methods-in-dart.md)
+* [Using Expando in Dart](tipsandtricks/using-expando-in-dart/using-expando-in-dart.md)
+* [Implementing Custom Maps in Dart](tipsandtricks/implementing-custom-maps-in-dart/implementing-custom-maps-in-dart.md)
+* [Dynamically Calling Functions in Dart](tipsandtricks/dynamically-calling-functions-in-dart/dynamically-calling-functions-in-dart.md)
+* [Factory Constructors in Dart](tipsandtricks/factory-constructors-in-dart/factory-constructors-in-dart.md)
+* [Calculating the Sum of List Items in Dart](tipsandtricks/calculating-the-sum-of-list-items-in-dart/calculating-the-sum-of-list-items-in-dart.md)
+* [Removing Duplicate Strings in Lists in Dart (Case-Insensitive)](tipsandtricks/removing-duplicate-strings-in-lists-in-dart/removing-duplicate-strings-in-lists-in-dart.md)
+* [Implementing Range in Dart](tipsandtricks/implementing-range-in-dart/implementing-range-in-dart.md)
+* [Converting Lists to Maps in Dart](tipsandtricks/converting-lists-to-maps-in-dart/converting-lists-to-maps-in-dart.md)
+* [Implementing Hashable in Dart](tipsandtricks/implementing-hashable-in-dart/implementing-hashable-in-dart.md)
+* [Random Name Generator in Dart](tipsandtricks/random-name-generator-in-dart/random-name-generator-in-dart.md)
+* [Capturing Stack Traces in Dart Exceptions](tipsandtricks/capturing-stack-traces-in-dart-exceptions/capturing-stack-traces-in-dart-exceptions.md)
+* [Removing Duplicates from Lists in Dart](tipsandtricks/removing-duplicates-from-lists-in-dart/removing-duplicates-from-lists-in-dart.md)
+* [Optional Spread Operator in Dart](tipsandtricks/optional-spread-operator-in-dart/optional-spread-operator-in-dart.md)
+* [Calling Optional Functions in Dart](tipsandtricks/calling-optional-functions-in-dart/calling-optional-functions-in-dart.md)
+* [Odd-Even Sort in Dart](tipsandtricks/odd-even-sort-in-dart/odd-even-sort-in-dart.md)
+* [Implementing Zip and Tuples in Dart](tipsandtricks/implementing-zip-and-tuples-in-dart/implementing-zip-and-tuples-in-dart.md)
+* [Swapping Values in Lists with XOR in Dart](tipsandtricks/swapping-values-in-lists-with-xor-in-dart/swapping-values-in-lists-with-xor-in-dart.md)
+* [Waiting for Multiple Futures in Dart](tipsandtricks/waiting-for-multiple-futures-in-dart/waiting-for-multiple-futures-in-dart.md)
+* [Using Queues as Stacks in Dart](tipsandtricks/using-queues-as-stacks-in-dart/using-queues-as-stacks-in-dart.md)
+* [Custom Iterators in Dart](tipsandtricks/custom-iterators-in-dart/custom-iterators-in-dart.md)
+* [Iterables as Ranges + Transform in Dart](tipsandtricks/iterables-as-ranges-and-transform-in-dart/iterables-as-ranges-and-transform-in-dart.md)
+* [Errors vs Exceptions in Dart](tipsandtricks/errors-vs-exceptions-in-dart/errors-vs-exceptions-in-dart.md)
+* [Custom Annotations in Dart](tipsandtricks/custom-annotations-in-dart/custom-annotations-in-dart.md)
+* [Classes as Enums in Dart](tipsandtricks/classes-as-enums-in-dart/classes-as-enums-in-dart.md)
+* [Spread Operator in Collection Literals in Dart](tipsandtricks/spread-operator-in-collection-literals-in-dart/spread-operator-in-collection-literals-in-dart.md)
+* [`StreamBuilder` and `StreamController` in Dart](tipsandtricks/streambuilder-and-streamcontroller-in-dart/streambuilder-and-streamcontroller-in-dart.md)
+* [Almost Equal in Dart](tipsandtricks/almost-equal-in-dart/almost-equal-in-dart.md)
+* [Enum Associated Values in Dart](tipsandtricks/enum-associated-values-in-dart/enum-associated-values-in-dart.md)
+* [Implementing `Comparable` in Dart](tipsandtricks/implementing-comparable-in-dart/implementing-comparable-in-dart.md)
+* [Implementing Custom Integer Types in Dart](tipsandtricks/implementing-custom-integer-types-in-dart/implementing-custom-integer-types-in-dart.md)
+* [Custom Subscripts in Dart](tipsandtricks/custom-subscripts-in-dart/custom-subscripts-in-dart.md)
+* [Dart List Enumeration with Index](tipsandtricks/dart-list-enumeration-with-index/dart-list-enumeration-with-index.md)
+* [Applying Mixins to Other Mixins in Dart](tipsandtricks/applying-mixins-to-other-mixins-in-dart/applying-mixins-to-other-mixins-in-dart.md)
+* [Parameter Types in Dart](tipsandtricks/parameter-types-in-dart/parameter-types-in-dart.md)
+* [Custom Exceptions in Dart](tipsandtricks/custom-exceptions-in-dart/custom-exceptions-in-dart.md)
+* [`rethrow`ing Exceptions in Dart](tipsandtricks/rethrowing-exceptions-in-dart/rethrowing-exceptions-in-dart.md)
+* [`mixin`s and JSON Parsing in Dart](tipsandtricks/mixins-and-json-parsing-in-dart/mixins-and-json-parsing-in-dart.md)
+* [`mixin`s vs `abstract class`es in Dart](tipsandtricks/mixins-vs-abstract-classes-in-dart/mixins-vs-abstract-classes-in-dart.md)
+* [Drawing Shapes in Flutter](tipsandtricks/drawing-shapes-with-flutter/drawing-shapes-with-flutter.md)
+* [Generic Type Aliases in Dart](tipsandtricks/generic-typealiases-in-dart/generic-typealiases-in-dart.md)
+* [Callable Classes in Dart](tipsandtricks/callable-classes-in-dart/callable-classes-in-dart.md)
+* [Synchronous Generators in Dart](tipsandtricks/synchronous-generators-in-dart/synchronous-generators-in-dart.md)
+* [Implicit Interfaces in Dart](tipsandtricks/implicit-interfaces-in-dart/implicit-interfaces-in-dart.md)
+* [Dart's `const` Initializers](tipsandtricks/const-initializers/const-initializers.md)
+* [Downloading and Parsing JSON in Dart](tipsandtricks/downloading-and-parsing-json/downloading-and-parsing-json.md)
+* [Dart Initializer List](tipsandtricks/dart-initializer-list/dart-initializer-list.md)
+* [Checking for Type Equality in Dart Lists](tipsandtricks/checking-for-type-equality-in-dart-lists/checking-for-type-equality-in-dart-lists.md)
+* [Type Promotion with Sound Null Safety in Dart](tipsandtricks/type-promotion-with-sound-null-safety/type-promotion-with-sound-null-safety.md)
+* [Extract Minimum and Maximum Values in `List<num>` in Dart](tipsandtricks/min-max-extension-on-list/min-max-extension-on-list.md)
+* [Functions as First Class Citizens in Dart](tipsandtricks/functions-as-first-class-citizens-in-dart/functions-as-first-class-citizens-in-dart.md)
