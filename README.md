@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Merging `Map`s in Dart](tipsandtricks/merging-maps-in-dart/merging-maps-in-dart.md)
 * [`StreamQueue` in Flutter](tipsandtricks/streamqueue-in-flutter/streamqueue-in-flutter.md)
 * [Enum Annotations in Flutter](tipsandtricks/enum-annotations-in-flutter/enum-annotations-in-flutter.md)
 * [Sorting Generics in Dart](tipsandtricks/sorting-generics-in-dart/sorting-generics-in-dart.md)
