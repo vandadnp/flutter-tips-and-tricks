@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Key and Value Mapping in Dart](tipsandtricks/key-and-value-mapping-in-dart/key-and-value-mapping-in-dart.md)
 * [`-` Operator on `Iterable<T>` in Dart](tipsandtricks/--operator-on-iterablet-in-dart/--operator-on-iterablet-in-dart.md)
 * [Merging `Map`s in Dart](tipsandtricks/merging-maps-in-dart/merging-maps-in-dart.md)
 * [`StreamQueue` in Flutter](tipsandtricks/streamqueue-in-flutter/streamqueue-in-flutter.md)
