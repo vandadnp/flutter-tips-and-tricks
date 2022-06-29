@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Where Clause on `Map` in Dart](tipsandtricks/where-clause-on-map-in-dart/where-clause-on-map-in-dart.md)
 * [Unawaited and Ignore in Dart](tipsandtricks/unawaited-and-ignore-in-dart/unawaited-and-ignore-in-dart.md)
 * [Key and Value Mapping in Dart](tipsandtricks/key-and-value-mapping-in-dart/key-and-value-mapping-in-dart.md)
 * [`-` Operator on `Iterable<T>` in Dart](tipsandtricks/--operator-on-iterablet-in-dart/--operator-on-iterablet-in-dart.md)
