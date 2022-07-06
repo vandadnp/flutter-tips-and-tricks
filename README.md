@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Splice in Dart](#tipsandtricks/splice-in-dart/splice-in-dart.md)
+* [Splice in Dart](tipsandtricks/splice-in-dart/splice-in-dart.md)
 * [Label Text in Flutter](tipsandtricks/label-text-in-flutter/label-text-in-flutter.md)
 * [Where Clause on `Map` in Dart](tipsandtricks/where-clause-on-map-in-dart/where-clause-on-map-in-dart.md)
 * [Unawaited and Ignore in Dart](tipsandtricks/unawaited-and-ignore-in-dart/unawaited-and-ignore-in-dart.md)
