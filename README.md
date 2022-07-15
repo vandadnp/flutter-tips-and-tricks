@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Recursive Flatten of List in Dart](tipsandtricks/recursive-flatten-of-list-in-dart/recursive-flatten-of-list-in-dart.md)
 * [Async API Cleanup in Flutter](tipsandtricks/async-api-cleanup-in-flutter/async-api-cleanup-in-flutter.md)
 * [Splice in Dart](tipsandtricks/splice-in-dart/splice-in-dart.md)
 * [Label Text in Flutter](tipsandtricks/label-text-in-flutter/label-text-in-flutter.md)
