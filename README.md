@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [Default Value for Optionals in Dart](tipsandtricks/default-value-for-optionals-in-dart/default-value-for-optionals-in-dart.dart)
+* [Default Value for Optionals in Dart](tipsandtricks/default-value-for-optionals-in-dart/default-value-for-optionals-in-dart.md)
 * [CompactMap on `Map` in Dart](tipsandtricks/compactmap-on-map-in-dart/compactmap-on-map-in-dart.md)
 * [iOS Context Menu in Flutter](tipsandtricks/ios-context-menu-in-flutter/ios-context-menu-in-flutter.md)
 * [Recursive Flatten of List in Dart](tipsandtricks/recursive-flatten-of-list-in-dart/recursive-flatten-of-list-in-dart.md)
