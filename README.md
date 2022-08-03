@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Grouping `Iterable` in Dart](tipsandtricks/grouping-iterable-in-dart/grouping-iterable-in-dart.md)
 * [Nested Generators in Dart](tipsandtricks/nested-generators-in-dart/nested-generators-in-dart.md)
 * [Default Value for Optionals in Dart](tipsandtricks/default-value-for-optionals-in-dart/default-value-for-optionals-in-dart.md)
 * [CompactMap on `Map` in Dart](tipsandtricks/compactmap-on-map-in-dart/compactmap-on-map-in-dart.md)
