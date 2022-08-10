@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Generic Centering of Widgets in Flutter](tipsandtricks/generic-centering-of-widgets-in-flutter/generic-centering-of-widgets-in-flutter.md)
 * [Custom Integer to String in Dart](tipsandtricks/custom-integer-to-string-in-dart/custom-integer-to-string-in-dart.md)
 * [Grouping `Iterable` in Dart](tipsandtricks/grouping-iterable-in-dart/grouping-iterable-in-dart.md)
 * [Nested Generators in Dart](tipsandtricks/nested-generators-in-dart/nested-generators-in-dart.md)
