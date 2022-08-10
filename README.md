@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Null-Aware Infix Operators in Dart](tipsandtricks/null-aware-infix-operators-in-dart/null-aware-infix-operators-in-dart.md)
 * [Generic Centering of Widgets in Flutter](tipsandtricks/generic-centering-of-widgets-in-flutter/generic-centering-of-widgets-in-flutter.md)
 * [Custom Integer to String in Dart](tipsandtricks/custom-integer-to-string-in-dart/custom-integer-to-string-in-dart.md)
 * [Grouping `Iterable` in Dart](tipsandtricks/grouping-iterable-in-dart/grouping-iterable-in-dart.md)
