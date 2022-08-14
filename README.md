@@ -343,6 +343,14 @@
 * [Type Promotion with Sound Null Safety in Dart](tipsandtricks/type-promotion-with-sound-null-safety/type-promotion-with-sound-null-safety.md)
 * [Extract Minimum and Maximum Values in `List<num>` in Dart](tipsandtricks/min-max-extension-on-list/min-max-extension-on-list.md)
 * [Functions as First Class Citizens in Dart](tipsandtricks/functions-as-first-class-citizens-in-dart/functions-as-first-class-citizens-in-dart.md)
+* `Rectangular Fab` with `Notched Bottom Appbar`<br>
+```shape: AutomaticNotchedShape(
+        RoundedRectangleBorder(),
+        StadiumBorder(
+          side: BorderSide(),
+        ),
+      ),
+```
 
 ## Usage
 
