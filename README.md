@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [`Future` Unwrap in Flutter](tipsandtricks/future-unwrap-in-flutter/future-unwrap-in-flutter.jpg)
+* [`Future` Unwrap in Flutter](tipsandtricks/future-unwrap-in-flutter/future-unwrap-in-flutter.md)
 * [HTML Colors in Flutter](tipsandtricks/html-colors-in-flutter/html-colors-in-flutter.md)
 * [Generic Watch and Filter in Riverpod](tipsandtricks/generic-watch-and-filter-in-riverpod/generic-watch-and-filter-in-riverpod.md)
 * [Faking APIs with Riverpod](tipsandtricks/faking-apis-with-riverpod/faking-apis-with-riverpod.md)
