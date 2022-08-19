@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`StreamProvider` Yield in Riverpod](tipsandtricks/streamprovider-yield-in-riverpod/streamprovider-yield-in-riverpod.md)
 * [`Future` Unwrap in Flutter](tipsandtricks/future-unwrap-in-flutter/future-unwrap-in-flutter.md)
 * [HTML Colors in Flutter](tipsandtricks/html-colors-in-flutter/html-colors-in-flutter.md)
 * [Generic Watch and Filter in Riverpod](tipsandtricks/generic-watch-and-filter-in-riverpod/generic-watch-and-filter-in-riverpod.md)
