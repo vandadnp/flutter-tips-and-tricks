@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Immutable Maps in Flutter Riverpod](tipsandtricks/immutable-maps-in-flutter-riverpod/immutable-maps-in-flutter-riverpod.md)
 * [`StreamProvider` Yield in Riverpod](tipsandtricks/streamprovider-yield-in-riverpod/streamprovider-yield-in-riverpod.md)
 * [`Future` Unwrap in Flutter](tipsandtricks/future-unwrap-in-flutter/future-unwrap-in-flutter.md)
 * [HTML Colors in Flutter](tipsandtricks/html-colors-in-flutter/html-colors-in-flutter.md)
