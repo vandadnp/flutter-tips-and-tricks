@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`StreamProvider` in Flutter Riverpod](tipsandtricks/streamprovider-in-flutter-riverpod/streamprovider-in-flutter-riverpod.md)
 * [Spreading `Iterable<Widget>` in Flutter](tipsandtricks/spreading-iterable-widget-in-flutter/spreading-iterable-widget-in-flutter.md)
 * [Immutable Maps in Flutter Riverpod](tipsandtricks/immutable-maps-in-flutter-riverpod/immutable-maps-in-flutter-riverpod.md)
 * [`StreamProvider` Yield in Riverpod](tipsandtricks/streamprovider-yield-in-riverpod/streamprovider-yield-in-riverpod.md)
