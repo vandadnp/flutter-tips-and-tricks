@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Spreading Custom Classes in Dart](tipsandtricks/spreading-customc-classes-in-dart/spreading-customc-classes-in-dart.md)
 * [`StreamProvider` in Flutter Riverpod](tipsandtricks/streamprovider-in-flutter-riverpod/streamprovider-in-flutter-riverpod.md)
 * [Spreading `Iterable<Widget>` in Flutter](tipsandtricks/spreading-iterable-widget-in-flutter/spreading-iterable-widget-in-flutter.md)
 * [Immutable Maps in Flutter Riverpod](tipsandtricks/immutable-maps-in-flutter-riverpod/immutable-maps-in-flutter-riverpod.md)
