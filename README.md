@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Reusable Alert Dialogs in Flutter](tipsandtricks/reusable-alert-dialogs-in-flutter/reusable-alert-dialogs-in-flutter.md)
 * [Recursive Search in `Map` in Dart](tipsandtricks/recursive-search-in-map-in-dart/recursive-search-in-map-in-dart.md)
 * [Row with Spacing in Flutter](tipsandtricks/row-with-spacing-in-flutter/row-with-spacing-in-flutter.md)
 * [Spreading Custom Classes in Dart](tipsandtricks/spreading-customc-classes-in-dart/spreading-customc-classes-in-dart.md)
