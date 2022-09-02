@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Debouncing Streams in Flutter](tipsandtricks/debouncing-streams-in-flutter/debouncing-streams-in-flutter.md)
 * [Reusable Alert Dialogs in Flutter](tipsandtricks/reusable-alert-dialogs-in-flutter/reusable-alert-dialogs-in-flutter.md)
 * [Recursive Search in `Map` in Dart](tipsandtricks/recursive-search-in-map-in-dart/recursive-search-in-map-in-dart.md)
 * [Row with Spacing in Flutter](tipsandtricks/row-with-spacing-in-flutter/row-with-spacing-in-flutter.md)
