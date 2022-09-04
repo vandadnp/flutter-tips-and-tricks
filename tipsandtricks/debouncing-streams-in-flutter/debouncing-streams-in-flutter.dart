@@ -41,23 +41,16 @@ class DebounceTransformer<T> extends StreamTransformerBase<T, T> {
 
   @override
   Stream<T> bind(Stream<T> stream) {
-    DateTime? lastTime;
     Timer? timer;
     final sub = stream.listen(
       (value) {
         timer?.cancel();
-        timer = null;
-        if (lastTime != null &&
-            DateTime.now().difference(lastTime) > duration) {
+        timer = Timer(duration, () {
           _controller.sink.add(value);
-        } else {
-          timer = Timer(duration, () {
-            _controller.sink.add(value);
-          });
-        }
+          timer = null;
+        });
       },
     );
-
     _controller.onCancel = () {
       sub.cancel();
     };
