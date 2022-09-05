@@ -30,7 +30,7 @@ extension GetImageAspectRatio on material.Image {
 }
 
 extension GetImageDataAspectRatio on Uint8List {
-  Future<double> getAspectRatio() async {
+  Future<double> getAspectRatio() {
     final image = material.Image.memory(this);
     return image.getAspectRatio();
   }
