@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Image Aspect Ratio in Flutter](tipsandtricks/image-aspect-ratio-in-flutter/image-aspect-ratio-in-flutter.md)
 * [Debouncing Streams in Flutter](tipsandtricks/debouncing-streams-in-flutter/debouncing-streams-in-flutter.md)
 * [Reusable Alert Dialogs in Flutter](tipsandtricks/reusable-alert-dialogs-in-flutter/reusable-alert-dialogs-in-flutter.md)
 * [Recursive Search in `Map` in Dart](tipsandtricks/recursive-search-in-map-in-dart/recursive-search-in-map-in-dart.md)
