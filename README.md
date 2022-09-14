@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`FlatThen` on `Future` in Dart](tipsandtricks/flatthen-on-future-in-dart/flatthen-on-future-in-dart.md)
 * [Rich Text Construction in Flutter](tipsandtricks/rich-text-construction-in-flutter/rich-text-construction-in-flutter.md)
 * [Firestore Transactions in Flutter](tipsandtricks/firestore-transactions-in-flutter/firestore-transactions-in-flutter.md)
 * [Image Aspect Ratio in Flutter](tipsandtricks/image-aspect-ratio-in-flutter/image-aspect-ratio-in-flutter.md)
