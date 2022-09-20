@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Absorb `Stream` Errors in Flutter](tipsandtricks/absorb-stream-errors-in-flutter/absorb-stream-errors-in-flutter.md)
 * [`FlatThen` on `Future` in Dart](tipsandtricks/flatthen-on-future-in-dart/flatthen-on-future-in-dart.md)
 * [Rich Text Construction in Flutter](tipsandtricks/rich-text-construction-in-flutter/rich-text-construction-in-flutter.md)
 * [Firestore Transactions in Flutter](tipsandtricks/firestore-transactions-in-flutter/firestore-transactions-in-flutter.md)
