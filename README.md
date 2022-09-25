@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Presenting Futures in Flutter](tipsandtricks/presenting-futures-in-flutter/presenting-futures-in-flutter.md)
 * [Absorb `Stream` Errors in Flutter](tipsandtricks/absorb-stream-errors-in-flutter/absorb-stream-errors-in-flutter.md)
 * [`FlatThen` on `Future` in Dart](tipsandtricks/flatthen-on-future-in-dart/flatthen-on-future-in-dart.md)
 * [Rich Text Construction in Flutter](tipsandtricks/rich-text-construction-in-flutter/rich-text-construction-in-flutter.md)
