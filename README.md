@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Breaking Strings in Dart](tipsandtricks/breaking-strings-in-dart/breaking-strings-in-dart.md)
 * [Presenting Streams in Flutter](tipsandtricks/presenting-streams-in-flutter/presenting-streams-in-flutter.md)
 * [Presenting Futures in Flutter](tipsandtricks/presenting-futures-in-flutter/presenting-futures-in-flutter.md)
 * [Absorb `Stream` Errors in Flutter](tipsandtricks/absorb-stream-errors-in-flutter/absorb-stream-errors-in-flutter.md)
