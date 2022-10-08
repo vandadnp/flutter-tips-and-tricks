@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Identical Objects in Dart](tipsandtricks/identical-objects-in-dart/identical-objects-in-dart.md)
 * [Breaking Strings in Dart](tipsandtricks/breaking-strings-in-dart/breaking-strings-in-dart.md)
 * [Presenting Streams in Flutter](tipsandtricks/presenting-streams-in-flutter/presenting-streams-in-flutter.md)
 * [Presenting Futures in Flutter](tipsandtricks/presenting-futures-in-flutter/presenting-futures-in-flutter.md)
