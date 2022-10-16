@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Universal App Links in Flutter](tipsandtricks/universal-app-links-in-flutter/universal-app-links-in-flutter.md)
 * [Reusable Lottie Animations in Flutter](tipsandtricks/reusable-lottie-animations-in-flutter/reusable-lottie-animations-in-flutter.md)
 * [Identical Objects in Dart](tipsandtricks/identical-objects-in-dart/identical-objects-in-dart.md)
 * [Breaking Strings in Dart](tipsandtricks/breaking-strings-in-dart/breaking-strings-in-dart.md)
