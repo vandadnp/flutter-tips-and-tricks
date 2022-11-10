@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Recoveringg Stream Errors in Flutter](tipsandtricks/recovering-stream-errors-in-flutter/recovering-stream-errors-in-flutter.md)
 * [Riverpod `StreamProvider` Disposal](tipsandtricks/riverpod-streamprovider-disposal/riverpod-streamprovider-disposal.md)
 * [Figma Text Strokes in Flutter](tipsandtricks/figma-text-strokes-in-flutter/figma-text-strokes-in-flutter.md)
 * [Universal App Links in Flutter](tipsandtricks/universal-app-links-in-flutter/universal-app-links-in-flutter.md)
