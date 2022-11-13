@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Colorful Logs in Flutter](tipsandtricks/colorful-logs-in-flutter/colorful-logs-in-flutter.md)
 * [Prefer `Iterable` in Flutter](tipsandtricks/prefer-iterable-in-flutter/prefer-iterable-in-flutter.md)
 * [Recoveringg Stream Errors in Flutter](tipsandtricks/recovering-stream-errors-in-flutter/recovering-stream-errors-in-flutter.md)
 * [Riverpod `StreamProvider` Disposal](tipsandtricks/riverpod-streamprovider-disposal/riverpod-streamprovider-disposal.md)
