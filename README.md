@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Prefer `Iterable` in Flutter][tipsandtricks/prefer-iterable-in-flutter/prefer-iterable-in-flutter.md)
 * [Recoveringg Stream Errors in Flutter](tipsandtricks/recovering-stream-errors-in-flutter/recovering-stream-errors-in-flutter.md)
 * [Riverpod `StreamProvider` Disposal](tipsandtricks/riverpod-streamprovider-disposal/riverpod-streamprovider-disposal.md)
 * [Figma Text Strokes in Flutter](tipsandtricks/figma-text-strokes-in-flutter/figma-text-strokes-in-flutter.md)
