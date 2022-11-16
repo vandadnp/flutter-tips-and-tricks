@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Optional Iterable First Element in Dart](tipsandtricks/optional-iterable-first-element-in-dart/optional-iterable-first-element-in-dart.md)
 * [Finding and Converting JSON Values in Dart](tipsandtricks/finding-and-converting-json-values-in-dart/finding-and-converting-json-values-in-dart.md)
 * [Colorful Logs in Flutter](tipsandtricks/colorful-logs-in-flutter/colorful-logs-in-flutter.md)
 * [Prefer `Iterable` in Flutter](tipsandtricks/prefer-iterable-in-flutter/prefer-iterable-in-flutter.md)
