@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [`SafeList` in Flutter and Dart](tipsandtricks/safelist-in-flutter-and-dart/safelist-in-flutter-and-dart.md)
 * [Optional Iterable First Element in Dart](tipsandtricks/optional-iterable-first-element-in-dart/optional-iterable-first-element-in-dart.md)
 * [Finding and Converting JSON Values in Dart](tipsandtricks/finding-and-converting-json-values-in-dart/finding-and-converting-json-values-in-dart.md)
 * [Colorful Logs in Flutter](tipsandtricks/colorful-logs-in-flutter/colorful-logs-in-flutter.md)
