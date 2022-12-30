@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Canonicalized Maps in Dart](tipsandtricks/canonicalized-maps-in-dart/canonicalized-maps-in-dart.md)
 * [Extending Functions in Flutter](tipsandtricks/extending-functions-in-flutter/extending-functions-in-flutter.md)
 * [Stream Timeout Between Events in Flutter](tipsandtricks/stream-timeout-between-events-in-flutter/stream-timeout-between-events-in-flutter.md)
 * [Dart Object Description Using Reflection](tipsandtricks/dart-object-description-using-reflection/dart-object-description-using-reflection.md)
